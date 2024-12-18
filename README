@@ -1,157 +1,310 @@
-Voici la **version finale améliorée** avec une conclusion structurée, claire et professionnelle :
+#**Pipeline d'Ingénierie de Données pour l'Analyse Bancaire**
+
+Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**,
+permettant l'analyse approfondie des domaines critiques comme les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Grâce à une **architecture en étoile**,
+une **orchestration automatisée** avec **Prefect**, et un déploiement via **Docker**, ce pipeline garantit robustesse, scalabilité et efficacité.
 
 ---
 
-# **Pipeline d'Ingénierie de Données pour l'Analyse Bancaire**
+##**1. Objectifs du projet**
 
-Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**, permettant une analyse approfondie des domaines critiques tels que les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Grâce à une **architecture en étoile**, une **orchestration automatisée** via **Prefect**, et un déploiement conteneurisé avec **Docker**, ce pipeline garantit **robustesse**, **scalabilité** et **efficacité**.
-
----
-
-## **1. Objectifs du projet**
-
-Ce pipeline a été conçu pour répondre aux besoins spécifiques d'analyse des banques :
+Ce pipeline a été conçu pour répondre aux besoins d'analyse des banques :
 
 - **Ingestion** : Automatiser la collecte et le prétraitement des données.
 - **Transformation** : Structurer les données pour l'analyse avec un **schéma en étoile**.
-- **Stockage** : Assurer un stockage fiable avec **PostgreSQL** et **Delta Lake**.
-- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalies.
-- **Orchestration** : Automatiser les tâches avec **Prefect**.
-- **Planification** : Exécuter les processus régulièrement via **Cron**.
-- **Déploiement** : Conteneuriser les services avec **Docker** pour faciliter l'intégration.
-- **Tests** : Garantir la robustesse des scripts grâce à des **tests unitaires**.
+- **Stockage** : Assurer un stockage fiable dans **PostgreSQL** et **Delta Lake**.
+- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalie.
+- **Orchestration** : Coordonner les tâches du pipeline avec **Prefect**.
+- **Planification** : Automatiser les exécutions à intervalles réguliers via **Cron**.
+- **Déploiement** : Conteneuriser l'application avec **Docker** pour simplifier l'intégration.
+- **Tests** : Valider la fiabilité des scripts grâce à des **tests unitaires**.
 
 ---
 
-## **2. Architecture du Projet**
+##**2. Architecture du Projet**
 
-### **Modèle en Étoile**
+###**Modèle en Étoile**
 
-Le pipeline utilise un **modèle en étoile** qui facilite les analyses complexes. Les données sont organisées comme suit :
+Le pipeline utilise un **modèle en étoile** pour faciliter les requêtes analytiques complexes et améliorer la performance. Les données sont organisées comme suit :
 
-- **Tables de Faits** :
-   - `fact_transactions` : Historique des transactions.
-   - `fact_loans` : Informations sur les crédits octroyés.
-   - `fact_payments` : Paiements associés aux opérations bancaires.
-   - `fact_revenue` : Revenus financiers issus des services bancaires.
-   - `fact_fraudes` : Activités suspectes identifiées.
+- **Tableaux de Faits** :
+   - fact_transactions : Historique des transactions bancaires.
+   - fact_loans : Données relatives aux crédits octroyés.
+   - fact_payments : Paiements associés aux crédits et transactions.
+   - fact_revenue : Suivi des revenus financiers.
+   - fact_fraudes : Détection et signalement des activités frauduleuses.
 
-- **Tables de Dimensions** :
-   - `dim_clients` : Profils détaillés des clients.
-   - `dim_products` : Catalogue des produits financiers.
-   - `dim_dates` : Structure temporelle pour les analyses par période.
-   - `dim_accounts` : Informations des comptes bancaires.
-   - `dim_satisfaction` : Feedback des clients pour l'amélioration des services.
+- **Tableaux de Dimensions** :
+   - dim_clients : Informations détaillées sur les clients.
+   - dim_products : Liste des produits bancaires disponibles.
+   - dim_dates : Structure temporelle pour l'analyse des périodes.
+   - dim_accounts : Détails des comptes associés aux clients.
+   - dim_satisfaction : Retour des clients pour l'amélioration des services.
 
 ---
 
-## **3. Structure du projet**
+##**3. Structure du projet**
 
-```markdown
-Data_Engineering_BI/
+frapper
+Ingénierie des données BI/
 │
-├── data/
-│   ├── raw/          # Données brutes collectées
-│   ├── processed/    # Données nettoyées
-│   └── transformed/  # Données prêtes pour l'analyse
+├── données/
+│ ├── raw/ # Données brutes collectées
+│ ├──processed/ # Données nettoyées prêtes à être transformées
+│ └── transformé/ # Données finales prêtes pour l'analyse
 │
 ├── src/
-│   ├── ingestion/
-│   │   ├── data_ingestion.py       # Collecte et prétraitement
-│   │   └── __init__.py
-│   │
-│   ├── transformation/
-│   │   ├── cleaning.py             # Nettoyage des données
-│   │   ├── aggregation.py          # Agrégation des métriques
-│   │   ├── enrichment.py           # Jointures et enrichissement
-│   │   ├── star_schema.py          # Création du schéma en étoile
-│   │   └── validation.py           # Validation des données
-│   │
-│   ├── storage/
-│   │   ├── database_storage.py     # Stockage dans PostgreSQL
-│   │   ├── delta_lake.py           # Gestion des données Delta Lake
-│   │   └── test_connexion.py       # Tests des connexions
-│   │
-│   ├── monitoring/
-│   │   ├── data_quality.py         # Vérification de la qualité
-│   │   ├── alerts.py               # Alertes automatisées
-│   │   └── __init__.py
-│   │
-│   └── orchestration/
-│       ├── orchestration.py        # Orchestration des flux Prefect
-│       └── test_orchestration.py
+│ ├── ingestion/
+│ │ ├── data_ingestion.py # Importation et prétraitement des données
+│ │ └── __init__.py
+│ │
+│ ├── transformation/
+│ │ ├── cleaning.py # Suppression des doublons et gestion des valeurs manquantes
+│ │ ├── aggregation.py # Calculs et métriques (totaux, moyennes)
+│ │ ├── enrichment.py # Jointures et enrichissement des données
+│ │ ├── star_schema.py # Structuration du modèle en étoile
+│ │ ├── validation.py # Règles de validation pour garantir la cohérence
+│ │ └── __init__.py
+│ │
+│ ├── stockage/
+│ │ ├── database_storage.py # Stockage des données dans PostgreSQL
+│ │ ├── delta_lake.py # Sauvegarde incrémentale dans Delta Lake
+│ │ └── test_connexion.py # Vérification des connexions
+│ │
+│ ├── surveillance/
+│ │ ├── data_quality.py # Analyse de la qualité des données
+│ │ ├── alerts.py # Création d'alertes automatisées
+│ │ └── __init__.py
+│ │
+│ └── orchestration/
+│ ├── orchestration.py # Définition des flux avec Préfet
+│ └── test_orchestration.py # Tests unitaires sur l'orchestration
 │
-├── tests/
-│   ├── test_ingestion.py
-│   ├── test_transformation.py
-│   └── test_storage.py
+├── tests/ # Tests unitaires pour chaque module
+│ ├── test_ingestion.py
+│ ├── test_transformation.py
+│ └── test_storage.py
 │
-├── docker-compose.yml              # Conteneurisation Docker
-├── deployment.yaml                 # Déploiement avec Prefect
-├── prefectignore                   # Exclusions spécifiques
-├── README.md                       # Documentation
-└── requirements.txt                # Dépendances Python
-```
+├── docker-compose.yml # Configuration de Docker
+├── déploiement.yaml # Déploiement des flux Préfet
+├── préfetignore # Exclusions spécifiques pour Préfet
+├── README.md # Documentation du projet
+└── exigences.txt # Liste des dépendances Python
+
 
 ---
 
-## **4. Orchestration avec Prefect**
+##**4. Détails des Étapes Clés**
 
-L'automatisation des tâches est réalisée grâce à **Prefect**. L'interface web intuitive permet de :
+###**1. Ingestion de Données**
 
-1. **Suivre** les exécutions.
-2. **Diagnostiquer** les échecs grâce aux logs détaillés.
-3. **Planifier** les flux à des intervalles réguliers.
-
----
-
-## **5. Interface Web de Prefect**
-
-### **Tableau de Bord**
-
-Le **tableau de bord** offre un aperçu global :
-- **Statistiques d'exécution** : Succès/Échecs.
-- **Logs détaillés** pour chaque tâche.
-
-![Tableau de bord](55.PNG)
+**Script** : data_ingestion.py  
+**Objectif** : Collecter les données brutes depuis **CSV**, **API**, ou autres sources.  
+**Actions** :
+- Chargement des données.
+- Suppression des colonnes inutiles.
+- Conversion des types pour standardiser les formats.
 
 ---
 
-### **Suivi des Flux**
+###**2. Transformation des Données**
 
-Chaque **flux** affiche :
-- Nom du flux.
-- Statut actuel.
-- Prochaines exécutions planifiées.
+**Scripts principaux** :
+1. **cleaning.py** :
+   - Élimination des doublons.
+   - Remplacement des valeurs nulles.
+2. **aggregation.py** :
+   - Calcul des métriques comme totaux, moyennes et agrégats.
+3. **enrichment.py** :
+   - Fusion des différentes sources pour enrichir les données.
+4. **star_schema.py** :
+   - Création du modèle en étoile avec séparation des faits et dimensions.
+
+---
+
+###**3. Stockage**
+
+**Scripts** :
+- **database_storage.py** : Stockage final dans **PostgreSQL**.
+- **delta_lake.py** : Intégration dans Delta Lake pour un stockage optimisé et incrémental.
+
+---
+
+###**4. Surveillance et Alertes**
+
+- **data_quality.py** :
+   - Vérification des valeurs aberrantes.
+   - Contrôle de l'intégrité des données.
+- **alerts.py** :
+   - Envoi d'alertes via logs ou emails.
+
+---
+
+###**5. Orchestration avec Préfet**
+
+**Script** : orchestration.py  
+**Fonctionnalité** : définir et automatiser les tâches sous forme de **flows** orchestrés par **Prefect**.  
+
+Exemple de **Flow** Prefect :
+python
+du préfet importer Flow, tâche
+
+@tâche
+def load_data() :
+    print("Ingestion des données...")
+
+@tâche
+def transform_data():
+    print("Transformation des données...")
+
+avec Flow("pipeline_data") comme flux :
+    charger_données()
+    transform_data()
+
+flux.run()
+
+
+---
+
+###**6. Déploiement avec Docker**
+
+**Fichier** : docker-compose.yml  
+Conteneurisation de **PostgreSQL**, **Prefect** et des scripts pour une déploiement simplifié.
+
+---
+
+###**7. Planification avec Cron**
+
+Pour exécuter automatiquement les flux chaque jour à 8h00 :
+
+frapper
+0 8 * * * Exécution du déploiement parfait « Orchestration complète du pipeline de données »
+
+
+---
+
+##**5. Exécution des Tests Unitaires**
+
+Les tests garantissent la fiabilité de chaque module du pipeline :
+
+frapper
+tests pytest/
+
+
+---
+
+##**6. Conclusion**
+
+Ce pipeline offre une solution **robuste**, **automatisée** et **évolutive** pour l'analyse des données bancaires. Grâce à l'intégration de **Prefect**, **Docker**, et un modèle en étoile optimisé, il garantit des performances optimales pour des besoins analytiques complexes.
+
+---
+Voici la section **améliorée** pour l'interface web de **Prefect** à intégrer directement à la fin de votre README.
+
+---
+
+##**7. Interface Web de Préfet**
+
+L'interface web de **Prefect** permet de **visualiser**, **suivre** et **planifier** les différentes exécutions du pipeline. Voici les principaux éléments de l'interface :
+
+###**8.1 Tableau de bord**
+- Le **Tableau de Bord** offre un aperçu des exécutions récentes et en cours, ainsi que des statistiques globales.
+- **Exemple** :
+   - Tâches exécutées : **27 réussites (75%)**, **9 échecs (25%)**.
+   - Visualisation graphique de l'historique des flux.
+
+![Tableau de bord Préfet](55.PNG)
+
+---
+
+###**8.2 Gestion des flux**
+- La section **Flux** présente tous les flux définis dans le projet.
+- Chaque flux affiche :
+   - **Nom du Flux**
+   - **Dernière Exécution**
+   - **Prochaine Exécution** planifiée
+   - **Statut des déploiements**
+
+**Exemple** : Flux d'orchestration complet avec une prochaine course planifiée à **08h00 tous les jours**.
 
 ![Gestion des Flux](22.PNG)
 
 ---
 
-### **Suivi des Déploiements**
+###**8.3 Déploiements**
+- Permet de gérer et visualiser les actifs déployés.
+- Un déploiement **planifié** est exécuté automatiquement à des heures définies via **Prefect Scheduler**.
 
-Planification automatique avec **Prefect Scheduler**.
-- Exemple : Exécution quotidienne à **08h00**.
+**Exemple** :
+- **Horaires** : Planification quotidienne à **08h00**.
+- **Statut** : Déploiement "Prêt" en attente d'exécution.
 
-![Déploiements](33.PNG)
-
----
-
-### **Surveillance des Courses**
-
-Suivi en temps réel de l'état des tâches avec des **indicateurs graphiques** pour repérer rapidement les erreurs.
-
-![Surveillance](11.PNG)
+![Déploiements Préfet](33.PNG)
 
 ---
 
-## **6. Conclusion**
+###**8.4 Bassins de Travail**
+- Les **bassins de travail** assurent la gestion des travailleurs pour exécuter les tâches.
+- **Statut** et **activité** des travailleurs sont affichés en temps réel.
 
-Ce pipeline d'ingénierie des données répond aux besoins du secteur bancaire grâce à une solution robuste et automatisée. Les points clés incluent :
+**Exemple** :
+- Bassin : default-agent-pool
+- Statut : **En ligne** (vert)
+- Limite de simultanéité : **illimitée**
 
-- **Orchestration automatisée** avec Prefect.
-- **Stockage fiable** avec PostgreSQL et Delta Lake.
-- **Surveillance et alertes** pour garantir la qualité des données.
-- **Scalabilité** via Docker et planification avec Cron.
+![Bassins de Travail](44.PNG)
 
-Ce projet offre une base **solide**, **évolutive** et **facilement déployable** pour des analyses approfondies, soutenant ainsi les prises de décision stratégiques des institutions bancaires. 🚀
+---
+
+###**8.5 Suivi des Courses**
+- La section **Cours** permet de suivre l'état d'exécution de chaque tâche avec des logs détaillés.
+- Indicateurs clés :
+   - **Tâches réussies** (vert)
+   - **Tâches échouées** (rouge)
+   - **Durée d'exécution**
+
+![Suivi des Courses](11.PNG)
+
+---
+
+###**8.6 Visualisation des Exécutions**
+- Chaque exécution de flux est accompagnée d'un suivi temporel sous forme de graphiques pour identifier les anomalies ou optimisations nécessaires.
+- Les logs des tâches permettent un **debugging** rapide.
+
+---
+
+### **8.7 Automatisation avec Prefect Scheduler**
+- Prefect Scheduler est utilisé pour **planifier les exécutions** des flux à des intervalles définis.
+- Planification personnalisable :
+   - **Quotidienne** : Tous les jours à **08h00**.
+   - **Cron Jobs** : Possibilité de définir des règles complexes avec la syntaxe **cron**.
+
+---
+
+###**8.8 Points Clés de l'Interface**
+- **Clarté visuelle** pour chaque étape du pipeline.
+- **Logs détaillés** pour diagnostiquer les erreurs.
+- **Planification automatisée** pour une déploiement fiable et régulier.
+
+---
+
+Cette interface joue un rôle central dans la **supervision** et l'**orchestration** du pipeline, permettant un suivi optimal des **performances** et de la **qualité des données**.
+
+---
+
+###**9.Conclusion**
+Ce projet d'ingénierie des données pour le secteur bancaire propose une solution complète et automatisée pour le traitement des données critiques. En intégrant des outils modernes tels que Prefect, Docker, Delta Lake, et des processus de transformation basés sur la modélisation en étoile, il répond aux besoins d'analyse approfondie dans divers domaines : transactions, prêts, fraudes et satisfaction client.
+
+Forces du Projet :
+Automatisation et Orchestration : Grâce à Prefect, le pipeline est exécuté de manière fiable et planifiée avec un suivi détaillé via l'interface web.
+Robustesse : L'architecture modulaire permet une maintenance facile et une extension rapide des fonctionnalités.
+Qualité des Données : Avec les contrôles de qualité et les alertes automatisées, les risques d'erreurs sont minimisés.
+Scalabilité : L'intégration de Delta Lake assure un stockage performant et évolutif pour gérer de gros volumes de données.
+Perspectives d'Amélioration :
+Optimisation des performances : Affiner les transformations pour réduire les temps de calcul sur de gros jeux de données.
+Extensions : Intégrer d'autres sources de données (par exemple, API bancaires) pour enrichir les analyses.
+Visualisation : Ajouter un tableau de bord BI pour une restitution interactive des résultats analytiques.
+
+Ce pipeline constitue ainsi une base solide pour accompagner les acteurs bancaires dans la prise de décisions stratégiques basées sur des données fiables et traitées en temps réel.
+
+
+**Prêt à être déployé et utilisé dans un environnement de production financier et bancaire !** 🚀
