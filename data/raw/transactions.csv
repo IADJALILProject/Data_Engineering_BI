@@ -1,0 +1,1001 @@
+transaction_id,client_id,date,amount,transaction_type,merchant,location,fraud_flag
+e1c3d548-a4da-4bb7-a6e4-7344d47c41eb,8178,2024-06-03 03:59:45,2500.6,Debit,"Wallace, Nelson and Fernandez",East Kristin,0
+95d393f5-a9fc-49e3-88b0-5a72977bc5fd,7555,2024-04-10 12:16:16,-3617.33,Debit,"Mitchell, Reed and Austin",New Catherine,0
+cc085d45-979f-4432-a75d-9c4b363360ed,3945,2024-08-07 18:42:06,4037.6,Debit,"Martin, Romero and Roberts",South Suzanneland,0
+225aade3-bdb2-4e9f-bf4c-390840bceb25,6880,2024-04-27 06:31:35,1153.34,Credit,Willis LLC,North Desiree,0
+719614f7-76aa-4f66-a034-1bb87977b046,6227,2024-06-11 06:46:45,1770.33,Debit,Haley-Lopez,Lake Katherinefurt,0
+4e1d4852-8c2b-43e9-8f45-7d578bee35f3,9644,2024-01-09 00:45:41,442.83,Debit,"Buck, Curtis and Li",Michellefurt,0
+f24d2bb9-bbc8-4758-adb7-5b9200d9bce8,6549,2024-03-06 02:22:25,2387.35,Debit,Wade Ltd,Lake Colleenmouth,0
+edd718f1-b831-4388-9a32-56cc0aab18d2,7023,2024-04-23 20:43:29,4179.51,Credit,Smith Group,Lake Melissa,0
+f48bf715-2e5a-4dcb-be12-a1f9d17586d7,7958,2024-02-19 00:11:23,-1465.18,Credit,Cooper-Powers,Dannyville,0
+6e56abc6-7bae-48a7-b175-c945ddfa1843,8266,2024-09-26 17:39:46,-2034.12,Debit,Hayes-Atkins,North Amy,0
+ee1e8c59-4f8f-4cee-a421-3c13a6b8b508,3679,2024-08-20 10:25:42,-4.13,Credit,Long-Nguyen,West Melissaville,0
+1d0e0e6c-59a5-458e-9ea8-c3b2092506ff,5926,2024-05-24 12:12:31,4309.62,Debit,James-Jackson,Brianview,0
+aeeb333b-ac2c-40a6-9bd5-f4a3835666c4,6743,2024-09-09 23:44:04,-1452.4,Debit,"Shaw, Delgado and Tucker",Bowersmouth,0
+4aa4ad80-78df-4134-9ec5-c43c4cf4c5ef,1643,2024-01-18 23:25:34,239.12,Debit,Taylor LLC,Russellside,0
+16ebaad3-3448-4e3b-93a3-befa29a417d8,8820,2024-03-29 23:51:04,-3147.49,Debit,Hernandez-Ramirez,Lake Jeremy,0
+32becf23-7696-4bd2-93e5-cb2e31c60aac,6528,2024-06-07 17:41:50,-2226.15,Debit,Boyd-Salazar,Port Eric,0
+032b42ec-ee37-4504-8f72-99bb857931aa,8637,2024-11-18 04:17:59,-3784.4,Debit,"Rodriguez, Bauer and Jacobs",South John,0
+9c190513-8600-427e-8b75-6e1e04fdd3ec,8457,2024-03-01 01:11:56,4966.92,Debit,Berry Inc,Brewerview,0
+e379350a-7184-4866-bcf8-c924e6a11753,6410,2024-01-09 23:58:39,2002.27,Credit,Boyd-Barron,Benjaminton,0
+7755716e-9784-4d99-bf8f-049905012f64,4265,2024-01-10 18:24:09,-3705.58,Credit,Ford and Sons,Wendyfurt,0
+ee7ddd8f-5d08-41dc-9b05-77753a4d4acc,2871,2024-05-18 22:19:05,-465.39,Credit,Jackson PLC,Laurashire,0
+10941e54-70e4-4c1f-9cd2-51727f3c92ba,4836,2024-09-03 08:00:32,3423.89,Credit,Johnson-Greene,East Elizabeth,0
+b0e229c0-88bc-4f75-8da8-bff87a0b539a,1676,2024-03-10 08:44:26,-1444.3,Credit,Bean-Goodwin,North Jennifer,0
+44a1ac3d-3c31-448f-b8f2-11b4e3bed6a8,5471,2024-07-21 00:14:42,-1547.78,Credit,"Scott, Reeves and Brown",North Cassandrabury,0
+a2e1542a-c753-453a-a5f2-dcaced498cd6,8610,2024-06-30 05:53:16,3707.55,Debit,"Kane, Jennings and Decker",Jeffersonton,0
+4f5475ca-a594-4508-93c7-fe29ead879cf,5693,2024-04-30 22:17:11,1830.98,Credit,"Aguirre, Turner and Rodriguez",Delgadoborough,1
+c43d56df-79f1-4b2a-8622-a82031c4be42,6539,2024-07-22 20:01:01,-4276.31,Debit,Ramos-Hoffman,Robertbury,0
+bde48ef2-2f68-4228-acc7-a9208c9bb40e,7338,2024-09-12 03:51:33,733.12,Credit,Cruz-Williams,South Mariaberg,0
+03ff22ce-0d1d-4cf7-9470-0488f3eb4fc4,3941,2024-11-02 08:58:42,-3148.45,Debit,"Bradford, Wilson and Walker",Tinafurt,0
+f064f4b9-c2ef-471e-872a-4f19a5ea482a,4883,2024-07-17 13:57:10,-3176.86,Debit,"Ramirez, Henry and Johnson",Lake Ellen,0
+9a7147a8-83bc-47b9-a543-0eb49bc85903,4185,2024-06-13 03:33:47,2968.57,Credit,Oneal-Ball,Frederickhaven,0
+10bf6787-79c1-4a18-b749-b02efc71509f,2291,2024-03-06 22:08:08,17.79,Credit,Evans-Baker,Grahamchester,0
+93247745-0be4-4037-b1d7-3ea46937cdcf,5966,2024-07-14 00:36:41,4738.09,Credit,Parker PLC,Jonesville,0
+bf205f5a-def2-4133-939e-4b2bcaaaee2e,8489,2024-03-09 09:16:28,-3752.48,Credit,Weber and Sons,Cassandraside,0
+b86cc4fb-3966-426d-a162-122b33522da6,9963,2024-03-20 16:27:47,-3892.47,Credit,"Nguyen, Daniel and Brown",Thompsonport,0
+dadb2f53-d340-4c2a-9ca0-7cf6c056c42f,2691,2024-04-08 07:45:40,711.01,Debit,"Wiggins, Jones and Brady",Kimberlyshire,0
+2488fb4a-4d9b-42bb-aef7-6df52d43ffc9,6250,2024-01-18 11:14:49,-2498.92,Credit,Henderson PLC,Port Kathleenfort,0
+e4895b29-4359-4265-9630-cafbf5e6f02f,5705,2024-04-01 18:00:55,4284.3,Credit,"Osborne, Jenkins and Thomas",Mollyport,0
+3e974b00-ae97-4344-85a0-0c49cf406f3d,6055,2024-07-03 21:54:33,4959.07,Debit,"Williams, Johnson and Perez",Greenhaven,0
+08220929-22e4-4754-a530-b851d618e4ff,3436,2024-07-23 16:26:03,-3451.33,Credit,Roberts LLC,Lake Kristi,0
+0cf44b82-8a84-42b1-af9a-b2834ed9c7f5,6949,2024-09-23 17:57:08,-797.12,Credit,Wright-Huber,Williamsport,0
+6ed659cf-1a1f-4763-a7cc-fafca7fb6402,1634,2024-02-01 09:55:47,-3172.38,Credit,Sanders and Sons,Lisaview,1
+b09ab04b-47b7-45a4-92cc-5ea7465aa3c6,9294,2024-11-15 04:20:42,-3100.04,Debit,Bowman-Alvarez,Christinaton,0
+c4f85b0d-7b21-48df-b908-a9e577866c01,8611,2024-01-08 15:41:36,4303.58,Credit,Hernandez-Summers,Samanthaborough,0
+0876cd2e-7e8f-4254-887d-803cc20e6d21,2017,2024-09-08 09:41:37,-1999.64,Debit,Long-Shannon,West Thomasland,0
+68367447-0310-4ed5-993f-fed1379d721a,5070,2024-08-03 01:01:17,212.43,Credit,"Gibbs, Anderson and Lin",Wilkersonton,0
+a5fac58d-26da-446b-b43f-16987af95101,9283,2024-06-13 21:39:51,2311.89,Credit,Martinez-Lawrence,Craigview,0
+713a98b4-e5c0-4af5-af63-8aabaae7a7bf,7829,2024-03-01 20:05:04,-3955.7,Credit,"Fischer, Brown and Rodgers",South Peggy,0
+811574af-d249-4ce7-b939-b4846635c760,5415,2024-02-21 04:27:56,4736.37,Credit,Valentine Ltd,Fischerland,0
+339dd5be-0a92-48ab-bc24-44f562728a93,4503,2024-01-27 05:42:31,-2787.48,Credit,Cuevas and Sons,West Melanie,0
+e2eb7551-32d8-4f82-9508-e746724c7c0d,3952,2024-04-18 12:23:53,-1239.04,Credit,Cox-Garcia,Lake Karenville,0
+46f05b9c-80de-461f-8d8d-d0e74a55f2eb,1998,2024-08-04 02:21:13,-2300.91,Credit,Lindsey PLC,New Victorburgh,0
+23852381-19fa-4629-9627-c7ca8dd558e8,3020,2024-05-05 07:03:42,-4133.7,Debit,"Brown, Hayes and Brown",Houstonmouth,0
+29756de6-4156-4f93-b471-2ab252da0ea3,8968,2024-08-18 14:41:28,-2237.67,Debit,"Matthews, Hansen and Cruz",Colemouth,1
+d34c64de-4642-4496-8abb-2994b5093bbb,9805,2024-01-15 20:41:09,-649.96,Debit,Perez PLC,Lake Feliciatown,0
+e0cb6a13-bf19-40b8-ad90-c2ebcc65b990,3932,2024-05-27 09:26:53,3345.1,Credit,"Brennan, Bird and Brown",Mirandafurt,0
+6063757c-80a5-42d2-8fe5-8026af11ded7,2673,2024-03-21 17:10:30,762.45,Debit,Bird-Smith,Gravesfurt,0
+4b3d177a-035f-4586-a351-9120aa27c3bd,4971,2024-06-30 21:36:08,1152.76,Credit,"Odonnell, Stephenson and Henderson",Helenton,0
+4a556002-a182-43b3-9f00-5a2c7f198277,3493,2024-05-11 23:58:54,-980.07,Credit,Daniels Group,Lake Matthew,0
+8b8063f2-e926-4c65-9dd3-230f1907d337,3443,2024-05-16 12:52:06,-92.33,Credit,Alvarado and Sons,Kimberlymouth,0
+3883f3df-8a77-4af7-b040-8cdb10d176c7,2555,2024-05-27 21:40:09,-1638.29,Debit,Carter Inc,Lake Eddie,0
+6ae1cb39-6014-4759-8cd3-e9bf62316e1b,9634,2024-04-30 16:46:25,-1321.87,Debit,"Perkins, Fowler and Contreras",North Kevinhaven,0
+55e622df-9986-4ab1-bfb2-c2776f61f148,9723,2024-06-06 16:19:21,1443.69,Credit,"Kane, Garcia and Norris",Lake Amanda,0
+42b63865-5c13-4a18-b668-2e88e29b18f1,5165,2024-02-23 17:59:26,-1570.46,Credit,"Hubbard, Kramer and Henderson",Tinamouth,0
+052615a1-1e0c-4938-86ab-a1a7923ae719,3729,2024-03-31 06:31:44,1464.93,Credit,"Baker, Welch and Gay",Davidberg,1
+00cea9bc-12ba-41a0-bd9f-30e6fdbc8469,5413,2024-01-06 18:49:17,53.71,Debit,Smith and Sons,North Jasonburgh,0
+d2006cf5-6a2e-467e-9ecd-cbed141cb7a4,3804,2024-11-14 11:47:17,-268.66,Debit,Flores-Stone,Lake Kaitlyn,0
+e8f9ea4b-d88b-4816-bbce-c79edb3406fa,3434,2024-08-08 23:21:00,32.03,Debit,Reeves-Herring,Tashaton,0
+33022097-2ca2-40ff-819e-1d72bc155fdf,3064,2024-12-11 06:55:03,3554.7,Credit,Ryan and Sons,Draketon,0
+3e1dea24-a7b5-4a58-ad1f-8a3c1f5bd3ab,9594,2024-01-25 09:17:43,-1479.12,Debit,Flores-Abbott,Port Patricia,0
+ed162b12-0ea0-45e4-811d-05ce27ec4f05,6454,2024-03-31 17:15:34,-1147.96,Debit,Reese-Cooper,South Laura,0
+2eee5288-8521-46f1-bfea-2472d4cc3da1,3732,2024-12-15 19:39:43,4387.73,Credit,Cox-Mccullough,East Adammouth,0
+df69fa53-dbc9-4636-a3ad-f759d7c6a915,2646,2024-07-11 21:10:50,-633.71,Credit,"Horton, Schneider and Luna",Lake William,0
+10a34cc9-9e28-4c52-af51-c08ef6264845,1940,2024-02-21 13:00:02,-961.24,Debit,Russell-Jenkins,East Stephenton,0
+585731f9-15d6-4436-a18a-8243bc354514,1562,2024-07-29 17:34:00,689.42,Credit,Carter-Oconnor,Jamesside,0
+89e92abc-7e4a-491b-a1f2-fc50810a0c17,6995,2024-02-12 03:18:04,-340.59,Credit,Reeves Group,South Sharonmouth,0
+9912179e-e180-4861-9546-72c230cab602,8566,2024-12-03 04:55:39,-4928.88,Credit,"Jones, Baker and Williams",Anitamouth,0
+ebe0d699-c2c6-4bd6-ae91-32ae0ae8f3ab,1306,2024-07-16 12:11:12,-3630.07,Credit,Brown-Barrett,Brianfort,0
+548f8f2a-9f77-42a0-8813-e157edcd5ea1,3080,2024-06-22 19:23:39,2606.65,Credit,Chavez-Raymond,South Madelinemouth,0
+099e5a42-0da3-41e9-a26e-c9e188a3c62d,2799,2024-09-17 10:03:45,4239.55,Credit,"Mitchell, Walker and Hayes",Port Lauratown,0
+1533b7dd-d34e-456d-93fb-efda7df04bd8,5385,2024-10-02 09:41:57,955.27,Credit,Lawrence Ltd,East Molly,0
+a180eb76-a30d-4c6c-88b4-cf1faaedb3af,5589,2024-06-22 12:37:32,-1579.69,Debit,Beasley-Fernandez,South Vicki,0
+1c0cd731-8af5-45b4-9582-d73a1524c1df,5936,2024-07-19 19:02:18,-91.09,Debit,Rodriguez and Sons,Smithchester,0
+710edf3b-b4fd-4525-a11a-517367953a10,5729,2024-04-03 02:08:02,4798.66,Debit,Santana-Russell,Paulahaven,0
+cc106018-2c0f-4b50-9d8e-132b65a508df,8679,2024-01-19 18:53:17,844.67,Debit,Curry-Wood,Wheelermouth,0
+3d7a6257-6720-4ed5-8522-9ae51672c514,4243,2024-06-06 17:31:03,-4350.1,Credit,Stanley-Whitehead,East Robertmouth,0
+ceb3fd98-590f-4a53-a61f-96c3ff37ba14,9302,2024-02-20 14:44:31,-2800.88,Credit,Benitez-Dennis,New Ashley,0
+664a04d8-3ecb-44cb-9a19-df490b737c49,3270,2024-02-22 12:13:59,-92.74,Credit,Ramos-Rice,Lake Meghan,0
+1d77d288-85e7-480e-abe0-55183c03a5a7,9740,2024-01-16 04:27:10,652.9,Debit,Duran LLC,Perkinshaven,0
+bf950e0a-95dd-4108-9d4e-855be00cef17,9574,2024-12-12 14:51:50,-3824.8,Debit,Stanton-Mcfarland,Silvastad,0
+4dca00f7-d72d-4cd3-b19c-83eb76d86f8d,3152,2024-06-30 13:15:23,-4867.39,Credit,Johnson-Brown,New Jacquelineborough,0
+c6e1eec4-2341-4144-9127-c112ab1b55d2,5094,2024-02-24 18:29:18,-4401.16,Debit,Curtis and Sons,Lake Tiffany,0
+422d77ab-d745-48d8-8e11-e1d0858a6be0,9107,2024-09-06 12:09:56,-935.5,Debit,"Martinez, Mullins and Lopez",Carrieborough,0
+c0453313-5227-4b44-9859-18afa99273ec,1720,2024-07-13 23:57:24,-991.33,Credit,Johnson LLC,Mcdonaldfort,0
+be2b3928-7f61-4af3-9b1a-b848d65f7e1f,8449,2024-02-04 23:47:57,-2477.87,Credit,Wallace Inc,Stefanieshire,0
+6c8a3931-4eb5-4355-bd78-27924667e52f,6332,2024-07-20 07:33:51,175.38,Debit,Parker Inc,Port Jamesstad,0
+8b3cabdd-be87-4f85-85ca-d7fe6ca7c413,4356,2024-03-30 15:57:38,4924.35,Debit,Yates-Johnson,South Natalie,0
+272f8716-1f54-499a-9533-9ef13a75625f,9249,2024-12-09 02:55:03,-4623.85,Debit,"Howard, Weaver and Vazquez",Melindabury,0
+10d828c4-0741-4bca-adbb-a095c17685db,5916,2024-08-19 05:58:38,-3919.03,Debit,"Cordova, Smith and Simmons",Tanyaview,0
+d611f9ef-1d1f-4a6a-9074-47267029ed38,2790,2024-05-21 03:46:54,375.87,Credit,Foley Group,East Jessica,0
+c8acf821-a9ee-4754-929c-d2208148f605,9016,2024-01-05 07:53:44,2675.08,Credit,Hill PLC,New Kimberly,0
+c33dc84e-b3e8-4ea8-aedb-2e36f09a4a42,3813,2024-12-05 07:15:08,-973.73,Debit,Moore-Mitchell,West Jamesport,0
+92ff06e1-8f81-47cd-a837-e1b93625509d,9125,2024-06-27 14:09:02,44.45,Debit,Jackson Ltd,Aaronfurt,0
+eed366a6-effc-4697-8ee7-0844adacc6a9,8509,2024-09-24 05:28:33,-1502.22,Debit,"Keller, Ferguson and Roach",Parkerville,0
+ae22a608-fbad-43be-baef-06cb4a0b1665,4354,2024-06-02 23:42:40,4796.93,Debit,"Gray, Deleon and Espinoza",West Jasmine,0
+f5f040a4-3369-4e8d-b2af-e954ee38279a,7211,2024-03-08 03:17:15,-1041.58,Debit,Warner Ltd,Lake Alexander,0
+dc544802-1196-4992-a56e-3f070803c871,6553,2024-06-10 19:36:57,-186.83,Credit,Frank-Shaffer,West Bradley,0
+8769dec3-1fca-49da-9bc3-27690b6f9ee4,6843,2024-11-29 14:23:02,2338.82,Debit,Garner-Jenkins,North Jennifer,0
+878d077b-2c5d-4257-b7ef-21f97cb05e23,6874,2024-10-29 13:40:39,-3437.38,Debit,Franco-Smith,Christopherstad,0
+1a6b82da-91a2-46c3-8d03-a065d09cc55a,3851,2024-10-14 13:48:20,-1409.01,Credit,Herrera-Dudley,Keithville,0
+fdf5024c-155f-4fb3-b111-8d6f9a9fa9db,4204,2024-07-28 16:43:05,-565.63,Credit,Smith Group,Michaelchester,0
+114fffb0-e6af-4ffd-b786-86dead28f610,8543,2024-10-08 07:31:47,1986.88,Credit,Baxter-Zimmerman,New Jenniferbury,0
+fd34afa9-d25a-42ba-8693-93246e028420,3421,2024-01-23 03:26:36,4830.4,Debit,"Hall, Mahoney and Smith",Cindyburgh,0
+db22d825-a6a7-41f9-aa68-b7c73617a67a,2169,2024-01-18 01:43:39,-2654.49,Credit,Williams-Baldwin,New Robertburgh,0
+b16d9d4b-b218-4385-b9de-dd89cb7dcd90,2242,2024-06-12 20:42:17,1159.83,Credit,Jones-Russell,Lake Matthew,0
+5944eda4-6d21-47b5-bb68-578d6a2378e2,2753,2024-10-22 09:35:59,-4627.47,Debit,Bush Group,West Jackieton,0
+98bc0ef7-b1e4-4eeb-b209-fde41e33027b,7776,2024-03-30 02:24:50,-1034.36,Debit,Oneill Ltd,Tamarastad,0
+7d716db6-8843-4b5d-a33f-f83cd3425d69,9347,2024-01-05 03:28:32,-1266.7,Debit,Garner Inc,South Geoffreymouth,0
+4677ca3a-58db-40bb-83f1-a4803092c475,9792,2024-10-21 07:58:56,-905.18,Debit,Grimes-Long,Mooneyshire,0
+85b8a3ce-edb5-4a76-9edd-517ec54985b3,9459,2024-09-12 03:58:16,1961.05,Debit,Hayes and Sons,Daisyville,0
+bb603a6e-be7a-4264-ade5-b542855cb6cd,9322,2024-12-09 11:21:38,-1687.32,Debit,"Cisneros, Patel and Sutton",Jenniferfurt,0
+9ff66983-9ae6-4c42-a986-ae502db2002a,5173,2024-09-21 22:30:58,-1405.93,Debit,Johnson Inc,New Heatherport,0
+b1c8c424-276d-40a1-8736-06ab4e5eb94c,3828,2024-06-27 04:04:21,3364.38,Credit,"Clark, Griffin and Palmer",Melissatown,0
+3c03ff47-6ce8-489c-87a6-340a831460ef,9680,2024-07-01 07:28:23,-4162.56,Credit,Valdez and Sons,West Leslie,0
+c2f4e221-9870-43c7-aafe-61d66bc4c188,1757,2024-08-16 19:30:06,-3849.72,Debit,Collier-Hensley,New Jeffrey,0
+543e9c7f-ee93-433f-8fcc-d84c4f0abd6d,3473,2024-06-18 19:14:26,3530.4,Credit,"Hayes, Lee and Chandler",North Reneeland,0
+6be944b3-43f3-4bec-896d-5f79bd146489,9068,2024-11-08 12:49:00,-4882.62,Credit,Johnson-Wade,Williamsbury,0
+9d8b4407-d898-4f09-ba67-c3287ae64e50,2364,2024-01-11 21:14:27,-2116.09,Debit,Hernandez-Powell,Moorestad,0
+773c299f-25bc-4cdc-8bc4-9fb8e8501ffe,7263,2024-06-22 02:41:50,2538.52,Credit,"Strickland, Page and Elliott",Hickmanmouth,0
+6b82fe6b-327d-43d7-b671-1987f9b2a196,8592,2024-09-13 10:37:47,-3277.28,Credit,Pugh and Sons,Emilyland,0
+ef164c76-bde2-47e1-8799-2236e87da704,9282,2024-02-16 13:13:49,4462.3,Credit,"Sanford, Clay and Massey",Albertchester,0
+b1979a25-8e15-48d7-b6e8-a4d410b885eb,4366,2024-05-10 04:17:37,3862.87,Credit,"Perez, Hernandez and Graham",Debramouth,0
+9b0f0218-ca77-4dd0-951c-325fd5989bc4,9199,2024-02-25 07:25:29,1166.87,Credit,Baker Group,Stephenville,0
+a676482d-de33-4556-805e-85283ced9f9b,3792,2024-06-02 08:18:14,1963.75,Credit,Conner Group,Greenport,0
+237763fe-9925-4925-ab8f-7c905a29015f,9600,2024-09-11 11:12:38,4943.68,Credit,Hood Inc,Bartlettshire,0
+069bb803-5041-4f58-a3a1-0c90e678d230,3581,2024-01-10 23:25:13,1866.96,Credit,Moreno Group,West Justin,0
+aff9d07b-748b-4753-8574-d16d7459e8cc,4985,2024-05-13 08:36:15,-4585.75,Credit,"Rivera, Kelly and Jones",Thomastown,0
+4b6c8657-82f9-4ef4-92ec-a7738b61317d,9652,2024-02-07 19:37:19,-1783.23,Debit,Jackson-White,Michellebury,0
+db2d9215-970f-4969-99fa-822c2158aaf1,3194,2024-01-12 19:31:39,3138.3,Credit,"Rivera, Gordon and Dunn",Wangmouth,0
+20dd95ef-086a-452b-adee-fbc48733ef3a,7223,2024-04-25 12:46:49,-4157.93,Credit,Best-Thomas,West Gloria,0
+1182955d-ecb1-4922-ba8f-3d91bd5b2242,9828,2024-10-09 19:39:55,1027.39,Credit,"Campbell, Golden and Morris",Lake Kyleberg,0
+f81948d8-7e71-450e-bbe1-a78e94817c19,8287,2024-07-26 13:07:10,-4208.57,Credit,Fernandez-Jones,Johnsonshire,0
+e04100e1-9242-46fc-82f1-e9817909cb6d,4804,2024-04-02 21:09:34,-3090.83,Debit,"Lopez, Quinn and Bentley",Vazquezmouth,0
+c0c47060-abb1-4159-93f4-fc4aa94abdec,2507,2024-04-20 05:50:54,2369.99,Credit,Gray-Miller,South Patricia,0
+9d08a397-cc7e-497b-b254-87130a730394,4636,2024-06-05 12:50:40,-4717.31,Debit,Willis Ltd,South Regina,0
+97e7a864-07ad-455e-b41c-9daf144a278a,7353,2024-07-21 07:19:08,4915.92,Debit,Good LLC,East Jackport,0
+5704e403-fd5c-4ece-b94e-b5164b0a2b44,4078,2024-07-16 09:37:53,-3096.65,Debit,Miles LLC,Michaelfort,0
+982b2c69-b9c7-45a2-a2e6-bd119ab17aff,9899,2024-07-18 11:31:14,-102.88,Debit,"Ingram, Mendoza and Steele",South Carlos,0
+09e6971a-1e07-4149-9893-85a89cb63750,4574,2024-05-17 13:10:55,1840.15,Credit,Payne-Banks,New Jenniferberg,0
+4d9b7ef5-77a0-4992-94ee-d8dc878eaf15,8034,2024-01-07 00:51:03,-1075.83,Credit,Blevins PLC,Zacharyville,0
+589d2545-cf36-4ccb-a37d-f93789111451,7679,2024-09-26 04:46:51,2976.14,Debit,"Joseph, Wood and Fernandez",North John,0
+e25c898c-60e0-4825-90e2-d030548c46e1,3040,2024-03-20 20:00:46,2057.77,Debit,Osborn-Hunt,New Cheryl,0
+5a577db9-dda1-4e58-ba1e-2da6f5e68e7c,1249,2024-05-16 16:06:06,2639.84,Debit,Taylor PLC,East Jennifertown,0
+a11f546a-df38-45c1-810e-1f07ea1c3379,2933,2024-07-01 09:46:48,4598.7,Credit,Knox Group,Port Jason,0
+8cc10f3c-a5da-4ff3-94e0-02ab8226ff38,3612,2024-11-09 20:48:31,-4016.62,Credit,Montgomery Group,South Virginiaside,0
+f3de4cab-c8c4-4fac-b38d-bf96a6067555,6090,2024-11-15 21:49:49,-3741.02,Credit,Riley LLC,Millerport,0
+6fdcc1b2-89e3-4f3c-8ed1-8ce77b70cf1a,9830,2024-03-18 01:31:29,125.89,Credit,"Williams, Sanchez and Fernandez",Lake Jasonchester,0
+ec301da4-95c9-4e3f-9f01-3adb9754a543,7096,2024-04-24 05:23:56,-2583.26,Debit,"Murphy, Stevens and Cameron",Lake Reneefurt,0
+6143209a-61fa-439a-abd0-aa6d629515e3,4180,2024-03-10 20:37:52,-564.78,Debit,"Owens, Hoover and Lambert",North Jeromechester,0
+645ac1b5-fcee-495f-8e26-c5c3577e2378,8009,2024-09-26 16:14:51,4359.45,Debit,"Blevins, Mccoy and Jenkins",Victoriahaven,0
+c07d8e39-968d-439b-a22b-09a09a4265ff,5338,2024-08-18 10:12:14,-2021.97,Debit,Griffin LLC,South Stevenmouth,0
+602071f7-6051-4fc9-825f-873795d8b919,8609,2024-04-29 08:03:26,2383.72,Debit,Hill-Lynch,West Leslie,0
+fb2235e6-f9bc-4ab5-a81f-50cfd359091a,2109,2024-05-25 23:50:59,-4594.68,Credit,"Charles, Aguilar and Hernandez",Jamesville,0
+9e7e394e-8a80-4222-bc08-b5b10e787fa6,3578,2024-03-25 17:11:37,-662.41,Credit,Jones-Beasley,Lake Cheyenne,0
+299370ac-1807-4702-8430-269ab0010fe1,8531,2024-03-06 04:30:55,-3469.24,Credit,"May, Hansen and Harvey",Mallorymouth,0
+e728f1cc-0440-4406-9f55-c9ba080bfcf6,5249,2024-09-22 08:14:48,-3326.38,Debit,Kidd-Gonzales,Randolphmouth,0
+839053f0-9277-4d2a-b09e-fb50beae91af,5160,2024-12-17 07:17:09,-4276.91,Debit,Williamson-Henson,South Christopherville,0
+246d84ee-7539-4099-8399-73fa684276c7,7083,2024-01-10 01:44:47,-3110.58,Credit,Hanson Group,Brandibury,0
+3dd7f57d-cd57-47d1-ab71-45d3893eda92,6915,2024-05-12 05:54:11,830.09,Credit,"Dillon, Booth and Singleton",Jeremytown,0
+f9a5730d-4ff9-4aba-85bd-4702642ab4f5,5195,2024-11-05 22:55:14,-3697.12,Debit,Wang Group,Walkerland,0
+d3ebe7ba-dc94-419d-bb48-1ccf95290116,5806,2024-02-12 01:37:44,-2734.07,Debit,Martin-Knight,New Stephanie,1
+cb8cbd71-b7a1-41a4-902d-adfa44aaf0c8,7556,2024-01-22 19:30:34,251.82,Credit,Green PLC,North Alexander,0
+779a5979-6f9b-4bfd-a867-50df3ce017b8,8767,2024-11-20 05:09:30,4046.67,Debit,Arnold LLC,Aaronburgh,0
+cdf600fb-a13a-4dee-9a5a-9f8d8ab1f162,4681,2024-11-15 08:54:25,-418.92,Credit,Olson-Hines,Barryville,0
+116527d1-afec-4aa9-aaed-64cf6d65daf1,4120,2024-09-18 17:39:10,3505.5,Credit,"Montes, Moss and Torres",North Kennethberg,0
+d0234028-6404-4502-8eba-adb66b504ef5,9679,2024-05-13 21:27:38,-1771.79,Debit,Walls-Pham,Rachaelshire,0
+db89ba44-f6dc-4b0a-ae27-9cf2330a1aac,1419,2024-01-14 23:12:16,3686.87,Credit,"Love, Smith and Velez",Darrenfurt,0
+075c3ddf-3154-410e-998d-864b61c3bd8d,1109,2024-12-11 03:59:17,-4247.28,Credit,Byrd-Cooper,Erinstad,0
+101925ba-66dc-45ff-affc-d836692c8391,7562,2024-08-25 08:50:14,-3308.66,Credit,"Castaneda, Wilson and Chapman",Williamsland,1
+a424c1da-ca17-476c-8fea-6ba41c39b210,3679,2024-11-08 01:37:41,302.8,Credit,"Perkins, Hunt and Valenzuela",Victorchester,1
+09c2d4fb-7d3d-4b40-aaad-a5bf76d6d905,7767,2024-03-13 16:04:13,4507.78,Credit,Howell-Randall,Banksbury,0
+75d35163-f35b-4cdd-8648-084484a0530e,7972,2024-11-03 19:43:13,4632.18,Credit,Adams-Lee,East Juan,0
+f96cb941-b52e-4672-a018-448d87f0fd76,9858,2024-07-12 10:10:12,1748.38,Debit,"Gilbert, Henry and Salazar",Shawnfurt,0
+851d3290-45e0-41e5-86b5-1614e3bcb2a7,2868,2024-05-17 05:01:53,-4816.53,Debit,Mcdonald-Jacobson,Port Micheal,0
+0717d46d-d936-4c7e-8e1e-38c5f5a34477,4822,2024-01-16 03:05:00,-3902.07,Credit,Jimenez Inc,Evanschester,0
+aba650cb-9dfd-4398-81bc-271bba293ba3,6198,2024-12-02 08:52:17,2616.5,Credit,"Macias, Mendoza and Beck",Millerton,0
+bd3ae37f-8dcb-4ede-a576-e0b4db4db3ab,4084,2024-10-06 14:18:00,2026.76,Credit,"Stevens, Brown and Ford",Youngville,1
+6f1c6c21-ad81-404f-a9ee-e19611bbdab2,3155,2024-10-01 00:09:13,-3018.5,Debit,Johnson PLC,North Danielstad,0
+94ea8289-c6a0-4aec-8535-eeb9bfd9379d,7088,2024-02-27 12:46:43,-988.52,Credit,"Gaines, Johnson and Cruz",Fowlermouth,0
+6c819da9-ceb8-46cd-b75f-10bdb5ebda03,6845,2024-03-22 03:28:51,1903.83,Credit,Lucas Inc,New Shannon,0
+96284466-d775-4e8b-bb55-59eebd7db15d,9595,2024-11-18 06:41:22,-2182.9,Debit,Nguyen and Sons,New Terri,0
+56afa78d-65fe-44ae-9377-efcfb62c96d1,2396,2024-09-02 02:24:08,-4589.04,Credit,Gonzalez LLC,Diaztown,0
+f2c61e43-a9f7-4979-86cc-4b72d36b64e7,2448,2024-07-12 11:46:55,-3083.23,Credit,Gonzalez-White,Ryanchester,0
+4eaa82ab-22cd-45e9-97fe-a6344f911b5c,4274,2024-11-13 21:13:38,-3517.09,Credit,"Thompson, Jones and Frazier",Coxland,0
+98d6921c-0738-4b22-8fd0-44032e808cf4,5931,2024-05-31 01:11:08,-464.1,Debit,Campbell-Solomon,Franklinstad,0
+e9a9d8bd-a0b7-4f33-8e67-adfb377e5fab,3940,2024-02-02 14:22:04,-211.21,Credit,Jones-Park,East Michaelview,0
+b10ae550-5149-4a8a-989a-63593f9b665f,4403,2024-09-02 02:56:02,2211.91,Debit,Costa-Williams,East Dana,0
+ccdfc901-3f3b-479c-b1e2-4365188b2810,3075,2024-02-12 09:43:57,3877.17,Credit,Fuller-Frost,Rebeccaton,0
+98a41963-c5c1-4a20-a355-048d03a4f713,3084,2024-08-26 18:07:02,3823.49,Debit,Patterson-Vasquez,Juliefurt,0
+0629b02b-92c2-47b7-a2da-e49679399c75,8174,2024-03-17 10:43:39,-2522.68,Debit,"Sampson, Garza and Woods",Wrightfort,0
+b9bc4a02-a70b-4f01-bfff-632cc33b60ab,9887,2024-04-28 02:35:05,-2581.05,Debit,Martin-Ramirez,Munozstad,0
+71e74377-2c06-4954-b597-b540747d3f80,3709,2024-08-24 23:18:10,3236.03,Debit,"Jones, Mullen and Nicholson",Lake Jeffrey,0
+9e0c38fa-3130-4bd0-ac64-9c4bbe41d298,1688,2024-03-09 08:48:34,-2844.06,Credit,Dyer-Barnett,West Williamstad,0
+8fa27725-0b34-4cf5-81d4-a42332413ac0,6011,2024-07-23 12:10:39,-1453.18,Credit,"Harris, Willis and Graves",Davisfurt,0
+337be29d-9a77-48e5-bc10-c509a7d64a57,6229,2024-03-09 11:10:39,69.46,Debit,"Williams, Buck and Blevins",Lake Jeffrey,0
+088a1e58-2de3-4f43-b378-8f2ca4f5201e,4761,2024-04-09 17:36:02,-200.71,Debit,Green Ltd,East Thomasland,0
+e5bdd044-da93-4105-9b31-10a5e3d96f71,3595,2024-11-01 09:26:31,582.57,Credit,Coleman PLC,East Amandamouth,0
+51329a19-1e3f-4b6e-8298-136b955aceeb,4570,2024-08-08 19:11:11,-2080.4,Debit,"Salinas, Garcia and Wells",Colleenport,0
+1cb6d2d7-b843-4389-a83c-8defe7a6d4f6,3004,2024-09-09 00:07:18,4947.45,Debit,Evans-Harrington,South Susan,0
+c9b0c2e5-943b-42ce-a54c-272c04b7672c,5469,2024-12-06 10:23:22,-2418.33,Credit,Cardenas-Cruz,Mariaton,0
+21d99a86-813a-4b21-b9a6-5f2520e23127,4830,2024-06-03 07:07:37,375.91,Credit,Howard and Sons,Bauermouth,1
+3570e55a-b6f3-4ef6-bfe6-49a524d66fd1,1499,2024-04-12 04:43:46,-2790.47,Credit,"Chen, Padilla and Valencia",Zacharymouth,0
+1bc42371-a70b-4be2-9643-b3187ec9e0cc,7473,2024-04-20 01:39:51,3040.37,Credit,Wall-Trujillo,West Robert,0
+fb4961e3-7027-40d6-aa4a-808019dd650e,2161,2024-01-13 20:45:20,1383.98,Debit,Patrick Group,Coreyborough,0
+04a1ddb9-d12a-4bee-a318-42afec58e2f1,6301,2024-08-06 17:45:04,2495.47,Credit,Powell Inc,Johnsonbury,0
+5bae3bc2-7841-4989-8c62-f769a0e65cf1,9476,2024-03-24 13:20:30,-3218.52,Debit,Clark and Sons,East Johnside,0
+e3212bf2-c5e0-49e9-835d-4204b19e3c9c,3525,2024-12-07 09:32:21,-1240.19,Debit,Drake LLC,Brownshire,0
+f1c62c14-8e83-416c-8cdf-78d659774391,2559,2024-09-24 13:00:04,-1663.93,Credit,Poole LLC,Michaelhaven,0
+52d24375-3c13-4a3c-9035-c51156705b6f,9987,2024-06-17 00:31:18,2298.34,Credit,"Montoya, Sheppard and Underwood",Justinstad,0
+cbe09a82-da55-4f6a-ab84-da2bc60db0e4,5687,2024-09-05 14:36:50,-2431.78,Debit,"Hernandez, Strickland and Alexander",Ellisonhaven,0
+858000c7-0be6-47a6-929a-9dbcf5b65c85,6920,2024-12-11 15:09:02,-2391.75,Credit,Jackson Group,Kimberlyshire,0
+e9b9df21-51a0-47e8-8c67-0c97aa7b78ce,5390,2024-11-08 22:14:36,-3281.55,Debit,Williams-Meyer,East John,0
+6daab346-6237-4722-a37e-04cf322fea54,2099,2024-03-14 22:53:44,3612.9,Credit,"Davis, Green and George",Lake Jorge,0
+2fdbb529-2cd8-4184-a922-9a8e99921842,3439,2024-08-17 12:39:03,1988.82,Credit,"Avery, Robinson and Powers",Lake Billshire,0
+5eb091b3-fa5f-4591-b40e-dd10356f8933,4717,2024-02-20 04:29:47,-30.6,Debit,Harvey-Williams,Mccormicktown,0
+96e29e63-5101-4125-aea5-1697f4d2fac3,5516,2024-06-28 20:18:03,-1944.17,Debit,"Hendricks, Bell and Patterson",East Kristy,0
+57fca751-c303-4bc8-9456-7ca74affe2fc,7690,2024-06-08 16:48:30,4356.81,Credit,"Fletcher, Parsons and Wheeler",East Karen,0
+48e83b46-900b-4700-a13b-5948fdfce266,6857,2024-09-07 13:58:31,1686.2,Debit,"Holland, Turner and Smith",Lake Rebeccaside,0
+ad075f66-2ea7-4fb9-9ff6-6f6b07f97c0c,1831,2024-05-08 10:31:02,3198.41,Debit,Cameron Ltd,Taramouth,0
+d90ad13c-4a22-46be-9cd9-f86b603d33e7,2673,2024-01-19 21:45:54,-2549.84,Credit,Hahn-Allen,Gilbertfort,0
+fc358a45-737c-4161-9b77-e9ac1a9ed449,9456,2024-09-16 11:34:23,-787.2,Credit,Cox-Boyd,Charlesberg,0
+edf6a719-27d3-4cba-a9f0-17cb1caee5f8,6314,2024-03-30 23:58:12,4232.65,Credit,Morris LLC,South Ericfurt,0
+89484d1d-ad5a-4b36-bdaa-012ebe0a7141,1211,2024-04-05 22:10:11,-2789.16,Credit,Miller-Hall,Lisaland,0
+1f8b1b1c-4e1c-4eb1-acf9-0c3b1e764930,1148,2024-07-26 11:10:38,-1984.99,Debit,Reyes-Steele,Jacobborough,0
+bf5f10d9-a55b-47f8-9eea-4072e134dfb6,8607,2024-12-15 23:14:09,2109.96,Debit,"Byrd, Beck and Perkins",Haneyfort,0
+0641fd2d-4f82-4499-b501-9fed1c831b43,1820,2024-12-09 14:54:57,168.55,Credit,"Yates, Todd and Byrd",West Zachary,0
+392dfd16-c3d3-46f9-a6e7-7b93e395357d,8772,2024-03-01 22:22:00,1163.41,Debit,"Briggs, Johnson and Hale",South Joseph,0
+84ba51ff-4e83-4c22-9dd4-1897035e3f97,5166,2024-03-23 20:17:27,2236.52,Debit,"Jimenez, Watkins and Jordan",Lake Ernesthaven,0
+4f7933e9-a669-4562-ac4a-23ca8f495837,8067,2024-03-13 14:23:14,-3028.88,Debit,Mason-Phillips,North Amy,0
+e14cdf65-8d7e-486a-aade-27285cce7991,3399,2024-10-07 08:02:22,3952.23,Debit,"Mendez, Macdonald and Boyd",North Michaelburgh,0
+2d52fc1a-9569-4219-a5a3-e34000f74cce,6892,2024-05-07 13:08:23,-1611.93,Debit,Padilla-Castillo,New Saraville,0
+e0bf9dc5-1a68-458a-90ef-8c244e624dcc,7132,2024-10-07 23:05:50,-4185.2,Credit,"Jackson, Nolan and Browning",Rebeccashire,0
+8775bd4b-aacd-421a-af38-defbc4f54d7e,3331,2024-03-30 14:26:20,-1744.71,Debit,Richardson PLC,New Alanhaven,0
+09a2f9d7-f63b-487e-a9c5-f1f700944ed5,6891,2024-02-08 18:21:03,909.8,Debit,Hayes Inc,East Davidmouth,1
+52b67344-9860-4723-8e3d-9c468544438c,9534,2024-05-23 10:19:04,726.73,Credit,"Mcintyre, Roberts and Peterson",East Rachelport,0
+4f192509-37a3-461d-b344-5780619da3b8,1477,2024-03-22 06:06:35,4549.79,Credit,"Lee, Martin and Brewer",New Matthewland,0
+b9a365be-aeb4-4012-ad7e-bd02a2cac77a,3914,2024-10-12 23:43:35,4981.47,Debit,"Summers, Diaz and Joyce",Velazquezmouth,0
+38ae7ba9-ee06-488d-8043-39dd60674e00,2211,2024-11-12 01:11:08,-1263.69,Debit,Price-Jones,South Robert,0
+48c69e07-9ac7-4dce-baf7-daeaab79236d,2907,2024-12-16 11:40:16,-4653.01,Debit,Patel and Sons,Wandafurt,0
+75b11984-a861-4af7-a6d8-1b3973d5f33f,4517,2024-01-12 00:16:35,1845.14,Credit,"Farmer, Gomez and Dominguez",Annborough,0
+4742ffdf-06e1-4ccf-832a-49ff780d3251,3196,2024-08-18 11:47:00,-2493.47,Credit,"Adams, Price and Jackson",West Matthewland,0
+645d004c-d88b-4d2a-9a7e-1a4b7bebb67f,4764,2024-01-29 09:00:22,2138.39,Debit,Hanna and Sons,North Angel,0
+283d8173-5f2a-4c40-adc3-3e06cb323000,8555,2024-09-19 14:12:59,-4678.25,Debit,Gibson Ltd,New Joshua,0
+8a12c2c4-ce3f-46dd-8159-e8d87d5e8403,8952,2024-07-12 20:48:03,-3870.81,Debit,"Schwartz, Henderson and Moody",Ashleyview,0
+14ca85b2-563a-47d6-a2a1-046c8e1d4617,8804,2024-05-31 11:49:59,-4093.51,Credit,"Sanders, Washington and Cohen",Greeneshire,0
+63d3a5d8-6eff-4d2e-95b3-5c1b5e831e97,4251,2024-10-20 05:49:19,-3511.19,Debit,Ward-Lucas,Connieshire,0
+4dbb4a74-3ca7-428b-9781-a2859574de3b,2023,2024-04-30 01:43:44,4105.77,Credit,"Sanford, Estes and Reynolds",Port Stephaniebury,0
+4c75f7fb-72e3-4c78-9754-be038c73106a,6022,2024-06-17 17:51:30,-423.12,Debit,Rivera Ltd,New Amy,1
+12a8b56b-c271-4bf2-aadb-25f64b04c553,9615,2024-03-08 02:20:05,-1754.16,Credit,"Carroll, Johnson and Delacruz",Christinaport,0
+41fc38ca-2c36-4a90-8c68-66c1053ec8ce,6113,2024-07-14 09:21:53,-4518.48,Debit,Lee-Greene,North Jenniferchester,0
+486f4687-1548-4b4e-a0f1-0eb5c1b0d981,7473,2024-03-03 16:30:11,498.04,Credit,Elliott Inc,West Alexmouth,0
+cb15036c-a4ae-4f10-ad04-9209b26e3b0d,2870,2024-02-02 16:21:05,-22.17,Debit,Tucker Group,Katelynton,0
+645346af-b524-4538-a100-3d14468c90e2,3564,2024-09-09 15:28:50,-1365.1,Credit,Doyle-Miller,West Brendahaven,0
+aa3975b0-1ad2-484a-8c13-c03b706d854c,6519,2024-12-03 03:11:40,2960.95,Credit,"Kramer, Fitzgerald and Chaney",Sherylport,0
+56338e57-46cb-4825-ad7b-803903bf549c,5097,2024-08-10 02:03:17,1607.05,Credit,Jackson LLC,West Natasha,0
+8f594b9f-c441-4c88-b820-6fc8d0dba144,3447,2024-02-28 14:52:06,-3528.4,Credit,"Mendez, Graves and Carroll",New Noah,0
+7b79cd53-f97c-45fc-9d04-d0896641f860,1395,2024-05-28 00:33:57,-2496.71,Debit,Parker-Taylor,Derekmouth,0
+025e22ea-d805-4136-815d-057eee07c168,6082,2024-05-07 00:22:22,1690.53,Debit,"Gray, Evans and Jones",North Garystad,0
+05c5ea12-973d-4d38-8a48-1ddf27a952aa,6133,2024-07-09 10:42:10,4047.14,Debit,Fletcher Ltd,Michelleshire,0
+cf6c6d0d-63c3-48b5-bf91-1d65ddcc86ea,5544,2024-04-28 01:10:00,3602.19,Credit,Clark Group,Port Lisaport,0
+4213e211-a63c-4bd1-a566-0e4691f64157,5881,2024-05-31 12:59:41,4985.38,Debit,Garrett Ltd,West Aaron,0
+091a0fa7-2ca8-472a-a604-449898692c6c,2982,2024-04-05 22:26:07,-100.16,Debit,Kirby-Roberts,Kathrynstad,0
+7ca80121-ce32-4754-8677-74e0bdfaa219,2503,2024-11-16 03:15:18,-3637.81,Credit,Avila PLC,Port Jacquelineton,1
+7c2e47f1-aa9e-49fc-ae0f-be878246e83c,8012,2024-06-21 19:24:06,3132.02,Debit,Rangel-Smith,North Kyle,0
+f12a95ad-803e-4ae9-897f-3289a25c6c97,3562,2024-11-03 15:18:03,2542.74,Credit,"Sanchez, Gordon and Young",Ramirezmouth,0
+1075e0b9-a26c-40ea-91d6-de20eeceb58c,6921,2024-08-26 09:23:07,-3954.46,Credit,Salas Inc,East Gloria,0
+a889efe8-0a0a-4e6a-bd73-4580f862b2d1,3977,2024-07-05 20:27:35,2144.32,Credit,"York, Lopez and Brown",Rodriguezstad,0
+e061c713-537a-493b-ba2c-b9fa2fd6f2ff,8625,2024-01-29 01:59:11,-4511.55,Credit,Woods LLC,Port Richard,0
+199f5abe-286e-4acf-bc55-7e04452d3a5f,2190,2024-03-27 07:24:03,-218.84,Debit,Sims-Lynch,West Katherinechester,0
+807968cb-95ff-48cf-9a12-65ec38410e2d,4820,2024-08-24 20:13:27,-2497.82,Debit,Goodman-Ortiz,East Danielville,0
+db7e8fab-68ee-4e47-b20d-095209e51369,2962,2024-01-17 16:58:29,-1193.89,Credit,Jacobs-Hancock,Michelehaven,0
+192521d7-7b3d-4637-b82d-ea050c6bef4c,6041,2024-09-20 01:36:54,1242.83,Debit,Dougherty-Jackson,Brownview,0
+71e51c2c-80e4-493a-a520-b453b5cf38ca,6386,2024-01-30 01:26:40,3958.56,Credit,Davis Inc,Bishophaven,0
+50e34cb0-c1da-4a48-8b4b-4578a046c5f6,8221,2024-06-17 09:26:45,915.95,Credit,"Washington, Owens and Singh",South Mariahstad,0
+dcf0b5a9-31e2-4ee1-b35f-57073aa9b838,2254,2024-09-03 22:46:19,-3319.89,Credit,"Hamilton, Jones and Johnson",Peterchester,0
+af35b262-e388-4bea-a79e-1c78bae3e968,7574,2024-02-15 00:59:28,107.34,Debit,Moss-Anderson,Jeffreyborough,0
+8ddc840b-b06d-44ba-abd7-8513cbbe950d,5005,2024-02-17 06:34:14,3729.6,Debit,Fitzpatrick LLC,South Victorhaven,0
+0e0c5d16-1c30-4024-a87c-f653f9a6d2e1,4009,2024-02-09 07:13:40,4249.87,Debit,Hanson LLC,Hicksmouth,0
+0c57c9cb-39e0-4edf-9e65-c49c824f2470,9269,2024-10-17 04:13:53,-1315.51,Debit,Barajas Inc,Washingtonland,0
+c592f70f-a69b-4f5b-8d4f-e0c0fadabf33,7562,2024-07-09 06:21:47,-3467.26,Credit,Marsh-Willis,Port Anthony,0
+53229cc9-32bc-4ee5-844b-6d9743ff8c80,2801,2024-02-18 20:14:31,1564.79,Debit,Jacobs Ltd,West Bruce,0
+fe651748-445e-4676-afc3-8c2eeff75908,6925,2024-09-25 18:34:38,-2519.6,Debit,Stevens-Hanna,East Shawntown,0
+70755200-fef7-4d1b-9816-1e52c53fa7dc,6887,2024-07-07 00:49:44,-901.47,Debit,"Brewer, Wilson and Martinez",Catherinefort,0
+6ee6382e-6816-4111-96b5-3d9b04cbbfc7,6699,2024-06-02 23:46:27,3648.59,Debit,West-Maldonado,New Roger,0
+445e74e6-2782-4943-a6b2-f7f607ea9347,2415,2024-11-17 12:23:07,-4942.96,Debit,"Savage, Smith and Castillo",East Darrenchester,0
+07b4b3b0-2747-41af-8e31-dd80709de622,3044,2024-04-26 17:30:41,4284.62,Credit,Park-Estrada,Lake Kyle,0
+1b1693ff-ec12-4ecb-ab2d-050b6fb76872,3567,2024-10-21 05:43:26,-2628.26,Debit,Fleming-Buchanan,Paynestad,0
+f037d330-68aa-4f2f-afc0-a5a7a0856538,9870,2024-01-22 16:52:08,3700.06,Credit,Martin PLC,Port Nicoletown,0
+9bfde85d-25f8-467d-8bb7-5ce47d09f7ec,8400,2024-09-21 16:29:23,-4941.95,Debit,Jones-Williams,Smithside,0
+d3ed2826-4e2c-414d-be4c-b4f2ff6cd00c,4808,2024-10-07 12:56:31,-4699.83,Credit,Meyer and Sons,Laraborough,0
+6046d7e8-4da5-4ff5-b151-d48282847da9,3353,2024-03-29 12:49:31,413.59,Credit,"Berry, Black and Roy",Lake Davidmouth,0
+aa47b93c-c55d-4d60-af8e-67ef452d8ee7,7824,2024-05-16 23:02:27,1859.2,Debit,"Woodward, Jackson and Schmidt",Robinsonfort,0
+777df6f9-92e9-481f-ad5e-0d64f9f0a462,5995,2024-03-16 11:45:10,1439.94,Debit,Johnson-Walker,South Lance,0
+ed4facbe-1501-4a7b-ab8d-49b8f2ec674d,5779,2024-04-22 05:08:39,3914.81,Credit,"Scott, Powell and Phillips",Nicholsfort,0
+9d8fa02b-7b70-4155-abba-c322507dd785,7681,2024-11-07 05:01:43,4882.11,Debit,Contreras-Ashley,East Christophermouth,1
+f5687ef8-68dd-4856-8bb5-47e20649b9e0,3407,2024-04-28 18:21:51,2785.15,Debit,Manning Ltd,West Keith,0
+e1a5d26e-553e-4d0f-b7ba-026ac72869bb,8959,2024-01-14 02:20:52,-2966.01,Debit,"Evans, Proctor and Taylor",New Nathan,0
+ffed81e2-0718-4b95-9aca-67730d524c0e,2551,2024-08-16 06:40:57,-506.25,Credit,"Allen, Underwood and Carr",New Caitlinfurt,0
+763143fb-d781-41b9-9878-5164b0588def,9927,2024-08-19 00:48:13,-4737.55,Debit,Carson-Wilson,Lake Danielle,0
+509bcbe0-03bd-4637-b08f-937dd408e7a6,1915,2024-01-30 07:53:29,2564.14,Credit,"Wilson, Wolfe and Brown",South Laurachester,1
+1b984a51-9499-4ba2-824c-4420051ce44d,1007,2024-03-29 06:40:40,-2808.59,Debit,Osborn Inc,Spencerfurt,0
+17a0ace1-0419-43cf-b71c-99cb79a320d4,9986,2024-07-26 21:21:43,155.32,Debit,Smith Inc,East Stevenborough,0
+8167a9a6-5aa7-44e9-9398-0e1a5f58d994,7699,2024-10-15 18:42:57,2667.97,Debit,Wright-Terrell,Port Feliciaport,0
+85e28f8a-d822-40ba-9b0b-b80da2252162,6900,2024-09-29 00:34:49,-420.61,Credit,Watson Group,South Leonard,0
+da7efd85-8b64-4824-a059-fc0929e86cfc,2875,2024-08-10 12:12:59,2879.31,Credit,"Nash, Day and Krause",Johnfurt,0
+423a047a-d28c-492f-8197-432d998ed61e,8415,2024-08-04 17:11:50,973.28,Debit,"Saunders, Harrington and Mitchell",Lake Colleen,0
+da4ee048-0fb4-4390-bbac-a680deafcbc2,5755,2024-05-14 21:02:58,-2651.48,Debit,Lewis-Ford,New Mark,0
+47cc4fa1-fa08-44d4-8f4b-2a20979a4341,4886,2024-09-02 11:33:29,713.72,Debit,Gonzales Ltd,Lake Kelseyhaven,0
+cf698dce-ceb0-49cb-a7db-9ac1bae11af6,5625,2024-08-19 13:11:40,-610.02,Debit,Fox-Smith,North Brianstad,0
+e278ce8e-e0fc-44de-ad0a-b52081b82892,5756,2024-03-08 01:13:42,3663.17,Credit,"Burns, Zuniga and Cain",West Gabriel,0
+ede59849-9828-40fc-866c-7b62eb934a59,7224,2024-07-29 04:05:33,-4077.32,Credit,Wells-Randall,New Hannahport,0
+84be0f38-9e34-43f3-b74a-d3e357353d27,4431,2024-04-06 08:08:10,2780.67,Credit,"Wallace, James and Whitehead",West William,0
+2eabacac-58ed-4ff4-a8f1-67c410922726,6776,2024-10-24 14:51:44,-1271.27,Debit,Cuevas-Reilly,Tonyaberg,0
+91fe9448-3563-4011-a9fe-5742aa4026a1,4845,2024-06-05 05:31:22,2469.73,Credit,"Hoover, Reeves and Ryan",Jamieborough,0
+333478e4-0e64-49ec-962f-e8bfa10d1c58,8464,2024-07-30 07:08:58,2928.65,Credit,"Wilson, Richardson and Henderson",West Michelle,0
+a9f34ca4-4835-47dc-958b-91408df9716b,9845,2024-06-22 15:10:54,2697.81,Debit,Johnson PLC,West Michael,0
+edddc7c9-0322-4877-869a-7da8a2f0edf8,8460,2024-05-31 09:21:48,815.19,Debit,"Hopkins, Manning and Allen",Kimside,0
+95d1142f-5fc9-486b-a034-51ae0bd889ee,3806,2024-07-02 19:14:29,3651.24,Credit,Reese-Calderon,Wrightville,0
+4df3aac2-2c84-4fc0-a014-4a72f3f9fb6b,9413,2024-02-24 03:52:08,4182.38,Debit,Cooper PLC,West Felicia,0
+3f827daa-085e-4bab-8b07-089c4934349d,9021,2024-05-20 02:29:07,686.72,Credit,"Hunt, George and Mercer",East Michelle,0
+82fa128e-4468-4c73-8b31-ae58848a7637,6988,2024-09-11 19:04:44,-380.07,Credit,Cohen-Cantu,Roachtown,0
+cbb7a1fc-ea07-44d9-8f84-0ef645c999b1,7496,2024-08-15 18:21:36,-4599.16,Debit,"Williams, Chase and White",New Kathleenbury,0
+243dab93-fd06-48c2-b9d7-715aa2e6dda3,4250,2024-07-17 18:32:00,-327.25,Debit,Santiago-Gill,Lake Howardton,0
+c82c880c-5973-44f4-92c9-9ad578a92c81,7221,2024-01-06 22:23:26,4227.26,Credit,Jackson PLC,North Kyleport,0
+c5b70301-72e5-43d1-8337-a3932707353a,9083,2024-03-05 19:10:13,-3333.74,Debit,"Freeman, Atkins and Wiley",South Cheryl,0
+b7376415-7103-4c54-8b36-9922b29904cf,1563,2024-03-18 22:59:16,47.65,Credit,Poole-Holland,Kimberlychester,0
+0327f18d-86f6-4220-8536-b1d5d7d68121,6157,2024-05-12 10:20:33,-2830.69,Credit,Evans and Sons,Michaelland,0
+09b5c6ea-b3e0-46d4-aa68-e01b9d99470e,1701,2024-01-18 00:15:35,3754.64,Debit,Miller-Stafford,Jessicaland,0
+edf2c154-ba92-4fb8-8dc4-49940a23e342,5073,2024-04-01 07:58:01,1526.43,Credit,Silva-Jones,Maryshire,0
+a61e1247-4a91-4c34-8361-6b0a567df675,7215,2024-06-03 00:38:50,-3557.82,Credit,"Wilson, Kelly and Caldwell",East Chloe,0
+523e84a4-1db4-4fcc-87fd-9db7e5295d2e,9376,2024-12-15 02:22:00,2641.97,Credit,Jimenez PLC,East Lorimouth,0
+572ed26d-f9ef-40f6-806d-040ba9f56722,5213,2024-12-03 14:17:25,1894.11,Debit,Williams-Torres,Jerrymouth,0
+699dd51b-d61e-411e-bb08-0a4a329da1bc,8928,2024-03-27 13:45:11,-4383.72,Debit,Ortiz PLC,Lake Maurice,0
+cd9d6598-b9aa-4e46-87c8-79f1712204db,8137,2024-12-03 22:29:29,1801.75,Credit,Miller Group,South David,0
+14150c10-7911-4470-9a69-5b91e513f6b1,4891,2024-07-26 18:37:05,4941.33,Credit,Johnson Inc,East Kylemouth,0
+22285d2c-1ab8-42bc-8453-3588d8452d4f,5782,2024-11-29 19:39:38,-1286.02,Debit,Phelps-Lara,Hillview,1
+e9d32963-c3f2-4f8a-8643-257ecfa7fd53,7775,2024-04-28 08:48:30,-3098.09,Debit,Callahan PLC,North Gabriela,0
+8d919545-d298-4069-a5ca-43ea98a11122,7432,2024-05-17 01:35:47,1808.06,Debit,Garcia-Moran,Port Harold,0
+b0c6cb26-6475-47ee-9cc0-ee52cd8dfd9c,3419,2024-04-27 05:50:36,-4865.87,Debit,Hodges Group,South Nicholastown,0
+0a8894ee-0fd7-4b54-ba43-8e681807ce6a,4947,2024-08-31 14:59:33,-1605.94,Debit,Gomez PLC,New Monica,0
+678c7e42-bdaa-4e1a-9080-e026aabf278e,1967,2024-01-10 16:12:34,4351.48,Credit,Thompson-White,Lake Garyland,0
+badd2d8e-516a-4e66-933b-f008c38f67c7,7964,2024-11-11 17:51:12,3067.97,Credit,"Atkinson, Sullivan and Silva",Lake Traciberg,0
+29f36ee1-ed17-4361-99e3-9bbdcc451ab8,8530,2024-09-11 16:50:16,-1060.5,Debit,Singleton Ltd,Cindyland,0
+dd948067-d153-47e3-b823-8b599e0c54f3,4349,2024-08-05 04:16:37,27.52,Debit,Peterson-Brown,New John,0
+3e27c8e4-661b-475b-9fde-320645558a58,5473,2024-08-18 22:17:30,-3009.79,Debit,Hall-Baird,East Stephaniestad,0
+d796b50b-d349-47b3-9780-00bf6dd5012b,6374,2024-01-11 02:25:31,4221.23,Debit,Williams-Hamilton,Angelaton,0
+3a589bf5-627b-40dd-b7df-abc2115754ab,1650,2024-06-24 04:09:50,1677.75,Debit,"Rocha, Allen and Schmitt",Timothyport,0
+3591d0fe-721e-4fe5-80e6-8946f50288b6,7852,2024-04-19 13:49:47,-4337.61,Debit,"Chang, Jones and Chang",East Ryanberg,0
+d82ead58-9eb5-44df-9e73-b492c385d9e3,6028,2024-08-05 12:42:20,-2090.96,Debit,Curtis Group,Amandaville,0
+d4076b3e-786d-4fdf-8da9-0376b8a55785,1828,2024-03-19 07:25:45,-4472.31,Credit,Ward-Patton,North Jameshaven,0
+fe7f8533-59a7-46ab-86ec-619fedaae26c,8831,2024-11-11 21:12:10,-1976.69,Debit,Harris-Pena,Wardland,0
+a2832af1-0816-4b94-bb7e-970123a36697,3209,2024-05-30 02:41:41,-1898.57,Debit,"Collins, Fisher and Young",Boydberg,0
+fbe1eaec-af67-4a60-9992-cafe141447db,6557,2024-04-15 20:37:43,-2900.38,Credit,Fry Inc,North Molly,1
+9a10d2fa-e31e-4611-98df-be4aadeaa137,4116,2024-12-06 08:57:55,-1029.56,Credit,"Tran, Patel and Anderson",Dustinfort,0
+cc990243-95ea-4495-8501-8820adfc60b4,5708,2024-08-29 08:47:56,3203.7,Debit,Arias Inc,Lindseyville,0
+e1eb64a2-44ed-46f4-a924-0fda0e1a3691,8355,2024-04-29 00:53:12,725.3,Debit,Wagner PLC,Kevintown,0
+b089637e-8f97-4dd3-8482-28e1ef0320c9,6300,2024-02-10 14:23:32,-4763.78,Debit,"Cook, Adams and Barnes",Port Justin,0
+402877d3-5992-46b4-9858-464f1a91a89e,9932,2024-12-15 17:04:24,-3157.53,Debit,"Scott, Valentine and Grant",Mayoside,0
+90ed36d8-0a2a-4a6e-8289-84c629ed5fad,7992,2024-05-04 11:32:17,-1260.41,Debit,"Garcia, Chambers and Jackson",Brownmouth,0
+f9f0ca62-49bd-463a-8931-e67d29705782,7428,2024-06-05 23:10:24,1875.57,Debit,Graves-Jones,North Rubenview,0
+aca54fe6-c3a7-43b7-ab16-3bec8deb12a9,8415,2024-01-21 08:53:40,258.33,Debit,Murphy-Ashley,North Joanne,0
+29e0c80d-d68c-4300-ab06-74fb44a9c542,5916,2024-03-10 03:58:42,3528.0,Debit,"Lee, Turner and Cohen",Myersmouth,0
+940c1a15-52b8-4906-82af-63529524bf72,8904,2024-10-09 07:21:17,4059.44,Credit,"Kelly, Jones and Gomez",Port Yesenia,0
+876ef227-e65c-4bf4-a011-37f73ea64260,9208,2024-02-18 17:00:33,2413.18,Debit,"Wilson, Lang and Haynes",East Jasmineside,0
+1cabed57-f060-4751-8b03-a86a991f6882,4390,2024-05-17 12:19:48,3252.74,Credit,Cruz Ltd,Fritzton,0
+b2ce4886-7b80-464a-ac4b-a83168bca957,4925,2024-05-10 10:45:23,-4024.25,Credit,Jefferson-Leonard,West Joseph,0
+ad234510-171b-494f-af94-d9cc3c6da8b6,9513,2024-01-26 06:40:27,-1020.95,Debit,Anderson and Sons,Edwardsfurt,0
+ca425c6a-94c3-4374-a62b-3fccc3dca8c6,2499,2024-03-21 21:27:06,2693.65,Credit,Wilson-Moore,South Michael,0
+d8c4d3fe-8787-4d0f-bc22-93ba6530c803,6483,2024-04-03 18:26:29,2404.56,Credit,"Hall, Atkinson and Roberts",New Debraborough,0
+51a39812-bc95-47e3-8387-f47bbee8d23f,7556,2024-09-19 07:27:05,3037.72,Debit,Smith-Hendricks,Lake Brandontown,1
+1432f7c7-b0f9-4570-acf4-19c46a5945b4,9011,2024-06-07 07:30:01,2466.53,Debit,"Davis, Dean and Johnson",Port Jennifer,0
+053ac4f9-7b60-49b0-8864-383c4708ecdb,1654,2024-07-02 11:19:54,2582.82,Debit,Mcclain Group,Port Melaniebury,0
+dc8a55ee-f164-4f24-9f97-53a3ed515fd5,6798,2024-01-05 17:25:30,4203.63,Debit,"Carrillo, Johnson and Williams",North Kirk,0
+54e91864-4d90-4df0-a368-68e9c546fdf2,6698,2024-06-28 02:41:40,-3490.4,Credit,"Wilkinson, Bautista and Haynes",New Justinmouth,0
+d552abab-f2b6-40be-816a-ab6ccb3d9b0e,1281,2024-04-27 00:06:43,-3368.66,Debit,Williamson LLC,New Kelly,0
+b8eeaa36-1a25-48c3-9d48-f7bff2123a0f,8524,2024-03-19 22:03:28,959.96,Debit,Edwards Inc,Williammouth,0
+435730d3-e42a-4443-8c69-32138af3112d,1615,2024-07-11 18:28:52,-4332.51,Credit,"Lopez, Glenn and Hudson",South Jessica,0
+a6366056-098f-4b68-8647-19e1b2644836,7842,2024-09-10 23:11:22,2568.89,Debit,Harris Ltd,Jennyfort,0
+6b263410-3c3e-4a3e-b86e-a0115ffae469,6727,2024-02-25 10:47:05,2606.92,Credit,Hernandez-Bailey,West Tonyamouth,0
+564bd722-db02-4fa5-93a5-4d4df1aa8778,1048,2024-12-13 15:25:12,-4063.28,Debit,Foster PLC,Walterbury,1
+670ddaf6-0cb8-429a-8cad-d52f04f24420,9367,2024-03-27 14:17:11,2479.43,Credit,"Diaz, Rogers and Reynolds",Patrickstad,0
+42e48406-ecb3-4f34-bf34-4a6b9303deb9,1350,2024-10-12 21:18:45,-2711.14,Debit,"Shannon, Vargas and Matthews",Robinsonfurt,0
+1ce6f3c1-1c2f-4fca-b5a1-34f0146642b8,8528,2024-12-04 13:14:35,-1354.09,Debit,"Ramirez, Preston and Bryant",Smithborough,0
+8655a32c-a7b2-4a24-86b8-148ba527464c,5181,2024-07-12 02:04:18,2610.92,Debit,Aguilar-Taylor,Joshuamouth,0
+15e247da-77d5-40fb-b99b-85b939a641bf,1389,2024-08-13 21:00:04,-1885.34,Credit,Morse-White,New Leahmouth,0
+b1e13597-6d51-473b-ab04-57b8a66412b7,5382,2024-09-27 11:57:59,-4472.28,Credit,Ritter-Rivera,North Eugene,0
+69c80888-3138-4014-a3b0-e9815ed8f0da,4011,2024-12-07 17:30:32,3725.75,Debit,Alvarado-Carpenter,Randyport,0
+683cc1e0-71a0-4b5c-905f-c85f94216466,5492,2024-05-29 22:41:50,4842.09,Debit,Morales-Moore,Lake Tammy,0
+8a384997-2a06-42b9-ba0e-0ccf4a94b347,6445,2024-03-09 09:11:25,-1434.47,Debit,Newton Ltd,Grantberg,0
+d3bf5870-148f-4499-8294-dfcc1732d844,3476,2024-04-03 14:10:47,-3759.9,Credit,"Beard, Love and Garner",South Alexis,0
+a162142a-8bda-494b-a2cb-e1644d9e8349,9536,2024-05-07 20:23:44,1753.23,Debit,"Lewis, Nunez and Baxter",Cranemouth,0
+3ff569fa-1847-4cdb-9562-697b02d25858,2466,2024-06-03 12:28:50,4196.76,Credit,"Benson, Finley and Richardson",South Xavierbury,0
+6f6e872e-a246-4991-9c7e-e946eeb53a2a,9949,2024-11-17 23:19:40,4116.16,Debit,Harvey and Sons,South Mitchellland,0
+92b0d1da-7916-4bdc-965c-b8fd566a860d,9226,2024-01-10 01:49:46,1013.5,Debit,Stafford Group,East Kaylashire,1
+9f1beb01-df20-47cf-a9b7-52dda7531ebb,7711,2024-02-25 20:29:30,-4290.5,Credit,"Baxter, Ware and Banks",East Tinabury,0
+434e2ad4-1d4f-4837-b72d-4dff670c149f,5884,2024-03-15 03:42:24,999.1,Credit,Ellis and Sons,New Patricia,0
+e976f93c-2e46-4c34-af0b-79167f6a5921,2290,2024-09-02 12:19:16,-2617.94,Debit,"Mccann, Smith and Combs",Jonathanmouth,0
+99ca25b9-cd58-4add-96e9-6f0b70eba8d1,4631,2024-07-27 10:01:54,-1162.78,Credit,Davis-Nelson,Weberton,0
+65554de8-1217-4c7f-af3e-7cb3ec36dfe5,7575,2024-09-19 23:15:00,-393.86,Debit,Warner-Dawson,Johnsonville,0
+13ee39b4-968f-4be0-8dae-fd0e9b1c595f,7743,2024-02-20 06:19:14,-4862.75,Credit,"Martinez, Harrington and Rivera",Jacobsbury,0
+d0428b1d-3f67-49e3-8d03-971f0995c02b,1820,2024-07-27 08:45:19,-3296.48,Debit,Roberts-Perez,Lake Kyle,0
+9e424935-e45c-442b-a201-62335073837f,5624,2024-07-31 02:09:00,1053.97,Credit,"Kent, Parker and Mcclure",South Mariahville,0
+640cb399-1bd6-4789-b167-545204c4e99a,7571,2024-11-20 04:27:18,-237.68,Debit,"Harris, Tanner and Obrien",West Jessicamouth,0
+429b9fa8-19e4-4126-ac9f-0910d0ff6b5b,8743,2024-04-25 19:34:35,2603.18,Debit,"Hudson, Adkins and Shaw",New Joshuafort,0
+e367bebb-eb9b-44cb-b51f-de04c76f9e59,1007,2024-02-22 04:42:59,-4217.28,Credit,Adams PLC,Lake April,0
+9eb0e3e6-ce2e-4b7a-bba4-da9ad62d122d,7296,2024-04-24 10:06:39,-2127.82,Debit,"Velasquez, Roberson and Pacheco",South Amy,0
+c2bc15be-4470-4557-9cc8-ab506c66889a,1033,2024-07-13 04:52:50,3413.07,Debit,"Ramos, Graham and Wolf",New Jeremiah,0
+26862a4e-83a3-462e-92f3-32e7542fdf5f,4890,2024-01-07 14:56:21,4751.1,Debit,"Kelly, Rose and Jenkins",Port Pamelaton,0
+cbae21a7-f4fb-46b0-80fe-5fc2ac3a5453,4706,2024-08-16 00:51:18,2390.12,Credit,Ferguson-West,New Sheryl,0
+750816a2-dae9-4b5e-9038-f173b7edb4b0,5302,2024-03-08 16:35:05,-4694.76,Credit,Molina PLC,South Matthew,0
+0bb9ae1e-5e8a-43c1-985a-bfc9ea0f156e,2655,2024-12-16 21:17:39,3180.4,Debit,Gonzales-Anderson,Lake Tom,0
+98d90d8a-17f9-486e-8f14-6352e6184101,6693,2024-11-25 12:06:33,4516.81,Credit,Middleton-Obrien,East Jenniferburgh,0
+8b5bb879-8bb3-4b90-aed7-f271447f2c50,3620,2024-04-14 16:49:21,729.16,Debit,Wilson Group,Pamelaview,0
+6e2b4cd5-0b39-4e86-a8a7-c0ae1e0d5019,9008,2024-05-23 17:47:00,-4359.75,Debit,Cox-Morris,Mendezchester,0
+e95cabbd-e1ea-40e8-aaf6-da79be1ef2ad,8705,2024-05-13 00:26:18,4721.61,Debit,"Mcneil, Rich and Martinez",West Jenniferfort,0
+16af73f2-c429-4e45-ac0a-34b49558beec,5821,2024-05-15 06:55:36,4184.81,Debit,Wagner PLC,North Nathaniel,0
+49afb74e-e08b-4192-ba8c-231036a582fb,3315,2024-08-05 19:01:33,-3597.29,Credit,"Bullock, Montes and Richardson",Kaitlynfort,0
+fe3f8633-e735-43f3-a7dc-6415db14d680,3156,2024-07-08 10:26:54,-3890.62,Debit,"Walton, Cortez and Luna",Jacksontown,0
+ab4d7bff-a753-4bdb-b22f-124461533924,9762,2024-02-26 08:19:17,-4618.15,Debit,Schwartz Group,Danielleville,0
+2401ec5f-57b8-4e4f-aa32-f81a98bfce07,3672,2024-07-22 19:26:25,-150.75,Credit,Williams-Barnett,Davisstad,0
+4a67772d-0138-40f4-b4b6-058d91054824,3185,2024-02-05 12:15:51,-2740.78,Debit,Howell Ltd,East Christina,0
+53b9d6a4-95cd-4e88-add9-4d3bca95be19,9664,2024-05-21 05:19:31,4804.88,Debit,Miller Inc,New Aliciaburgh,0
+93f3e864-6514-41bf-8d4b-bb7e087500cf,7918,2024-01-23 14:24:19,-2958.93,Credit,"Allen, Moore and Green",New Tyler,0
+951be308-a968-458c-a50c-aa05cbddfc64,7930,2024-03-02 19:15:06,588.74,Debit,"Martinez, Martin and Crawford",Port Matthew,0
+8e43270d-6d4e-4c82-982a-9e2d61e67294,6313,2024-06-06 16:43:05,1424.55,Credit,Davis-Lopez,Tonyaland,0
+3f12625f-a4fa-4a5f-9334-4bfc62e76d47,9458,2024-12-07 16:18:14,1795.51,Credit,Clark-King,Weavershire,0
+ef2b8f01-50f8-4803-9bb4-7c82aea05e8e,6334,2024-07-02 13:12:47,2642.13,Credit,Cowan Group,South David,0
+73518685-dd90-470c-85f2-07ce0cc316e4,6042,2024-12-14 09:40:11,-204.84,Credit,Baxter-Thompson,Andrealand,0
+38c8046b-359e-4ced-b962-b58a3b8dee6a,7757,2024-08-05 14:50:07,-227.36,Debit,Reynolds-Acosta,East Michaelfort,0
+c431d5e6-9e00-426f-a0a9-8fbf0e87d757,2267,2024-04-10 06:28:10,2360.47,Credit,Simmons Ltd,Derektown,0
+42f53d5b-4413-4023-8c00-cdd3a78afbb3,1838,2024-04-24 21:58:04,-1466.81,Debit,Harris-Acosta,North Desireeside,0
+b76ca64b-170e-4799-b9f2-bfeca47890a4,9791,2024-01-30 21:07:07,-1537.39,Credit,Roy Group,Powellbury,0
+5afd2d42-6822-4d82-bd8b-6488c0d0fe72,6796,2024-04-02 19:04:13,-4759.4,Debit,"Hamilton, Perez and Riley",Foxbury,0
+baa87dcd-9a39-44e0-b770-8913db5756e3,2273,2024-08-16 08:00:01,2425.01,Debit,Stewart-Miller,Lake Brendaview,0
+29810f4c-0960-4f01-869e-a700d0fd0b7b,1023,2024-01-14 00:48:24,-1768.12,Debit,Perez-Lucas,Marktown,0
+6b72958f-4658-404e-a343-fa7d1e5a8f35,1096,2024-05-07 11:31:58,4173.73,Credit,"Davis, Moran and Pruitt",Lake Lauraton,0
+845ae84c-3e65-40e1-921e-d3016ab12a16,3965,2024-03-02 00:28:14,-3243.41,Credit,Barnes-Landry,Frymouth,0
+fe1045e8-3808-43de-8901-5a89f435b14a,6241,2024-10-18 11:13:53,3208.55,Credit,Martin Inc,Jamesfort,0
+a2490ba2-6142-4cf4-8664-7cbccaab4574,6833,2024-06-30 13:00:44,333.13,Debit,Campos-Mcguire,New Nathaniel,1
+f3c1688b-f133-45d7-8c88-f8af03186e58,2707,2024-03-26 21:38:54,-929.48,Debit,Le PLC,Lake Robertborough,0
+904abfd5-cfbd-4c30-87b6-99156e5cc6a9,5746,2024-03-02 03:14:27,1402.3,Credit,Young Inc,Port Julia,0
+30b1f352-9b61-450b-b163-e0758cd950d3,2989,2024-06-05 22:45:01,1835.11,Credit,Davis Inc,South Jeanstad,0
+438153c1-3aba-431a-bc78-2ca3cd08d23f,5450,2024-10-12 19:19:49,-1588.76,Credit,"Gilmore, Campos and Medina",East Stephenburgh,0
+9acae3dd-1723-437b-9971-d6d407f31651,4952,2024-08-04 14:16:03,-2538.83,Debit,Palmer-Landry,South Jeffery,0
+19252f3d-bf64-447c-8152-a1afb1ee6396,3586,2024-01-28 21:37:07,-3481.99,Credit,Kelly LLC,Perryville,0
+24c60652-4ece-41a1-838d-707e95b902c6,8515,2024-03-10 01:13:01,-2565.49,Credit,"Briggs, Morgan and Mccann",Lake Ricardochester,0
+e33f013f-f0dd-4f7b-b8f9-9976aeaa849f,7273,2024-05-31 11:20:47,2607.87,Credit,"Hampton, Casey and Webb",New Janetland,0
+e408f088-434e-4a7d-a672-3bd3060aecc6,4128,2024-11-29 07:17:41,-3884.1,Debit,"Williams, Jenkins and Martin",Amychester,0
+51bd0d41-600f-41a4-844e-0de90555ff14,7978,2024-04-16 07:27:50,1838.24,Credit,Todd Inc,Cummingstown,0
+9b2ae2b2-ba72-4730-b9cc-b43c843b8509,3472,2024-10-26 20:24:13,-929.03,Credit,Wiggins Group,South Dianamouth,0
+ede21d23-ec99-4912-806c-474b8888a6fe,3201,2024-06-12 05:10:01,-2872.01,Credit,"Douglas, Smith and Castro",Lake Joshua,0
+12c412f2-e3c1-438b-b669-24c8cf42dcaf,9129,2024-03-02 15:05:07,142.63,Debit,Castro Ltd,Port Elizabeth,1
+36cabb60-9374-4d3f-aff4-5e8c699f01db,1313,2024-05-17 11:35:03,4232.52,Debit,Greer-Cowan,Lake Rebeccachester,0
+0aaa4778-4b68-4392-9109-ccb76993c13d,4202,2024-08-18 05:41:13,-1450.66,Debit,"Rodriguez, Spencer and Cole",Davilaborough,0
+c59cebda-7750-4771-aa49-c322eeedadd7,7768,2024-09-15 11:27:44,-765.86,Credit,Lyons Ltd,South Amy,0
+700da941-7549-4afa-bcb2-20b8c2b2485b,9415,2024-11-21 15:35:39,1954.87,Credit,Armstrong-Foster,East Danielstad,0
+bf85601e-e92c-4d74-8e96-67a9257252d8,5298,2024-04-27 08:33:57,-2995.28,Debit,Lynch LLC,Lake Victoria,0
+8a8771a9-e348-47f0-9a27-8438d551c227,3850,2024-01-31 12:09:01,971.5,Credit,Roth-Weber,Ryanfurt,0
+0ea8d026-990f-4f8c-b790-9533775512a6,3806,2024-09-03 22:03:40,1415.78,Credit,Grant-Lee,Lake Jennifer,0
+91c9b918-ac26-4925-94d6-eb1301defd06,4281,2024-07-05 23:52:20,-640.24,Debit,Sharp LLC,Cristianton,0
+d2d143f2-0209-40c7-83b4-e9e1e8c0c2b9,2712,2024-02-09 17:43:36,798.75,Credit,Brown-Higgins,Hodgeberg,0
+cc7e4795-909a-4f96-b3a2-e861dc2f6ae2,3644,2024-06-25 11:40:08,-879.39,Debit,Cooper-Hill,Joeport,0
+7a4b3875-9e14-4c65-b3c2-9aeb0eb3983e,5696,2024-09-04 23:21:57,3521.53,Credit,Sanders Group,Baileyborough,1
+1721f677-d3af-4334-82a0-c6c3c1554605,4983,2024-10-02 11:54:47,1068.41,Debit,Gilbert Group,New Eric,0
+0cd0e685-9319-4612-b3b5-71c3f516d9d0,4343,2024-08-23 08:32:53,-3323.45,Debit,Moore Ltd,Debbieville,0
+109c1f51-5c1d-4283-907d-a3e446cc2c35,7314,2024-11-30 18:08:41,-2909.42,Credit,"Coleman, Hahn and Smith",Dennismouth,0
+be04d211-edd8-40f5-91ca-c2ab52867675,3200,2024-02-27 02:25:29,-1161.12,Credit,Gonzales-Jacobs,Port Johnbury,0
+25a50366-04fb-4a66-bd79-8ca4ae59f537,8166,2024-10-23 19:16:35,190.82,Debit,Jones-Williams,Port Moniqueborough,0
+5c3e4efa-f773-4713-a175-3fb9382eb17c,9839,2024-02-14 21:37:22,672.26,Debit,Moore Inc,Gibsonshire,0
+9c8521be-20c4-43fb-8e4f-3a019ea5e78e,1940,2024-05-29 21:22:55,1242.84,Debit,Moore Inc,West Amandafurt,0
+98577e11-89db-4c37-9fbd-7fb34de8168a,3414,2024-08-17 12:12:07,2315.88,Debit,Ramirez-Carlson,Bowenville,0
+9e44ba58-2844-4a88-9312-c8ecfd7a9637,3089,2024-08-09 11:06:41,-1270.91,Credit,Reed Group,Jacksonstad,0
+750528f8-ee3d-413d-8aae-7603d46c09f4,8335,2024-07-03 11:42:45,-118.92,Credit,Reid-Miller,Lake Joycehaven,0
+be42b614-54e6-4f4f-935c-fa624219ec70,8447,2024-11-13 20:22:10,1212.84,Credit,Young Ltd,Weaverberg,0
+1177ca74-fc84-43d2-9eda-e5c51a128d08,8780,2024-02-23 10:30:21,-2250.22,Credit,"Franco, Smith and Pham",Rayview,0
+11a76551-b87f-4317-adcd-e96b499db277,3001,2024-04-21 18:16:29,-2948.02,Credit,Morrison LLC,Benjaminfort,0
+19778882-3a15-4d66-8fe6-8a65e60f3417,9655,2024-06-28 19:12:25,4304.06,Credit,Jones-Ferguson,New Susanview,0
+471c3821-1276-4aa3-8204-e07e9559610e,5314,2024-03-29 06:41:48,-307.25,Credit,"Oconnor, Guzman and Chen",Fitzgeraldshire,0
+b9e3ef03-f6f7-434a-8d8b-412a8f53bf3d,9097,2024-07-03 22:18:24,-2837.42,Debit,Newton-Burton,Lake Mark,0
+4a788c02-0be3-4d03-a116-9894c0504a30,4992,2024-01-30 06:03:11,1205.77,Credit,Valdez PLC,Tuckerhaven,0
+c1e2b962-5673-4878-9510-cb78eb9fd1d5,9445,2024-11-27 16:39:48,2414.18,Debit,Hampton-Taylor,North Barbara,0
+74971929-46e1-42ef-9c44-4c002771cea5,3334,2024-10-05 05:57:31,-194.53,Credit,"Burton, Diaz and Mendez",West Ellen,0
+4526fc49-10e8-44a6-9c82-87d430dba81f,9553,2024-05-22 10:02:34,-3465.95,Debit,Vasquez Ltd,Brownhaven,0
+e62db2a7-1ce5-4d29-b1ab-a478caac562d,5064,2024-07-12 22:15:36,-91.31,Credit,Wall-Baldwin,Montoyaborough,0
+cf18a835-622c-44f8-88e7-34394462e5af,4514,2024-09-23 13:58:28,4981.22,Credit,Anderson-Brown,Russellbury,0
+96363dbb-87bb-4f11-9c09-f80f0dec24a1,3710,2024-06-27 08:40:57,-4648.85,Debit,Young PLC,South Justinberg,0
+aa293d1e-27a2-4d30-b591-29d279885ae7,2762,2024-08-15 09:53:08,56.51,Debit,Davidson PLC,Silvatown,0
+6093a654-f751-45ed-a0df-ef6ea7945ccb,6711,2024-01-31 02:57:36,-4777.52,Debit,Sullivan-West,Port Christian,0
+9aa0805f-839a-4b8e-b9dc-a00a6d75c6e6,7005,2024-10-02 20:03:47,-245.38,Debit,Cortez-Evans,Leahville,0
+3dc25c99-0e2b-4172-a2eb-346af42b4fa2,5430,2024-10-15 17:58:16,-1225.01,Debit,"Williamson, Hogan and Flores",New Joseberg,0
+522e0fc7-9a07-4028-97e9-e79c212b8166,1937,2024-12-06 06:39:33,4273.91,Credit,"Ford, Strickland and Rodriguez",West Christina,0
+1a6021fc-d072-4123-a9a9-37b8c627c8e1,7809,2024-09-22 21:39:46,-3498.53,Debit,"Vincent, Russell and Allen",Port Vanessaberg,0
+d2916765-b360-4a96-af05-aa9fbc796528,1723,2024-02-21 14:49:05,3841.6,Credit,Shields-Smith,South April,0
+e53d2e76-b776-44c0-a691-8c4e82778c00,9757,2024-04-14 20:24:30,-560.25,Credit,Ramirez-Nguyen,Lake Mike,0
+08cd6891-e410-46ec-8d62-0b6130818840,6039,2024-08-17 14:27:02,-617.49,Credit,"Riley, Wood and Jackson",New Xavier,0
+25e0703f-2333-41d4-9444-9af460446120,8637,2024-03-05 14:55:39,-3049.39,Debit,"Howard, King and Ritter",Christopherfurt,0
+f344c152-ea36-4100-9e3d-1041e58e3d43,9934,2024-01-23 05:09:53,-155.62,Credit,"Gibson, Franklin and Andrews",Odonnellfurt,0
+f7135c1e-dd2c-4389-b6ec-4f39641a6a4c,5580,2024-11-28 01:28:23,254.06,Debit,Gonzalez-Hansen,Pamelachester,0
+1479c80a-690b-41e7-a0e7-cf520ff1cfcc,5696,2024-09-25 19:52:38,2603.39,Credit,Hanson and Sons,East Jessicatown,0
+7d9a986c-69d6-4f71-ab4f-fffaed08666a,7135,2024-10-01 05:10:19,-711.35,Debit,Lang-Jackson,Lisaport,0
+29818892-b0c1-44c9-88c5-4dbf8ec5363f,3257,2024-05-25 10:36:06,-3822.64,Credit,"Mitchell, Jones and Sweeney",Lake Jessicaville,0
+c2f731bc-981f-4609-aed7-5ab45e985bc7,1748,2024-02-10 09:37:31,3058.53,Credit,Wilson-Williams,South Amy,0
+25bea122-8158-423b-a081-4a0f0ecd1ff6,1744,2024-03-06 09:43:59,1192.95,Debit,Hutchinson Group,Andreaborough,0
+5d57e0da-02e5-4995-a255-23dd5591df6b,3626,2024-01-02 03:11:05,3339.04,Credit,Sullivan PLC,South Courtneyshire,0
+9444a73e-83fd-4399-a21b-8dc3b1ef45f1,2837,2024-02-29 23:21:43,78.48,Credit,Rodriguez-Sanders,East Heather,0
+0210cc9a-344b-4aca-b765-5ecd508a225f,7359,2024-04-01 23:23:24,-4461.89,Credit,"Lane, Anderson and Thomas",Lake Christopher,0
+d74d97bc-2c28-44cb-aaa0-66b37286b927,7814,2024-06-27 20:39:12,3407.93,Debit,Sanchez LLC,Rebeccamouth,0
+3289457a-a5e9-44c3-813b-5930ef7298c9,2050,2024-08-17 02:01:58,-1371.24,Debit,Cooper-Thompson,New Jonathan,0
+963261ab-2986-45fa-bbef-b3b016836039,9384,2024-10-21 11:34:52,3102.77,Debit,Mcneil Group,South Danielle,0
+bc370815-f219-4ea4-b920-0df175a7a6d3,3251,2024-11-12 22:45:46,558.1,Debit,Castillo Group,Port Lisa,0
+063d0c48-e3f1-4a01-aca4-f0f2afe88338,5257,2024-08-30 21:50:11,3374.89,Debit,Warner Inc,Strongberg,0
+94f06c11-755b-4020-b811-450f79eaf420,1331,2024-05-16 04:22:47,431.3,Credit,Morgan LLC,New Roberthaven,0
+b4dce99f-1045-442d-b5fb-2730bfb7d903,3880,2024-10-04 22:36:24,-4648.4,Credit,Jones Ltd,New Jennifer,0
+f88650a9-ecab-4d02-abde-6fed4be84128,4481,2024-10-09 07:32:31,871.39,Credit,Dunn-Martinez,Harrisonberg,0
+8e06ea9b-b5b1-45f4-a91f-8f6e108365bf,9724,2024-10-13 13:54:27,3536.25,Debit,"Garcia, Bowman and Dickerson",Williamsville,0
+bbfb218d-e2f1-47a1-b1bc-e408f5c8a7df,3596,2024-07-09 09:11:57,-2851.5,Credit,Wright-Cantu,South Jerry,0
+5d48c9ea-061a-4f0c-b273-fc7b2d24a515,5681,2024-07-06 21:13:19,517.8,Credit,"Ayers, Rojas and James",Dunnstad,0
+391219d1-b657-47b1-8d4b-dcf8975568ae,1672,2024-07-21 18:42:28,1860.1,Debit,Malone-Duffy,Wesleyton,0
+20d05f41-708a-41ff-b20a-aa4d7efc61b2,3454,2024-04-23 13:12:24,-1546.57,Debit,Lyons-Lopez,East Tina,0
+da62ae53-f8ce-4b1e-86cd-bf1cd8fe0476,2887,2024-12-13 07:46:35,2903.34,Debit,"Miller, Ross and Stewart",Williamsmouth,0
+bcc9b1bd-99df-425e-972b-1ddec504ed9b,1134,2024-01-01 06:53:18,718.85,Credit,Hernandez and Sons,North Mark,0
+f3c67e13-8869-4c49-91ad-b1c46b61b137,5045,2024-05-20 22:22:40,4701.76,Credit,"Roth, Alexander and Walker",North Jenniferburgh,0
+319c3f0c-cae1-48f0-9151-d5dad17bff96,2661,2024-12-09 17:14:24,-2682.93,Debit,"Gonzalez, Moore and Brooks",New Cheryl,0
+ac777f91-8fa4-4b67-9a66-ebbfe2faae4f,2958,2024-02-14 00:45:17,-1660.11,Debit,Parker Ltd,New Wendyshire,0
+39867ab2-e239-404a-a459-62f58004c02d,4842,2024-09-04 07:58:23,-3649.15,Credit,Bush-Perry,New Jeremiahview,0
+84054192-9773-4fbb-a041-650c70e3b4e4,4289,2024-01-22 11:10:38,-1315.47,Debit,Nixon Ltd,South Allenside,0
+869797c9-6ccf-4022-a777-e6a5fa638b5f,1207,2024-01-30 09:48:50,-3033.84,Credit,Wood-Byrd,Aguirrechester,0
+b29fd394-516f-45ee-b91b-53eddd4319ed,1076,2024-10-18 01:11:33,-4086.39,Debit,Bird PLC,Powellville,0
+2c7240e1-cc20-4ff4-938a-0b96f66bd853,4403,2024-05-11 20:54:44,-906.91,Debit,Davis Group,Anthonyshire,0
+867541cd-184c-40ca-9aad-0e728464c2bd,8878,2024-02-06 02:37:42,-4897.93,Credit,Calderon PLC,Lake Adrienneberg,0
+2910d640-085e-483f-baa8-2e8e8beac7f0,2527,2024-05-22 20:18:53,2983.92,Debit,"Thomas, Vazquez and Chen",Moralesmouth,0
+ea699a44-41f6-41a3-b12c-4000b239a17e,8634,2024-09-21 10:33:47,-3062.86,Debit,"Barnes, Harris and Howard",Lake Mariahfurt,0
+0d6d4953-7274-4856-aca2-ddd02e71f8d5,1215,2024-09-22 20:24:50,-3741.28,Debit,Patterson-Davis,Port Allison,0
+f5e474c1-4f35-4044-bbfa-10531edbf8c8,5825,2024-10-13 18:23:33,1297.35,Debit,Bates Ltd,South Donna,0
+dda8fbdf-b513-4ccb-8dde-af7d67608576,5856,2024-09-26 03:09:34,-3367.41,Credit,Sloan and Sons,West Kelseyfort,0
+4a23fd78-e512-4a6f-b3e8-0b8dfc41696b,8273,2024-02-29 10:53:26,-2203.62,Credit,"Gonzales, Pugh and Hanson",Anthonyland,0
+1d436154-2ca7-4b52-a5ae-918aa05c82d6,3458,2024-09-16 07:17:05,4792.14,Debit,Carr-Schroeder,Jasonview,0
+2608395f-b488-437b-bb46-83892521ac43,6957,2024-07-02 21:52:07,-2755.09,Debit,Green Ltd,West Cathy,0
+0006fdce-90f1-4f0f-815c-bd34e78249e3,9322,2024-01-13 11:12:34,-55.94,Debit,"Rogers, Sanford and Miranda",Christopherberg,0
+7eccb6f4-787a-4fb6-a672-d9446546e2d2,7938,2024-11-22 14:37:17,-1073.09,Credit,"Hall, Carr and Hanson",Lake Markside,0
+1a8e8de7-8b48-4b3a-8fda-95fca45e38f2,1965,2024-07-11 21:45:57,-354.06,Credit,Goodman Inc,South Sara,0
+7bd4ca99-ec48-40cb-8b82-ecb258f98fe4,4222,2024-08-21 20:10:11,-4.44,Credit,Martinez Inc,Mcclainberg,0
+e3c45b6f-d524-43d7-bb65-6df4442c8799,8757,2024-01-05 09:38:46,3320.85,Credit,"English, Lynch and Morris",New Stephen,0
+438bd78b-0a0c-4327-9e2d-dbe868212506,1239,2024-05-18 09:34:52,-4946.28,Debit,"Gallagher, Randall and Rivera",North Sean,0
+18f6156a-69ff-4a8b-a96e-7a5a26236e12,7066,2024-06-20 12:01:51,2453.55,Debit,"Hall, Ellis and Miller",Hillland,0
+0da7cc89-34d4-4a12-9b91-af274b9a38c5,1584,2024-06-09 05:29:13,-1723.69,Credit,Howe-Robinson,New Aimeechester,0
+81cc0fde-273d-4b31-8ef1-72a3b818775b,8103,2024-07-25 19:57:14,2127.27,Credit,Thomas Group,Nicolefurt,0
+db5e5c6f-0dd0-40b6-999a-d226e79ef6c9,8931,2024-11-23 21:51:37,-4963.87,Credit,Hawkins and Sons,Port Andrewport,0
+8754b554-9f33-4ca7-8dd8-66beb8be19b0,7928,2024-10-03 01:53:39,-4449.26,Debit,Cunningham-Mitchell,Patrickmouth,0
+de0d9e9a-7c3d-4344-a9ac-774e63f3f9f2,5920,2024-08-27 11:18:14,1019.01,Debit,"Brooks, Harper and Middleton",West Tammyville,0
+6cfc52b4-b097-40b0-93fc-e343fd7c815d,6060,2024-07-18 18:56:21,-1175.92,Debit,Donaldson Group,South Elizabeth,0
+b638cec2-f73a-45aa-a822-d917fa81b49e,3889,2024-07-09 13:56:31,-2319.48,Debit,"Walters, Hensley and Sloan",Davisport,0
+c0ddae0f-3db9-4a7b-a069-ba78cbae9d1d,7428,2024-06-25 15:36:35,-1170.86,Credit,Davis-Harris,South Matthew,0
+6ea3e4d4-ce8a-45af-873e-b0604329997c,2664,2024-02-24 23:27:40,-410.49,Debit,Reese-Hernandez,Fernandezmouth,0
+942b75dd-3292-4ce9-aeea-64f8d7ac701d,7122,2024-01-09 01:32:34,-3765.25,Credit,Johnson-Baxter,East Danielleport,0
+ba15faa2-e4ce-43ef-b688-46a504c9c0d9,7589,2024-05-22 01:27:06,1557.82,Debit,Hoffman-Nelson,New Kaylastad,0
+1879172c-dd3c-42f1-9197-3483e3c9593a,4139,2024-05-17 06:32:27,-2734.41,Credit,Torres-Mcfarland,Hendersonmouth,0
+d3eff3c3-78c8-4c97-af80-fba29e5427e0,4958,2024-04-12 19:50:26,-591.51,Debit,"Martinez, Lewis and Miller",Martinview,0
+9244f8f1-8280-4f9b-9c82-21bd9d8e5d86,2175,2024-08-06 02:05:13,1307.6,Debit,"Blair, Rogers and Brooks",Kaylaton,0
+db292b47-ab89-41b8-a75f-61b54a33942b,6574,2024-12-15 18:33:59,-2132.43,Credit,Webb-Leach,Lake Michelle,0
+28a3a355-4578-451c-8c25-663c416f67b4,3690,2024-11-22 23:28:10,-2005.49,Credit,Green-Weiss,Robertton,0
+31b8993d-a727-4550-8aec-ab96890f1119,3798,2024-08-31 22:10:26,2449.85,Debit,Bush-Olson,Swansonmouth,0
+0e268e68-71ab-4d2f-9f55-0449133df884,4606,2024-02-24 00:53:46,4549.27,Debit,Nguyen-Walker,Stacyview,0
+291899e2-fabf-47c0-a05a-4d8382f3e3d1,1577,2024-10-30 19:39:52,4619.27,Credit,"Villegas, Ortega and Graves",Karenton,0
+b2eced3e-b800-4432-b95a-0540f0593a6c,6991,2024-08-15 16:36:59,3936.84,Debit,Harris-Carter,Brownberg,0
+4cd45723-f323-42f6-8b5e-36c2d127b6cc,4608,2024-04-03 16:14:14,-3034.06,Debit,Jordan LLC,Kelleyborough,0
+9ad8ee6c-b5b9-4a42-8192-ed2cd1e027ff,5180,2024-10-20 10:23:18,-3093.3,Credit,"Holmes, Montgomery and Gonzalez",Johnsonview,0
+9a62d571-e246-4f4e-a7cc-627812033aa5,8604,2024-10-18 08:58:54,-4050.17,Credit,Preston Inc,Brittanyhaven,0
+00b36911-da4f-419c-9598-6082f2f70b54,5334,2024-07-22 09:42:14,228.85,Credit,Kim-Wilson,Lake Lindashire,0
+f90b79cd-4687-4bed-b512-54b483cba6d5,8245,2024-10-08 12:17:33,-3421.33,Credit,Bennett-Thomas,Nicoleland,0
+2182ea38-f19a-4d9e-b7ee-3e2c52b4607b,8031,2024-09-22 15:34:58,1471.56,Debit,"Perez, Guzman and Hernandez",North Amanda,0
+299c000b-a415-4d7f-882e-91dc3c85e150,6132,2024-01-29 19:34:32,1719.35,Debit,Ramirez PLC,South Garyberg,0
+5937e85b-efee-4542-805f-21b42218d6d3,9336,2024-07-12 19:27:58,-4731.84,Debit,Knight-Fletcher,Hamptonchester,0
+31cbd523-2956-44d1-a313-8db025c76209,3202,2024-12-15 06:48:05,-344.04,Credit,Vance Ltd,Barberfort,0
+82f878e8-2b41-48c0-a411-57ed6e82fa6b,3280,2024-09-16 03:35:13,912.69,Debit,Bradford Group,West Stevenberg,0
+cea60d99-424f-4af4-9121-d7c8c337d8a3,5997,2024-12-09 17:28:51,-4128.23,Debit,Murphy PLC,Johnmouth,0
+b9297336-afa1-453d-8ccf-d71efe38bb54,8492,2024-01-13 11:26:32,1374.93,Credit,Schneider and Sons,South Garymouth,0
+59271842-a5c3-4359-b315-8109a73bc75e,7298,2024-06-25 08:32:59,-4925.66,Debit,"Greene, Newman and Aguirre",Cookville,0
+31fd4069-91bb-4fc8-8fb6-3bb8269f3eb3,7727,2024-08-15 00:20:44,1320.63,Debit,Beasley-Yates,Josephmouth,0
+d33d37aa-a513-48ed-b927-460b496993b4,4084,2024-06-16 09:30:42,-3447.92,Debit,Johnson LLC,Kingfurt,0
+94d83dff-615a-480e-83ce-9ab323a54aa7,3159,2024-01-12 03:33:04,1888.57,Credit,Villegas-Davis,Lake Kendra,0
+6ee3f4ca-09fe-4e94-81d0-a0bdbdc9e566,7026,2024-01-25 17:58:34,23.56,Debit,Nguyen Ltd,Millershire,1
+1f9a5efd-8912-4d4a-a012-28a6c9e35605,4379,2024-09-22 14:26:39,-4252.34,Credit,Hayes-Davies,West Robert,1
+9196af6d-f269-480f-bab2-bb5a483a7c01,6946,2024-05-19 22:06:02,-1336.33,Debit,"Patel, Burke and Tyler",Reedbury,0
+e3168f39-e765-44bb-ad8d-40d724ee4ced,6120,2024-02-23 09:04:22,1010.48,Credit,Mays Inc,South Richard,0
+885f559d-c98b-424d-afc8-675b355ff4f6,5569,2024-11-10 14:33:38,-1507.22,Credit,Hall-Mooney,Tanyamouth,0
+e98110b7-5026-4e38-becf-59a8d53d8ee0,9746,2024-07-31 18:06:01,2660.42,Debit,"Wells, Cummings and Perkins",Bettymouth,0
+252f966a-e4a5-47cd-8bdc-29e4e4e9d882,9586,2024-09-26 18:16:12,2516.1,Debit,Brown-Chavez,Loganton,0
+190c9bec-5a89-4c21-8c3f-32dfe1e01928,4752,2024-12-09 18:35:44,-4428.01,Debit,Wu LLC,West Amy,0
+53d8f25e-ddf9-42e1-bd6c-4aea14096447,5827,2024-08-24 10:27:12,-2408.18,Credit,"Mccormick, Brown and Holland",Dorseyberg,0
+962c6843-5aff-4a74-80bd-21fd83220e7a,8755,2024-09-09 04:21:34,-843.92,Credit,Walters-Anderson,East John,0
+5bed7432-a387-45dd-8fd5-89c364c7d8b7,3101,2024-08-28 11:07:38,-2481.38,Debit,"Williams, Day and Garcia",South Samuelshire,0
+a750b443-f6ba-4c9f-bdb4-90888e1566ac,7821,2024-08-02 03:27:13,743.18,Debit,"Flowers, Goodwin and Thompson",South Maria,0
+1e022d93-32ee-4583-b5d6-90ab3e73448f,1936,2024-10-02 09:59:54,4978.14,Debit,"Harrison, Davis and Thompson",East Bryanview,1
+827ed27e-319a-4352-af74-c33272a91fbf,2795,2024-05-27 21:57:14,3839.1,Credit,"Hubbard, Sawyer and Harris",Reidport,0
+6b36216d-6ffb-42bc-b8f0-598a543c83c8,2203,2024-03-24 12:43:21,631.15,Credit,George-Taylor,West Stephanie,0
+0d404a12-3cba-4cfa-9a17-adef3f6f83c8,5670,2024-02-23 09:55:16,-2141.88,Credit,"Williams, Collier and Lynch",West Markland,0
+fab2baf3-a389-471f-b65c-240c383f29bb,6849,2024-09-25 15:09:37,668.04,Credit,"Adams, Hart and Wells",East Jennifermouth,0
+d60c89f8-5f21-472f-bc50-df9349bdd9fd,8564,2024-05-16 03:51:37,-1143.8,Debit,Pugh Inc,West Aaronmouth,0
+45dedc10-1f46-4211-8552-93f24599c751,7961,2024-04-13 16:47:51,-2937.06,Debit,Macdonald-Blake,Kimberlyshire,0
+89498bbc-8b7d-4198-aab6-1a4a9fe79ba0,9859,2024-05-18 18:41:55,-4984.94,Debit,"Serrano, Rogers and Edwards",Tonymouth,0
+c5468da0-da59-4c2b-85c5-0ec227e287f8,1835,2024-08-06 06:09:55,2294.09,Debit,Gutierrez and Sons,Cruzshire,0
+0af3f049-7b75-4411-a78b-098f74961132,8312,2024-02-22 08:53:02,2849.14,Debit,Hill-Ferguson,Richardview,0
+3b6b7d65-dbd4-4960-b73b-cb45253bd5f1,7183,2024-03-16 15:28:47,-4130.02,Credit,Schultz-Harris,Ericside,0
+7ebc70d8-8275-4abe-8005-571483530baa,8716,2024-01-10 05:58:36,3733.19,Debit,Johnson-Wilson,West Douglas,0
+38a81474-b54c-49fd-a4c0-1a4bd75d6e43,2086,2024-11-02 01:19:08,4647.4,Debit,Stafford-Martin,East Josephshire,0
+fa589c2a-f440-46f7-ad19-21d7e935d520,8395,2024-03-31 11:24:50,-4248.56,Credit,"Jones, Richards and Miles",Alexandertown,0
+34bca867-6834-4f32-8bfd-8ae677bc93f1,1228,2024-11-05 06:23:11,1501.73,Debit,Brooks Inc,Port Benjaminstad,0
+b6755240-2882-443e-b49f-71d5bcacfd3d,3451,2024-06-21 01:26:12,-1319.55,Credit,Neal-Bradley,Brownbury,0
+9a0a2689-ab13-4bb7-bc33-95f17fa62c9a,1692,2024-09-13 07:31:01,-858.71,Credit,Hawkins-Spencer,Maldonadoton,0
+b5f57c79-a5d1-4ca4-aa99-1108784800aa,4783,2024-08-09 16:43:43,3597.86,Credit,Hays Group,Garciafort,0
+0ac25bcb-9dc5-4262-b7b6-e328e8239e72,8128,2024-07-19 06:31:50,-705.44,Credit,"Dyer, Martinez and Arias",North Kaitlyn,0
+f2c56e1f-b0f5-4ca1-afd8-270606765d5a,2700,2024-12-16 18:16:35,-4851.57,Debit,"Davis, Smith and Carter",Brookshaven,1
+bbefc49e-9004-40e7-856d-451a16433795,3208,2024-07-09 15:54:44,-2802.74,Credit,"Hensley, Holmes and Vargas",Berryburgh,0
+0e53fb9f-fbe8-4143-a188-efbc57da689f,6392,2024-08-03 11:54:18,1613.87,Debit,Stewart Group,Port Dean,0
+217634ff-a6ba-4598-b9cc-3a6d90452c94,6267,2024-05-02 02:23:14,1306.1,Debit,Smith and Sons,Lloydtown,0
+7def65cb-434a-4c06-9959-f5d75dcd8168,8677,2024-04-15 05:42:45,-2002.41,Credit,"Chambers, Lozano and Callahan",Wrightfurt,0
+371dfe87-8c88-47e1-8782-1199a6f8f2d8,2711,2024-03-25 05:10:06,2703.98,Credit,Boyd PLC,Rayfort,0
+0aab8e58-7952-4db4-97da-103fb1f933ab,4068,2024-10-23 17:01:26,-3414.77,Debit,"Avila, Kelly and Garcia",Debraborough,0
+234ae452-7d92-4bd6-982c-c0abcd6844da,8552,2024-04-05 17:42:49,479.54,Credit,Lee Group,Hernandeztown,0
+aa151bda-72dd-42ed-be74-0a5a651220e6,6454,2024-08-08 23:09:58,-2255.62,Debit,Kennedy-Jimenez,West Jamesport,0
+5404c1ec-b257-4701-9252-efd04168595a,3470,2024-11-05 14:06:13,-1300.07,Credit,Mosley Inc,Melissaland,1
+9e5fc37c-3482-4c4b-b4a4-8ced857fbb7f,5039,2024-05-14 20:03:39,2845.77,Credit,Brewer-Ford,Powersborough,0
+52be46a0-6b1a-43f6-90f7-ae3aa386e998,1349,2024-01-11 11:06:35,-2928.18,Credit,Walton Ltd,Hopkinsland,0
+55bbf547-fa46-4e74-b6c8-a197e812b177,4036,2024-03-06 19:30:05,-3218.81,Debit,Mckinney-Mcdonald,Younghaven,0
+205b550a-9c72-4309-b3ef-6049059a332b,8788,2024-11-19 14:00:53,4067.09,Debit,Nichols Inc,Lake Sabrina,0
+5c741a8d-9fb8-4242-8aa8-c75035f254aa,1028,2024-10-01 00:48:13,643.43,Credit,Farmer-Porter,Cummingstown,0
+6b5e9f5a-888e-4f63-8902-23dcf719b5bc,7113,2024-07-04 23:46:17,305.68,Debit,Kim-Leon,Cooleyborough,0
+80cc84c8-6083-40ec-8901-1c208fe4bb7a,8691,2024-12-06 05:51:51,-2982.72,Debit,Johnson-Smith,Lake James,1
+5e7d2e67-64d3-4897-8d61-12dd5f0b8d4a,5855,2024-12-16 21:54:59,324.63,Debit,"Daniels, White and Williams",Jasmineland,0
+7721f2b1-5455-4171-a25a-7cd7c7d5e25e,7556,2024-07-04 23:25:34,1409.76,Debit,Townsend LLC,Andersonmouth,0
+bc1aacf3-5878-4c4c-b80c-ab62a06027b1,7651,2024-01-17 23:20:20,-3447.5,Debit,Johnson Group,Port Rick,0
+f5668009-4aa4-40a0-af84-42997226deae,8221,2024-09-30 08:24:34,-3944.8,Credit,Gonzalez LLC,Port Jacquelineberg,0
+552ed605-39a8-44da-b564-2639fa5d9991,7977,2024-03-21 12:00:32,-1279.8,Debit,Proctor LLC,North Joseph,0
+0ea9eb23-2583-4784-a136-d6d19202f61d,3023,2024-04-05 05:09:50,3854.48,Debit,Cardenas-Edwards,Walkerberg,0
+e945ca60-ef08-43a1-b87b-548b79bcc8b4,1386,2024-08-10 15:28:07,-2356.49,Credit,Shea-Thompson,West Paul,0
+70683973-3131-4a48-be53-ab1057164966,5786,2024-03-11 08:42:16,-4562.6,Debit,"Franco, Grimes and Allen",Shawnmouth,0
+ae41d230-6c6c-44af-a89d-e4d82f4fd06f,8461,2024-03-18 21:31:52,345.18,Debit,"Frey, Bowers and Green",Henryland,0
+2f2c7a29-931e-4eef-aa47-9f4df8dab2a1,4166,2024-04-20 09:04:21,3458.3,Credit,Miller and Sons,East Joseph,1
+a600a9dd-0533-471c-bc4a-3b7fb1be4c3f,5910,2024-03-27 06:46:08,1687.52,Debit,Cole-Jones,Rachelshire,0
+a8a3c645-2add-481b-9bbc-e877ffe1e845,2098,2024-03-22 01:26:05,-3410.19,Credit,Lopez-Jones,East Dawn,0
+8a034569-812b-4aa8-a8de-6e815e06d146,7743,2024-10-09 05:28:47,-985.54,Credit,"Gonzales, Hernandez and Obrien",North Shawn,0
+2fd5fddf-3963-4f6c-9bec-c0648d2015d8,4118,2024-10-29 02:05:03,-2873.82,Credit,Wilson-Sloan,South Keithville,0
+3564bbd8-507a-4b4d-a969-5e74952967ed,5458,2024-10-02 20:38:22,-2351.5,Credit,Adams-Fernandez,East Madison,0
+a9a20f9c-f0c9-4202-8316-4914838ca257,9824,2024-11-24 17:21:23,-2966.25,Credit,"Haley, Gomez and Rivers",Craigview,0
+bf96f34b-8cc0-415c-9d04-d93e290bb38c,1729,2024-01-05 14:28:20,1383.89,Debit,Thomas-Smith,West Anthony,0
+4c5c6393-c972-4c3b-b370-9fe183bf7209,3479,2024-10-21 23:51:31,201.78,Credit,"Barnett, Stephens and Garcia",New Emmaberg,0
+2a0467ca-932a-4d90-b299-0d70744bc1a5,2372,2024-12-06 05:36:02,595.25,Debit,"Warner, Powers and Evans",Domingueztown,0
+cea851f7-d486-4a23-8a79-dfd78e61622b,8820,2024-07-07 00:54:09,-1875.84,Debit,Hanson-Silva,Karenshire,0
+f7be7241-edf0-422b-a863-2679eb47e0cf,1650,2024-03-08 15:23:54,-3730.07,Credit,Conley and Sons,North Gabriel,0
+acb3818f-8fab-40fc-8ee8-1a6627129010,2841,2024-06-25 22:16:46,-4007.34,Debit,Schmidt Inc,Trevinochester,0
+55b33f20-f5f7-49a2-a535-94e137fc0040,9338,2024-08-03 14:11:21,-551.3,Credit,Black Group,Lake Randallberg,0
+6836f2d5-d288-48a2-b02d-6b0fd29e6fa2,2423,2024-11-09 21:36:41,75.76,Credit,Hensley LLC,Georgebury,0
+47343e86-a17b-4c2d-baad-565ccc3a9d93,5528,2024-05-30 07:40:45,-2389.74,Debit,Roman-Miller,West Jacqueline,0
+a546cb7c-631c-4603-be31-dbc643133210,1652,2024-09-06 16:15:36,-3288.75,Debit,"Hill, Burke and Donovan",Anastad,0
+478206c7-b6d6-4c1e-b502-3ff52248c731,6124,2024-08-05 16:04:40,4733.43,Debit,Rodriguez Ltd,Port Michael,0
+611a5351-d23f-48b5-994b-f037f6ca8d5b,2045,2024-09-01 07:53:47,-300.05,Debit,"Hawkins, Lee and Gentry",Knightchester,0
+5cedbf7f-03bc-4120-9849-9a47e3fba7d9,3758,2024-05-22 04:29:14,-2768.42,Debit,Hebert-Castaneda,New Ashleyville,0
+25ed7c36-6efb-4e16-bd3a-7deb5d48ffd5,7531,2024-01-28 08:57:53,2257.17,Debit,"Bailey, Taylor and Nicholson",Kathrynport,0
+0bc8d8ee-d739-4bd7-ad89-2fa2fcad1668,4047,2024-08-22 15:08:18,2389.6,Credit,Maldonado-Sims,West Heather,0
+b4fc5903-3136-43ff-8c1f-6d2d3f6a279a,8333,2024-09-24 12:01:22,-3247.18,Credit,Li-Phillips,Lake Austin,1
+7cad49d5-f19b-4946-ab57-e8b2698ced9e,3748,2024-06-24 12:42:56,2397.1,Debit,Miller-Gonzalez,North Kendraburgh,0
+ec535900-f129-4400-ad1a-80d895b523ab,4015,2024-07-03 09:45:33,2858.49,Debit,Cooper-Patterson,West Johnhaven,0
+77efedce-7cca-4fa1-975a-5cd53c97386d,2803,2024-03-26 05:59:59,-2073.93,Debit,Harris Inc,West Melanie,0
+b3ec77bd-aa1e-4f21-988c-6f054bc95161,7994,2024-01-07 10:43:55,3500.44,Credit,Henry PLC,Aliciaville,0
+3ab1943b-95aa-463f-90b6-c7c0ea23fa79,7443,2024-01-17 05:32:08,-3722.52,Credit,"Gibson, Garza and Morgan",Gwendolynberg,0
+b1448cf7-8bc7-42db-97e4-35c94e738927,2826,2024-01-18 02:59:22,2552.21,Debit,Ortiz Group,Thomasborough,0
+28aa2f12-af95-49d4-9abe-0e1b6afeef6c,9855,2024-12-03 18:03:20,-2149.35,Debit,Douglas LLC,East Christopher,0
+f9c37b0b-fa4b-4b77-831b-04031a694a1e,4822,2024-04-04 01:10:14,-1723.42,Credit,Smith-Klein,Williamschester,0
+bd4308aa-dac7-4f08-a440-d5af7e90d4ad,8295,2024-08-14 11:15:08,4978.24,Credit,"Moreno, Humphrey and Hartman",Jamesland,0
+7982f27c-7b2b-48d8-8576-c81a496652c8,4690,2024-11-09 10:13:50,-1336.84,Debit,Jensen PLC,Randyton,1
+8f156f3b-e514-4512-8242-3773036947d1,3190,2024-06-18 21:01:44,1461.42,Debit,Cruz Ltd,Andrewside,0
+e59112de-e029-43a7-9473-355ad9e2986f,9426,2024-06-21 15:28:38,3976.52,Debit,Bailey LLC,North Jessica,0
+5023d4d2-6c45-48eb-b6b5-e4015f9d3685,6379,2024-08-31 09:47:26,3021.07,Credit,Martin Ltd,Brianberg,0
+5df40df2-04e7-41a9-a4d7-da3a8dd0f145,1909,2024-06-27 13:09:33,-4991.12,Credit,Reynolds-Rice,Port Willie,0
+20363aae-db92-4ed7-907a-287d9a0b38da,4836,2024-12-16 11:20:11,-1658.48,Debit,"Richmond, Davis and Ramirez",Nunezberg,0
+75a77bde-84c7-4593-9be5-45d7c09e59f0,9448,2024-05-10 20:06:04,-3318.2,Credit,Richardson Group,New Robert,0
+938927dc-08c9-42e1-9bfd-47dfee6d7b6c,3137,2024-03-23 10:00:08,2055.22,Debit,"Thompson, Simmons and Ortega",South Andrealand,1
+b721385f-efc6-4e40-86d9-2bb6a327e666,9917,2024-01-23 13:18:39,1887.09,Credit,Freeman Inc,South Riley,0
+713f8aee-3624-44f1-a2d7-50876236c22f,6670,2024-08-31 02:32:26,4409.66,Credit,Dunn-Lowe,New Brooke,0
+6ce2d76d-7939-4e76-a66a-f48baa302985,8770,2024-05-09 10:04:32,-3689.62,Debit,Rodriguez-Williamson,Port Megan,0
+d1059f35-3dc1-47a6-9f00-bf1947d10ad6,1486,2024-06-26 23:59:27,272.81,Debit,Hicks-Brown,Atkinsonfort,0
+72868f0d-7fc4-474d-9da8-1e0306e87b3c,6524,2024-05-26 00:09:23,-4161.14,Credit,Buck-Reyes,Guzmanmouth,0
+a5e1d78f-d4b5-4505-ae7b-57e3e92bea84,3551,2024-07-26 09:06:41,86.93,Debit,Howard-Kennedy,East Jenniferstad,0
+5a8141a6-c1f8-429e-895d-793c434f6547,7207,2024-09-13 20:33:40,3433.35,Debit,Shaw-Huffman,Cindytown,0
+accf6e34-0e19-4025-b210-3b4a36514c50,3178,2024-03-23 19:08:21,-3737.95,Credit,"Shelton, Sanders and Molina",Courtneyview,0
+7ce28916-02b6-446f-bff1-3d3ea085f85d,4570,2024-05-10 04:01:48,-3110.52,Debit,Johnson Group,Jenniferfurt,0
+4f5ec695-562c-4712-aff5-7b60d5dbd838,3855,2024-08-31 18:15:26,-2593.45,Debit,"Mcdaniel, Reed and Lewis",East Troyborough,0
+c41dd167-2cd0-4972-ab9b-841f751b1c65,6202,2024-07-03 14:11:48,1653.36,Credit,Bowen and Sons,Barronview,0
+ae695f1e-53f5-4e39-b1d7-cb646531d16d,7383,2024-01-22 17:21:38,1736.09,Debit,"Turner, Dickson and Kelly",West Zacharytown,0
+2c06122e-13cc-4f32-9ddf-e20dab934bf4,2152,2024-09-28 09:13:01,-3825.5,Debit,"Jones, Gonzalez and Byrd",Brownbury,0
+a9f6aaae-278a-4161-8fcc-fe07a203d213,7284,2024-02-28 19:56:11,-918.13,Credit,"Cannon, Herrera and Campbell",New Isaacfurt,0
+b8a72712-714a-4dab-9fd1-d47e66233f31,3338,2024-08-26 12:10:52,-2225.12,Credit,Maynard-Wright,Thomasborough,0
+a16ff66c-8aa4-4f1b-8afd-e8140658466f,5878,2024-10-30 19:22:52,2675.01,Debit,Stark-Porter,Lake Earl,0
+19871090-5036-41dd-a1cc-a99788a45857,1688,2024-09-09 06:52:40,-2523.4,Debit,"Ford, Shepherd and Mccormick",Josephview,0
+6c8190ad-1fd8-40da-b183-21f2f097bc71,6819,2024-05-06 06:43:59,-4302.07,Debit,Smith-Fuentes,Lake Raymond,0
+e92ba785-184f-431d-a714-df1a74402095,2721,2024-04-25 01:08:17,-3424.19,Credit,Skinner-Smith,Swansontown,0
+ea28fd81-ace4-4af4-89c9-942c2960f0e5,4127,2024-04-09 22:44:33,1788.85,Credit,Ayala PLC,North Crystal,0
+dd075cc0-6a8b-442e-9abb-1154d9044cef,5441,2024-03-09 08:10:08,273.89,Debit,Anderson-Smith,Dariusmouth,0
+4a922f0f-095d-4fc3-b07b-72334a1cef53,6103,2024-07-16 07:36:11,270.44,Debit,Perry-Booth,West Vincent,0
+2f5e154e-bc44-4c0d-9877-a11e85e7d1c6,5601,2024-04-21 23:48:28,-3468.5,Credit,Tran Ltd,Lopezville,1
+02997e47-f331-4f91-bc89-d26605780a3d,5298,2024-02-28 05:29:25,3890.69,Debit,Jackson-Cooper,Danielview,0
+1ed307ca-9b5d-493e-aae6-3a1c35d8e2f8,4632,2024-11-05 10:05:08,3912.62,Credit,Williams LLC,Wrightburgh,0
+68f3daec-8489-4898-b371-8c87e4824fde,3136,2024-10-03 00:43:36,-1102.14,Credit,Hancock Group,Bethanyfort,0
+b5ac8ff7-b007-43b8-a1b1-cbf7d798d294,4708,2024-02-23 12:53:25,-107.18,Credit,Montes-Lambert,Sarahport,0
+a8286c4a-2751-44fd-b2ea-fb199d732be5,9243,2024-08-29 11:31:26,-3412.54,Credit,Velez-Robinson,Thomasport,0
+9274e643-62c1-40b2-8da5-c1cc018c5e4d,5922,2024-06-08 23:34:28,859.58,Credit,Caldwell Ltd,West Heather,0
+43db9a21-c50b-4ab7-81e3-524627ec333a,8375,2024-03-31 13:15:15,-423.05,Credit,Lewis Inc,Lake Joseport,0
+76b62953-59d0-4cf7-b0d9-c2d97908e3c4,6889,2024-02-27 07:27:36,-135.95,Credit,Smith PLC,Kylebury,0
+12fb3df9-ae07-4919-9e3c-dd819ff86d6c,3397,2024-11-24 13:00:20,-1190.52,Credit,Hood-Henry,Lopezside,0
+13b4c3ed-9227-45e6-896f-f78bfac77653,6250,2024-05-11 22:38:11,-3007.3,Credit,Nichols LLC,Richmondport,0
+51316327-8b7f-4e65-95b5-dabe9faee139,5832,2024-08-15 02:58:20,-746.95,Debit,"Dickson, Jennings and Taylor",Kellyville,1
+99c81984-94fb-4913-a3ea-e946f4c9774d,8725,2024-07-13 12:31:11,4996.51,Credit,Lawrence-Mcdonald,South Christinaview,0
+b06df11e-b150-418e-aa25-0ee9233c5e5d,6266,2024-03-14 02:58:42,-573.49,Credit,Phillips Inc,Rebeccabury,0
+32c20766-9870-461e-a5e7-20b4494ba80f,2615,2024-03-17 12:47:09,2725.25,Debit,"Bailey, Smith and Brown",Serranoview,0
+2e608b57-394f-4495-8cdc-998f2c18b9f8,2215,2024-07-01 23:25:02,4279.31,Debit,Vang Inc,North Leslie,0
+7a40fb47-d43f-4b18-87ef-67a951bb450d,4974,2024-06-10 05:49:23,-4830.22,Credit,"Parker, Dillon and Hart",Hickmanfurt,0
+79c40efb-6fe9-4609-9522-cea6daebc4a5,7718,2024-03-28 13:14:32,-4915.75,Debit,"Hamilton, Stewart and Rhodes",Boydville,0
+9578cc8b-0cb0-48c5-bd48-8f7518c7f642,4616,2024-06-27 22:18:36,848.18,Credit,Williams-Jones,Donovanmouth,0
+82e8f044-d634-4c68-b99a-da330f23ebab,1257,2024-05-30 09:07:02,-2181.96,Credit,Hartman Group,Lorettamouth,0
+b20e858b-794d-41a2-a0e5-6e665fc7669b,2186,2024-10-22 10:48:56,3888.02,Debit,"Holmes, Mccoy and Mendoza",North Loretta,0
+89124a47-9a28-4eb7-9011-995a1124de6f,3965,2024-01-09 20:19:23,-2896.73,Credit,Simmons Group,West Grace,0
+07e977a0-5d87-4af1-b979-32cbe95adf44,4048,2024-08-27 01:12:41,-284.71,Credit,"Clark, Bradley and Patel",New Calvinbury,0
+1c2c0b52-1902-4152-972c-b1817a147c58,8789,2024-07-22 14:33:51,-1579.83,Credit,Hall-Johnson,East Shannonshire,1
+306c81a9-ef06-4d93-8b4c-50ed7f2d39f7,7791,2024-12-04 22:21:49,2587.25,Debit,Crosby-Turner,Lammouth,1
+23bdd88a-0f60-42fe-97d7-0bbdabfda9c7,4719,2024-02-20 21:25:31,-837.48,Debit,"Rice, Cole and Jenkins",Lake Stephenstad,0
+fd9c5410-89de-4070-b314-5543590d965b,2500,2024-06-03 18:43:27,-2897.58,Credit,Jones and Sons,Colemanland,0
+d76d1d2e-6a80-484a-b834-159f1b205453,4861,2024-05-05 19:42:41,-3729.69,Debit,Boyd-Ortiz,Lake Patricia,0
+01326166-cba2-4e0b-981c-f7bd8b028a76,8063,2024-09-15 15:43:20,-2934.81,Credit,"Smith, Diaz and Hughes",Meganton,0
+25f1ab92-1696-42a1-ad15-83fe2793a9e2,7104,2024-01-13 07:38:27,-3163.88,Debit,Reynolds and Sons,Owensmouth,0
+2c1d2201-2387-4967-b507-1403dda42f40,6947,2024-04-19 22:19:27,2681.83,Debit,Vincent-Drake,Lorichester,0
+af167f33-0e9a-438b-a5e8-d465a96ead5d,2953,2024-08-11 02:24:14,-4057.91,Credit,"Graves, Perez and Smith",Gonzalesmouth,0
+ca02ca3c-69e6-4a05-b232-13241bdf1a26,8695,2024-04-28 23:50:48,4152.54,Credit,Hunt-White,Port Raven,0
+609de09b-6f72-47f9-8a9a-4146b50e2897,5999,2024-02-22 03:50:50,-3173.14,Credit,"Adams, Herring and Skinner",New Erin,0
+f5880705-c370-46ae-906b-d704122438b8,1534,2024-04-23 12:40:10,-3596.69,Credit,Garza-Anderson,Lake Jeffreyton,0
+de465b6b-b083-41f9-8eb4-b21c28f2716e,9381,2024-08-31 18:26:58,-1956.83,Credit,Krueger-Davis,Johnbury,0
+c7f1e203-44ab-4db4-b9f3-d9db079052f8,1439,2024-10-31 20:39:34,-1354.76,Credit,Finley-Dominguez,West Christopher,0
+62d24045-e53f-4e4b-b5cc-b37ee8ca7c32,9056,2024-11-27 15:13:22,4091.05,Credit,Rogers-Burke,New Laurenville,0
+f1ef6929-c369-4b68-9c09-826c9544563b,4752,2024-07-20 06:49:58,4695.87,Credit,"Shelton, White and Brewer",North Michael,0
+d402c4d7-be87-47a1-bd05-35188fc79427,5291,2024-06-06 21:14:21,3821.52,Credit,Grant PLC,Davenportport,0
+1a6ef87b-1318-46a1-a954-800df2ea1e65,4295,2024-09-06 03:14:45,1885.26,Credit,Ramos-Erickson,Ricardofort,0
+191e5d2f-0e7d-41cb-a3aa-a99b0bfdef5c,4316,2024-10-29 13:12:17,-1450.83,Debit,"Randall, Burch and Hunt",Terranceside,0
+5b30c904-aafa-4579-bfff-2c23dea375af,9094,2024-10-03 12:38:55,128.91,Credit,Kelly-Hughes,New Peterville,0
+8edb6f70-c163-4e77-a9a3-3631de8c06ea,2824,2024-08-10 23:55:12,-816.11,Credit,"Singh, Fuller and Goodman",Kelleyview,0
+1365f0ae-9d20-4c6c-b961-c6a59c46e163,4911,2024-01-13 11:00:59,4660.64,Debit,Avila PLC,Michaelside,0
+b754e57c-3a01-45b7-8b2c-e25106d5d080,6613,2024-01-03 17:44:26,4502.33,Credit,Tate Group,Ryantown,0
+25cdddc4-c75a-400d-9941-77445ea5e43e,4560,2024-11-16 09:21:00,-350.52,Credit,Boyd Ltd,West Andrew,1
+f455171d-37a4-4547-ba53-036c08ce5f8f,3556,2024-11-01 23:36:27,-2659.63,Credit,"Lawrence, Macdonald and Schwartz",East Robinchester,0
+bceee418-7894-440a-8e0b-2fae861d465b,4555,2024-04-02 21:34:49,1498.21,Debit,"Simon, Diaz and Russell",Port Christinestad,0
+405e8028-9fbf-4118-ac04-4e26870aa847,5067,2024-07-28 01:22:11,1398.15,Credit,"Barnes, Pratt and Crane",Adamston,0
+104dd104-fe71-4735-afe2-a6734bbfc41e,4387,2024-09-25 17:16:13,-1669.5,Credit,Silva LLC,West Eduardo,0
+0a64a52f-01e3-4880-8d07-da19154d2d74,5642,2024-09-27 04:36:50,-3401.53,Debit,Ray-Hess,Foxstad,0
+a2923b0e-c718-4d59-9ec1-c354aa6e7413,9704,2024-01-23 19:25:40,-2213.71,Debit,Hart Group,Warnermouth,0
+7718d2be-6ccf-4fcc-b308-b01bc2bd82c5,6001,2024-10-15 12:02:09,4206.15,Debit,"Cooper, Lane and Dickson",Wheelertown,0
+2fcfb63d-efc9-4856-9187-362bb6c99e51,1960,2024-08-01 21:38:43,-2667.75,Debit,Perez Inc,Reneeport,0
+c4a72a99-69da-4b60-92fb-994a2eb20241,1148,2024-11-28 22:18:46,-2715.01,Debit,"Kelly, Stanton and Ali",Port Willie,0
+be6dea1c-267b-462f-95b8-dad89852c644,9748,2024-05-19 22:10:55,-3118.99,Credit,Flores PLC,Lake Jennifer,0
+85a88fd6-66ae-47e9-abae-70f1272adb18,1485,2024-07-12 06:23:36,2864.6,Debit,Bowman LLC,Jacobsonchester,0
+2e6ddb59-8fb1-48a1-82bf-2ca8ae4b8f68,7959,2024-04-10 16:29:13,3336.26,Credit,"Fox, Johnson and Roberts",South Toddtown,0
+a2f56282-9005-46e0-bd09-98125c6cf9c5,4393,2024-11-07 21:52:51,1882.88,Credit,Bowen Inc,Williamsville,0
+b5a7a949-241a-4f12-88aa-f3d6903418b8,2967,2024-06-27 20:23:37,-3359.26,Debit,Perez and Sons,West Nicholas,0
+ca6d4292-bc0a-40fc-ad38-7c43e93a3ace,9814,2024-07-10 06:45:04,3534.11,Credit,Suarez-Gonzalez,North Grant,0
+76e6b3bc-3e73-4601-8aac-e4c8de1b2fa7,7585,2024-03-03 18:54:57,2525.13,Debit,Tucker Ltd,Jessicastad,0
+1424cb14-eaf1-4613-80b8-f77d63245b56,7872,2024-05-30 03:42:05,3270.54,Credit,"Brennan, Turner and Black",Nathanfort,0
+c6fcf3c7-a36a-41c4-aaa7-17fd74fd6761,9297,2024-10-20 18:20:19,-3280.03,Credit,Mendoza and Sons,Richardville,0
+70fe3004-7ab4-4f95-a49d-fb2374ac9005,4113,2024-07-28 07:41:31,-523.25,Debit,Parks-Coleman,Jasonbury,0
+c42b46dc-7dce-4551-a0f0-3e51376a6743,4941,2024-07-15 23:03:21,3791.86,Credit,"Page, Walker and Powell",South Marissamouth,0
+71028e7a-a5b1-4e44-922e-901aba1353a2,9886,2024-09-11 04:18:52,-1849.73,Debit,"Adams, White and Watkins",Hodgesmouth,0
+7bf555d8-a96a-490e-8947-767370ea748c,9255,2024-10-19 01:27:58,-3092.05,Debit,Reid Inc,Gonzalesville,0
+205b9ff5-9a73-4271-aef4-a196f824b6c1,5225,2024-10-25 08:44:38,3454.5,Debit,"Miller, Johnson and Santos",Jamesmouth,0
+d53fa08b-64f9-4f81-aaae-fe09ae6d9c49,6719,2024-02-26 03:37:54,2759.72,Debit,"Baker, Peterson and Cuevas",West Stevenfurt,0
+7f50d9f8-db2d-4873-b73a-944a88bdcb3a,8812,2024-03-04 03:16:05,-1311.7,Credit,Cabrera-Ford,West Travis,0
+9039bf9e-c9a6-43fe-a251-70c4cfe52d4d,4413,2024-02-03 12:23:40,-3967.73,Credit,Jackson-Myers,Shelbyside,0
+f82c1a9f-6686-46a7-9342-437b442826a1,8312,2024-10-07 06:54:43,2870.04,Credit,Smith and Sons,Erinhaven,0
+5cb4c8ae-a04c-4e2b-83ec-09adec215d35,4389,2024-05-11 12:21:27,129.42,Debit,"Ramos, Schmidt and Farrell",West Brian,0
+51b806d1-1957-423b-b07d-84a1776a70ae,9638,2024-02-22 04:31:29,-1044.92,Debit,Villegas PLC,South James,1
+5889f3e0-0ef3-4838-8c10-25a035faf9bd,3718,2024-09-29 21:46:02,4400.63,Debit,King-White,West Elizabethfort,0
+225804d4-b33a-4be6-84c8-9aa64167788c,9528,2024-08-04 00:06:56,1942.33,Debit,"Moore, Nielsen and Howard",Larsonmouth,0
+8154a4e5-a79e-4041-8e3b-1d183f5626d1,4107,2024-04-20 22:44:04,3961.19,Debit,Gomez LLC,Lynnberg,0
+a2152e72-f925-4322-9614-fb14652b1fcd,5313,2024-07-15 11:55:00,1335.73,Credit,Welch Group,Stewartport,0
+a818ba51-26bd-4a24-957a-90861837be24,3070,2024-01-29 16:41:53,-4919.91,Debit,French-Thomas,North Biancaborough,0
+a2ccea83-83f4-4e64-85a5-d11980c9893c,1245,2024-05-30 15:59:37,-3721.15,Debit,Payne-Hale,North Shawn,0
+9e70ca75-8c7e-4e4a-8cb0-f43aba9736bb,2480,2024-05-23 10:25:14,-2053.89,Credit,"Parrish, Adams and Avila",Wadeside,1
+d00f541b-22bf-4a40-b0b5-13750af96975,6391,2024-10-16 11:54:07,1349.88,Debit,Alvarez and Sons,Markfurt,0
+daaa327b-ad25-4499-b584-1a64b476d374,3100,2024-01-09 14:57:45,2540.92,Debit,Miller-Mckay,East Monicastad,0
+78d0248b-d6f6-4975-bb05-d4d269c3f1a7,5239,2024-09-02 08:12:05,-2464.5,Debit,Gonzalez-Foley,Michaelfurt,0
+7ff3a99c-878d-4dd2-b745-84328fefe557,5873,2024-06-02 00:39:38,4781.37,Credit,Green Group,Port Tracey,0
+5e9cedd0-ca4b-4655-a7c4-089557e92da5,8706,2024-11-14 18:19:51,-4023.77,Debit,Duncan and Sons,North John,0
+d220756c-45a6-4564-aee7-50508c3a582e,9359,2024-07-21 15:56:35,4509.93,Debit,Miller and Sons,East Jimmy,0
+a1282f42-d723-4bbb-838c-bb37ede217be,7298,2024-07-12 11:32:06,-4360.75,Credit,Alexander-Williams,Moorefurt,0
+1d7bc585-98fc-4da4-aee6-cbce8ba03e28,2645,2024-04-27 13:08:15,4144.18,Debit,"Miranda, Brown and Yang",South Davidhaven,0
+21bf0cff-1474-4ce1-96fb-0d64192f3ed2,4954,2024-11-30 18:58:58,-4883.31,Credit,"Mahoney, Jackson and Alexander",North Elizabeth,1
+8082d9b2-0581-419d-94cf-2bed3e66ed17,1475,2024-05-09 05:02:29,-1797.6,Debit,Wang-Mccormick,North Nataliebury,0
+f5179b9e-0980-43a9-b587-43951dfc11c0,2382,2024-11-15 11:07:13,-1788.27,Credit,Higgins and Sons,Moniquetown,0
+27fa5485-4d1b-40b7-8244-e5a72d67eb3d,9277,2024-08-19 16:18:45,-3877.6,Debit,Nichols-Neal,New Anthony,0
+12b85aad-01c3-4b77-9934-a0a87a0e932a,1748,2024-07-11 11:44:09,3141.16,Debit,Davis-Perry,West Victoriaburgh,0
+4bde0006-2dd2-4462-b662-49c4987ab393,3189,2024-11-18 05:08:00,1618.8,Debit,Lyons-Velasquez,Pittmanborough,0
+7d12a8a7-7e02-45c7-b061-509bfc1adb5a,1717,2024-03-12 22:25:54,-543.44,Debit,Peterson-Oneal,Luisberg,0
+6ef6f3de-9160-4f0e-8152-14dd4ff67ab5,3518,2024-03-09 06:22:36,894.48,Debit,Mathews-Smith,Jonesborough,0
+7c2ce1bc-e607-4c1d-b571-1382c78a517c,4639,2024-08-15 10:50:55,1936.79,Credit,Oliver Group,Francisfort,0
+3e92d414-876a-4caa-a2ac-2dc028235fb7,7003,2024-01-09 11:21:34,3898.22,Credit,Thomas-Graham,North Dustinstad,0
+af87e223-8050-40ff-91ac-711ca921fe7f,1839,2024-02-28 18:09:06,2661.91,Credit,Williams Group,Hoodside,0
+1e40f7c5-d213-4636-b3b7-c811dcc9f985,3958,2024-03-13 01:22:48,2463.44,Credit,Hansen LLC,South Ashleyland,1
+fd394ff5-4f67-420a-bfcf-9797ea89cc6a,3912,2024-03-15 03:09:42,-4733.88,Credit,Graham and Sons,Rachelport,0
+535f2954-07b1-447e-bd1e-6882a9049b55,5123,2024-11-07 03:52:58,-4238.01,Debit,Smith PLC,Cynthiaside,0
+fc90a1ee-da3e-4044-af19-d7a7f3139f8a,5242,2024-10-19 09:11:29,-534.15,Credit,"Myers, Flores and Allison",Scottstad,0
+ba91196e-839d-4d25-863a-a4cbec62128b,9217,2024-10-18 11:36:12,1479.02,Debit,"Schwartz, Blankenship and Hogan",Port Gregory,0
+b78945a3-c4a0-4c53-a3e4-2477f49c767e,5926,2024-09-24 06:05:14,-1341.19,Debit,Romero LLC,East Sarahmouth,0
+5d851c5a-bb21-45af-b2ef-d8091cbd12d9,9827,2024-11-19 23:57:50,3181.18,Debit,Christensen-Green,Stevenshire,0
+f426fa43-0a75-4c8b-bae1-5af3322fdcdd,7295,2024-03-02 22:46:15,4343.81,Debit,"Mccormick, Whitney and White",Sandovalport,0
+d81c7615-8e5e-44e1-b56d-dbf189f825bd,9587,2024-03-26 21:07:43,-791.25,Debit,Moran-Martinez,West Dorothy,0
+c86dc9dc-d042-4f5b-8a37-341cfd2b7132,1704,2024-10-29 14:51:59,158.15,Debit,"Delacruz, Williams and Adams",Olsonton,0
+ce75b8db-0282-46b6-acd2-c6495eb4e655,4457,2024-01-22 10:25:54,3965.05,Debit,Davis PLC,North Dannytown,0
+27691a31-52b1-4712-86c8-7722dda927b4,6766,2024-01-15 20:27:57,1827.27,Debit,Hall-Brock,Lake Kathrynside,0
+2669865d-2cd6-4b45-8dfa-b08fdb86e959,9988,2024-05-21 06:22:14,4120.19,Debit,"Rodriguez, Willis and Thompson",Davidton,0
+27e7ee00-4b1f-42eb-a8b1-201068bbdd62,8276,2024-02-16 22:13:05,2888.62,Debit,"Moore, Lane and Hester",New Anthony,0
+92f44ecb-91fe-459a-86ac-32cd8b0a3bbb,3234,2024-09-12 09:25:14,2888.99,Credit,Larson-Wolf,Jonathonhaven,0
+241a8843-9eea-4829-a113-c05d1753b1cf,1254,2024-12-14 05:09:25,1669.16,Debit,Jones Ltd,North Crystalfort,0
+41c81906-cb88-4538-b171-5bc899e03daa,8847,2024-04-10 05:31:01,3994.28,Credit,Roach-Escobar,New Craig,0
+c1aa700b-75d7-485d-a718-ae67d7a60c7d,5296,2024-06-03 04:42:08,3028.19,Debit,"Lambert, Weeks and Hayden",Lake Travis,0
+f6ef4407-b3cb-4548-abac-2df2377f6a7b,6969,2024-02-10 06:59:49,4794.19,Debit,Smith Group,Nicholsstad,0
+1a278fd3-2b60-47da-9d05-4f5aca09c8d2,7347,2024-11-27 20:39:32,1777.94,Credit,Richmond-Grant,North Laurie,0
+7ddffb17-2c94-4d6e-97aa-d47e74c0f1db,7822,2024-09-08 04:07:09,-4043.58,Credit,"Larson, Young and Anderson",Griffithport,0
+f9e90786-706c-447a-8e1b-9acf993dff1e,3761,2024-07-28 09:06:39,4322.52,Debit,Jensen-Walker,South James,0
+b670dcb4-63b9-4a25-8369-6ee4b15983d2,9151,2024-02-24 16:01:06,-119.43,Credit,"Miller, Schultz and Lambert",Jameshaven,0
+81c41853-5b80-4a98-a4a4-2660c12597c8,2826,2024-03-05 00:42:27,4156.33,Debit,Miller-Miller,New Samantha,0
+cf4125a1-800b-4613-8653-3122d699358e,1691,2024-09-01 07:47:55,3824.15,Credit,Lambert-Kelley,Taylorchester,0
+7961665e-f18a-4241-ac80-13c1751783e9,4679,2024-05-03 07:54:04,3016.22,Credit,"Swanson, Navarro and Foley",South Rebeccatown,0
+adb5cd86-cad6-4063-ac5c-7a9ef5cb7896,9450,2024-08-18 17:40:05,-4961.9,Debit,Torres and Sons,Kendraburgh,0
+d6a3509b-93d3-425e-95c6-acd495ed5ff5,9655,2024-03-23 02:22:03,-4671.85,Debit,Ortiz-Cole,Brooksmouth,0
+aa43d2f4-5604-4023-ac71-cd3a799b82b4,9841,2024-03-06 20:00:58,-2976.61,Credit,Clay Inc,Grahamland,0
+1df77a88-5e71-41af-9316-03f1b1bfb548,3733,2024-01-01 12:21:19,4415.13,Credit,Thompson Ltd,Kimberlyville,0
+7eaf9161-07a4-4a45-a2b2-38e12d0e9dda,2962,2024-04-16 21:32:55,-3255.8,Credit,Escobar Group,Lake Ashley,0
+75240ce0-505d-4a32-be74-545b329a726f,4350,2024-08-09 20:30:35,171.6,Credit,Proctor LLC,Jamestown,0
+c6b27758-f75e-48a6-89cc-db2f5ebd6853,8101,2024-08-25 03:37:00,-4381.5,Credit,Freeman PLC,Estradaville,0
+4b2ec925-27d2-47c1-8896-163918a95f91,4916,2024-05-25 13:54:55,-661.14,Credit,Simmons-Cardenas,South David,0
+352b9705-34a8-44c8-bf69-269bcae590a6,3194,2024-11-04 06:58:21,-166.38,Debit,"Hanson, Moreno and Myers",Port Mary,0
+9254e138-b35d-480e-8962-5172088dcb95,3916,2024-03-14 05:15:08,-4382.91,Credit,"Mccarthy, Glover and Thompson",West Ashleyshire,0
+89d2ebd0-c6eb-4a46-9d0e-40359153298b,8973,2024-06-16 05:21:08,-1340.62,Credit,"Frank, Juarez and Thomas",Sanderstown,0
+c3bd97a8-62c2-4496-9a3f-3e93050956a3,2642,2024-10-16 16:34:52,14.87,Debit,Johnson-Arnold,Katherinehaven,0
+d50d465a-7562-4eeb-90e0-dbc5763d129a,9205,2024-09-21 05:06:07,-1089.43,Debit,Harris-Scott,New Felicia,0
+173cbaf8-5f2c-44c6-a2f7-7b2063c7a4c0,1164,2024-09-04 18:39:22,4056.7,Debit,Freeman PLC,North Jeremyton,0
+392bf16c-6e8f-4d8c-994e-22887d8d846e,1538,2024-11-10 07:20:13,-3473.9,Credit,Barajas and Sons,West Josephshire,0
+84099c72-b7cb-4dbf-9967-685d784c2ee9,4488,2024-11-04 11:00:08,-466.8,Debit,Black Inc,New Michelleside,0
+b3f22ae0-e563-44e3-a25d-3a7d554c411d,4441,2024-03-06 10:08:22,-1317.56,Credit,"Alvarez, Barron and Wang",Robertborough,0
+d5c47f36-fdaf-497b-bf72-e6df26430ce1,6728,2024-10-04 21:15:46,375.2,Credit,King-Johnson,West John,0
+73cf388b-a1b3-4c14-b185-1ffa72479c29,6734,2024-02-14 09:10:27,-3934.96,Debit,"Newton, Spencer and Johnson",Crystalberg,0
+1ecb1542-652f-4e8a-9519-4be524613fd6,4824,2024-08-11 06:20:08,4694.96,Debit,Vazquez Inc,Laurenton,0
+8941a0ec-a386-4eca-a4b4-e659eaf536e8,5291,2024-12-09 02:42:20,-908.49,Debit,Andersen Inc,Randallshire,0
+ba6dfe1a-7ec7-42dd-b093-385a9a9af24c,7580,2024-05-07 09:15:55,-59.63,Credit,Payne and Sons,North Keithfurt,0
+a46e1dc7-c033-4103-912b-3ee6e012ec88,4354,2024-07-27 06:18:19,-384.26,Credit,"Christensen, Gonzalez and Guerra",Charlesfort,0
+1b8bcfba-c0d8-4568-8776-947c142e897e,8505,2024-08-04 06:48:05,-3859.42,Debit,Spence and Sons,Lake Danielmouth,0
+c683aca3-d62f-4ce5-be58-5fc3f9bb97c9,7726,2024-12-03 04:13:32,3336.23,Credit,"White, Huffman and Ayala",Davidton,0
+17fcec13-0665-4eae-b735-2dbbb54b52ee,7019,2024-05-17 12:07:46,-4708.05,Credit,Murray-Martinez,Jenniferport,0
+adce20ce-85f9-47da-910d-9a17c8dba487,4747,2024-02-11 19:02:50,-2929.1,Credit,"Spencer, Campbell and Bryant",East Annette,0
+f7d92b55-3eba-42ef-8407-bfbdd7970429,3080,2024-01-31 15:06:09,-846.35,Debit,Carter-Wilson,New Anthonyfurt,0
+bd602620-29f7-4120-9e20-d4bf5abfce43,7461,2024-06-03 22:09:30,3120.23,Debit,Rivers-Garcia,Jenniferberg,0
+15129b84-66d9-404e-aef0-bc64005847c5,8135,2024-06-01 21:17:41,476.2,Debit,Nielsen Group,New Thomaston,0
+ec43a0ff-3113-44d9-83e8-5ab7e1857486,2730,2024-10-16 03:23:10,2189.97,Credit,Scott-Ruiz,Nancyberg,0
+1759f4f5-d150-4e95-86b2-2d1aad797e8d,3870,2024-12-08 18:14:17,3508.17,Debit,Curry-Waters,East Dawn,0
+a74a7c21-07a6-4c80-9fb3-8188ec3fbf6e,9200,2024-12-09 11:51:12,388.74,Credit,Sandoval-Smith,Perrystad,0
+2f53ae03-cf51-4ea6-a2e5-40c98eb102b6,8838,2024-12-07 19:16:19,-4456.46,Credit,Tyler Ltd,Lake Jamieborough,0
+332e916d-3bc0-45ee-b044-e2cc235a416a,1543,2024-08-01 21:01:11,-678.08,Credit,Ferguson Inc,Charleschester,0
+06c24832-3f18-4b02-b13d-aa05989da984,6196,2024-09-03 08:09:52,2881.97,Debit,Pierce-Schroeder,East Michelle,0
+f96108b7-1cc5-42f5-8795-bf645328eee0,2573,2024-10-18 00:21:36,4383.77,Credit,Crawford LLC,East Chadshire,0
+cc1ae355-333b-4413-a451-db648bd377f8,5882,2024-08-30 16:44:21,385.55,Debit,"Garcia, Johnson and Macias",West Leonard,0
+4de82016-78f4-4b0a-b00a-24cc506b1686,1477,2024-09-28 17:22:59,-1347.1,Debit,Logan-Simpson,Reyesmouth,0
+91cd364a-400d-4aa6-9a3f-7f77afca0aad,3883,2024-03-19 09:36:48,-3658.24,Credit,Thomas Group,Matthewtown,1
+08280c3b-4f10-47a3-a6ea-b5f7ebfc0bd5,3958,2024-11-04 02:12:08,-2462.5,Debit,Hunter and Sons,Sandershaven,0
+a4d3e721-4c14-48c1-ae81-830da712853c,7059,2024-10-12 14:27:16,951.26,Credit,Reed and Sons,Lake Jonathan,0
+72e0387b-2502-42c3-a4d3-44245a9a114d,9084,2024-06-29 06:02:44,-3976.23,Debit,"Smith, Burke and White",Lake Megan,0
+fc7acace-2933-4fa3-b03a-9a17414a1c9e,6179,2024-05-28 04:35:21,528.49,Debit,Bowen and Sons,South Melissafurt,0
+bb62e4bb-f3e0-4de4-9fde-9a15685f9113,9741,2024-02-27 01:07:18,3761.44,Credit,Hill PLC,Jordanland,0
+7e7db92d-9396-4e15-a48c-0204c6731265,1209,2024-11-02 15:46:15,2226.48,Credit,"Williams, Thompson and Wright",Harrisonchester,0
+168e50a1-e600-4a91-8ae9-58ebe7973247,3390,2024-06-10 23:12:36,1591.02,Debit,Reeves Ltd,North Sarahborough,0
+c74bca74-81ce-4a3c-a643-4f4b5d50f4c8,2739,2024-01-14 22:43:44,1362.18,Debit,"Mckenzie, Carpenter and Levine",North Michael,0
+6fc91d45-4a8e-4bf0-8d9f-fb2aa30a5a20,9664,2024-08-30 03:28:50,2772.81,Debit,"Mccarty, Gordon and Rios",Williammouth,0
+7eca5119-fb7e-4d50-9770-999f68d46e6f,4896,2024-06-02 12:25:36,3974.61,Credit,Fisher Group,Jenkinsburgh,0
+ec25159c-807d-4dd0-b22d-755afce1bd46,9089,2024-01-04 12:47:02,4485.96,Credit,Garza-Freeman,Tylerstad,0
+5bed3eba-5c89-45a8-a668-465c55965e17,6512,2024-07-03 13:17:44,2835.82,Credit,Smith PLC,East Ashleyton,0
+7e2d0133-9678-4f55-a267-351bd6b9fdd8,4213,2024-12-12 03:04:53,-4164.89,Debit,Valentine LLC,New Ryan,0
+4bb31a20-eaca-4fc3-afb2-82c01768566c,4850,2024-08-19 06:51:06,781.42,Credit,"Cardenas, Wells and Cochran",Melissabury,0
+3e93641b-3240-4baa-9040-c4cfbd88e697,7406,2024-06-21 02:58:01,4566.74,Debit,Kennedy Group,Morantown,0
+01563868-9ca6-4eb0-813c-27026037c3b5,3797,2024-03-23 23:40:55,2063.61,Debit,"Lopez, Sloan and Johnson",East Ashlee,0
+c0a213c8-ab51-4f64-839f-dd3a5967aef2,2232,2024-04-08 09:43:05,-4631.71,Credit,Burnett-Jackson,Michaelborough,0
+1a785627-7dfd-48c0-942f-8846eb985cf7,7691,2024-11-22 16:07:06,-2409.23,Debit,"Singleton, Carter and Rangel",West Aaronside,0
+7a88395d-bf0b-4c7f-9a03-5b0cc5b3c079,2157,2024-04-13 10:15:26,4313.34,Debit,Miller and Sons,North Gregmouth,1
+220afa9c-e247-4596-84a8-5fbd9e3541e9,5378,2024-01-15 22:04:25,1204.72,Debit,Jones Group,West Roberthaven,0
+7b335adb-c002-439c-bbb9-733c4a531954,8066,2024-03-22 01:55:21,-4865.74,Debit,"Black, Robinson and Miller",New Jocelynborough,0
+70785f73-09fc-4c0a-8fbf-c817012c72cc,9376,2024-08-28 05:42:07,-710.98,Credit,Payne-Webb,Sanchezbury,0
+11b6ed58-bb92-46f0-acba-ad689bf30cbd,3382,2024-05-10 01:31:13,-638.99,Debit,Brown-Marshall,Christopherview,0
+18067d3a-4f6f-44a2-b658-23ce9a938cb9,9752,2024-11-09 11:19:16,4731.26,Debit,Lewis Group,Lake Danielleport,0
+42850ec6-4f1a-426e-81c2-fb53848eee7b,8925,2024-11-11 13:34:56,-1754.2,Credit,"Lawson, Hahn and King",New Kellyside,0
+7a9e0167-b22b-432c-9091-5452fdcb2d45,8342,2024-05-02 08:36:43,4147.66,Debit,Patrick Inc,West Chad,0
+93492c28-7c8b-4f63-9b5d-63e70c6e004d,4438,2024-10-28 06:28:36,-1398.98,Debit,Powell Inc,New Bobby,0
+40720674-2c45-4db4-ae21-c84f5fc02b91,7557,2024-03-27 08:15:14,741.13,Debit,Erickson-Mendez,New Elizabethburgh,0
+8bbf4bd8-d02b-4b05-b63e-a6bc8a54af21,9237,2024-09-11 05:24:04,2180.52,Debit,"Dixon, Rodriguez and Cruz",Port Harold,0
+c885dd3e-28af-4988-853b-1ba00bec719b,5001,2024-10-01 14:46:59,1098.3,Debit,Wilson Ltd,Hutchinsonberg,0
+4e7a794a-3d3c-4eeb-a4cc-47717f73c81a,7442,2024-07-16 03:02:37,2395.87,Credit,Jackson Inc,West Zachary,0
+5cc1d495-bc08-4f1b-b1f1-abb918a7c933,9192,2024-04-27 06:54:27,3287.08,Credit,Reynolds-Garcia,New Lisashire,0
+a2e1ad02-985e-4280-8896-d6d5749c0b2c,3655,2024-04-06 12:27:15,-3141.84,Debit,"Harvey, Jackson and Williams",Jillshire,0
+cba7c1e8-8509-41e5-a206-22432556a19c,2056,2024-06-30 08:41:35,-948.86,Debit,"Meyers, Romero and Davis",East Samuelview,0
+f4130345-a368-479a-879d-b37f601e78f4,5297,2024-09-23 05:26:17,3605.17,Credit,"Bell, Reeves and Day",Port Joyland,0
+7115a685-5a4c-42e6-b60b-21d791bf79b1,8564,2024-03-05 14:56:01,4606.72,Debit,Bradley Ltd,Wilsonland,0
+8e6a827d-c766-444e-8bd5-62fc014b5948,5798,2024-03-02 14:01:15,-3519.73,Debit,Robinson-Owen,Henryburgh,0
+ea867f31-544d-4d54-a4d0-9798ffec3912,1600,2024-04-23 09:15:46,-3551.89,Debit,"Davis, Mitchell and Carter",Benjaminfort,1
+c8477b4a-2dff-4fbe-803e-5b41d32ffaed,1241,2024-07-27 21:58:27,3220.2,Credit,Page Group,Johnsonville,1
+d06795ec-ad8e-4584-961e-bc287e99d65d,4823,2024-11-21 09:52:46,4569.78,Credit,"Montes, Estrada and Murphy",Grayburgh,0
+b2b56ba6-359c-4694-8901-14aceaf173b9,9874,2024-07-05 18:52:46,964.96,Credit,Wagner-Adams,Jacksonville,0
+5aaa2760-5192-4e42-ae10-a815cc0f0ea9,9682,2024-05-11 16:12:58,-2103.25,Credit,"Kirk, Singh and Waller",Trujillofurt,0
+e5ac5781-7cbd-4fc3-bdc4-92c54848889b,8953,2024-09-12 20:07:16,3964.38,Debit,"Wilson, Perez and Wolf",Terrancechester,0
+0c78b7bd-f761-42d8-b62a-91511d472ec8,2048,2024-03-05 22:42:20,-3357.21,Credit,"Young, Dixon and Davis",Georgeburgh,0
+08cdb1d9-ad21-41d8-a27b-c4d6576aab90,4515,2024-12-01 03:05:50,4696.19,Debit,Adams Ltd,Mcdonaldside,0
+f7826046-4339-4445-a744-9e55fb6584ed,2959,2024-07-05 13:59:42,-4664.71,Debit,Nelson PLC,Garciaside,0
+53ab930e-9f43-4235-8ae1-8f90cc0a9a57,2216,2024-06-17 09:02:11,-4933.23,Debit,"Burnett, Fitzgerald and Stone",South Jacobstad,0
+4bf12396-fe5d-4cc3-a3ef-f6b787d09fb9,7281,2024-07-14 17:38:00,3208.88,Credit,Garcia-Rice,East Jerry,0
+11adb94a-e583-4ef8-b69d-8011308ed4f5,3422,2024-02-19 04:09:19,-1115.04,Credit,Herring-Robinson,East Laurenton,0
+d08b6040-138b-4c78-aceb-e58457e97194,1711,2024-08-02 21:24:10,-4131.09,Credit,"Brown, Hill and Vaughan",Port Sonya,0
+b4f0744f-e0aa-4c7b-a262-aadde2886b09,2353,2024-03-30 02:47:59,-1064.68,Debit,"Miller, Horn and Campbell",Hessmouth,0
+f1e36ab3-c477-43bb-9c66-ceacc791bd51,4624,2024-08-15 18:49:34,3739.52,Credit,Johnson-Miller,North Eric,0
+45496a1b-8444-492c-9b70-f88d79a1ab16,4825,2024-02-07 16:46:58,2858.04,Debit,"Williams, Reid and Bennett",Rodriguezbury,0
+b6187acf-3fc4-4418-bdf8-646ea9b63fd3,3483,2024-01-13 02:31:41,-2276.85,Debit,"Nelson, Ochoa and Hunter",West Ashleyfurt,0
+1a2a74a1-e9a2-4562-ac89-a0684952ca37,3316,2024-04-16 10:04:52,-2411.21,Credit,Murphy PLC,Coleton,0
+dffc9a3e-cd61-4e70-b156-542812eba74a,8495,2024-11-30 10:41:35,4331.0,Credit,Zimmerman LLC,Jeremytown,0
+f9435e77-c36a-4e27-bcbc-b89cc7e108be,5720,2024-07-25 02:43:16,4793.41,Credit,Bates Inc,Amyborough,0
+66825365-e0bb-49af-a0be-6b6a14ff74de,2647,2024-09-12 09:49:43,-1230.45,Credit,Sanchez and Sons,Lake Debra,0
+311f46a7-a088-4692-865f-c72b83cfddcb,2455,2024-01-27 17:27:11,1100.7,Debit,Velasquez PLC,East Matthew,0
+e811a931-b89c-4d78-913d-2f6452625635,1448,2024-11-04 02:38:26,-3969.15,Credit,"Grant, Woodard and Schaefer",Port Christinaland,0
+f1a6c1a6-7976-43e3-8d57-e7027fc7e7f9,5706,2024-10-17 09:50:15,675.63,Debit,"Keith, Johnson and Stuart",Lake Mindy,0
+fc3addc3-6042-405c-9ab2-9e578ded692b,8438,2024-11-07 05:06:11,1843.17,Credit,Park PLC,West Jimmy,0
+8e63507d-c493-4449-99e8-348711c85027,8152,2024-02-25 07:33:54,2188.19,Debit,"Williams, Orozco and Vasquez",Michaelmouth,0
+e4c352d3-b010-4fde-9e62-62c291a68763,5431,2024-07-31 06:18:16,-3544.56,Debit,Cole-Martinez,Port Janettown,0
+cc007896-98ed-4ab3-95db-7ce2db58efa1,3583,2024-05-19 19:08:51,4614.58,Debit,Kennedy and Sons,South Caitlynport,0
+0a98f796-acdf-438b-930b-c8cee12f5001,9516,2024-08-03 05:45:38,3059.75,Debit,Collins and Sons,Port Normashire,0
+18f1426d-a399-48a9-b040-4d06572fad40,1926,2024-10-05 23:01:53,-4981.11,Credit,Ramirez Group,West Brian,0
+3f8a1c76-1524-462b-8541-af23ef42cc3a,6864,2024-04-25 00:40:16,2518.48,Credit,"Perez, Price and Stein",Vargasview,0
+005556f6-414e-4079-9915-87c3cd422758,3864,2024-10-27 17:07:21,3572.35,Debit,Parker and Sons,Coltonmouth,0
+f45e380b-bc5c-4301-bc06-21d3d79428bc,9092,2024-08-10 03:14:24,1564.74,Credit,Barnes-Harris,Marshallside,0
+d823a274-6a62-4e9b-93ea-e296c2c5c72a,9736,2024-01-08 14:06:14,-4339.48,Credit,"Neal, Meza and Brown",Jerryhaven,0
+04456389-8e8e-4c7b-ad87-f6d9b1ab4eb2,8432,2024-10-30 17:11:31,-2777.76,Debit,Nash-Franco,North Darren,0
+10f21227-e455-49a8-91ba-355d1c06f555,4318,2024-08-17 22:05:39,-4591.64,Credit,Brock LLC,Port Jimmy,0
+2c5a995d-2f45-4c48-a75a-c2af776e9431,4994,2024-11-29 23:31:09,-3862.7,Debit,"Flores, Best and Lang",Lake Natashaview,0
+b3deb507-f272-461e-af3b-745495c114a2,7579,2024-01-24 15:32:00,-2633.91,Debit,"Johnson, Hubbard and Brooks",North Kaylamouth,0
+dc3c59ea-4c97-4393-915d-4fe752dc31ff,3759,2024-11-06 19:09:10,3592.63,Credit,Brown Inc,East Toddstad,1
+2d1d78d1-25c2-4cb0-a005-9339cd52e139,1577,2024-05-06 04:22:21,-2520.55,Credit,"Rodriguez, Jones and Miller",Higginsland,0
+c90c1df6-d82a-423b-b283-e628b3af27d4,1261,2024-06-03 22:25:31,-2460.09,Debit,"Huber, Garza and Bullock",North Kevinfurt,0
+a1db33d4-cf3e-44d6-9e75-4ddfa4433c8e,8841,2024-02-04 12:26:44,-768.58,Debit,Singleton Ltd,New Danielleville,0
+b5ed8307-a7df-4795-8484-ff28ad09837f,1572,2024-07-03 08:31:30,-2430.61,Credit,Callahan PLC,Thomasland,0
+6aa3de2d-f1f9-48a9-a66d-8de4fb646070,6423,2024-07-29 01:23:07,-2075.72,Credit,Tanner-Hobbs,Greenburgh,0
+ebd5902a-61a4-48f8-bade-1233da447bf9,8215,2024-06-09 15:01:58,-3727.62,Credit,"Young, Anderson and Watkins",New Jason,0
+38fa295a-6325-4fe5-8126-e81120710d67,7485,2024-11-23 07:46:09,2742.9,Debit,Harris-Smith,West Zachary,0
+8b0ccb52-f245-4900-b8b2-3a60b7032c81,8871,2024-11-18 02:10:45,4872.25,Credit,Martinez-Mitchell,Margarettown,0
+b983c0f0-b5df-45cf-ae3b-58a28fa5435a,2351,2024-12-09 02:54:39,-560.97,Credit,French-Green,East Laurenberg,0
+f4478a75-3bb9-4ce0-b56b-87baef101f5a,2806,2024-07-25 16:36:22,3774.75,Debit,Kim PLC,South Joshuamouth,0
+7488ce49-1468-41e4-aab2-a1a13f416556,4018,2024-02-07 00:45:21,-2408.26,Debit,Ruiz PLC,Santiagotown,0
+3dd310c6-bd75-43e6-9041-55a0d3eb38ee,9826,2024-05-12 11:05:14,-1263.81,Credit,Duncan-Rodriguez,Petersenmouth,0
+01d2ffd8-ee06-45ba-bd87-bf673b667f77,7683,2024-12-02 02:47:29,523.02,Credit,"Caldwell, Lucas and Parker",East Angela,0
+5ad5e903-724d-4347-847f-78545efac096,2377,2024-09-24 00:28:51,2642.03,Credit,Patton-Wilson,Stephaniefurt,0
+aeacacc4-0819-4a0d-af51-da4e0f666852,1617,2024-06-17 16:52:12,-1249.76,Credit,"Grimes, Weiss and Hale",Portertown,0
+2ba1b4c0-8061-4fba-a092-b6275a6fc636,4010,2024-11-24 03:24:32,2998.68,Debit,Shah PLC,Anneburgh,0
+4ba4f148-d3b9-414d-b7c0-b70727a252bf,2240,2024-11-25 11:45:47,-3501.06,Debit,Marquez and Sons,East Gregory,0
+21fc5953-fa0d-4532-92f4-da471960e091,9095,2024-03-07 20:01:12,-737.79,Credit,Williams Group,Monicatown,0
+05978156-661f-46bc-8051-b1ab4189a59c,6001,2024-10-10 11:17:14,1309.71,Credit,Monroe-Jones,Rogersfort,0
+7abecb97-a6ab-4d35-a259-4e7da1911284,7329,2024-05-28 22:30:55,-4721.7,Credit,"Shah, Baker and Williams",Tracymouth,0
+c58a9bd0-7e72-4709-83d3-d7444d50b054,5667,2024-10-23 07:32:39,516.25,Debit,"Larson, Zamora and Walker",Port James,0
+80a27a49-f037-481e-bb56-d4c2417863b0,9186,2024-06-27 15:06:20,304.88,Debit,"Green, Mercado and Anderson",Rogersbury,0
+0b614dc6-0ecd-4d71-afb1-d4e09c44e91d,1182,2024-09-08 22:08:52,806.52,Debit,Smith and Sons,East Robert,0
+ed04ea05-9833-43b0-8a04-56abaef68fe0,1310,2024-09-25 14:39:31,4994.33,Debit,Long-Boyd,Jenkinsbury,0
+b0ccb7e3-cc1c-4b61-824f-143479f76261,8585,2024-07-08 16:01:50,629.05,Credit,"Hudson, Moore and Brown",Lake Timothyberg,0
+395c5d29-528d-4a77-9f8c-ecbaac666bd1,4853,2024-02-23 17:16:21,725.26,Debit,Reeves-Williams,Port Larrytown,0
+95b58e55-15e7-4e3a-bf28-a63e77834932,1438,2024-06-04 10:15:43,-798.91,Debit,Barnes-Avery,Whitehaven,0
+d937de6e-a7ff-4285-bb39-d4085204fd41,1914,2024-03-09 14:30:11,-3190.31,Debit,Whitaker Group,Lake Dawnmouth,0
+f566509e-fbd0-4042-b874-5715e2817134,4643,2024-10-23 02:15:18,4316.97,Debit,Haas LLC,Lake Austinfurt,0
+71a53c1a-fcea-44b0-a14f-6342c33124ad,2172,2024-09-14 20:59:58,-3610.22,Credit,James and Sons,South Katie,0
+0bbdaf4c-f8ca-4053-9c55-6a45bb2e7536,9488,2024-09-23 04:50:35,-173.26,Debit,"Wright, Clark and Robles",Stevenshire,0
+5524de29-0f6b-4f9e-acee-db6309893c2f,1833,2024-10-25 15:02:06,-3571.36,Debit,"Rogers, Hahn and Moran",Port Sheilaville,0
+8860fda3-8bc8-4c78-bcf4-bcfcd5d9a238,3588,2024-10-09 01:39:21,628.58,Debit,"Martin, Jensen and Webb",Ramirezport,0
+af291546-8442-4898-8392-c9361e350df4,1491,2024-10-09 00:22:44,2944.41,Credit,Johnson PLC,Jamesmouth,0
+12677d23-31ce-443f-a99e-a427bee3327f,4925,2024-01-22 14:54:41,2587.79,Credit,"King, Ortega and Wright",Kaitlinmouth,0
+39083aac-ccaf-4481-a07b-01420d4e1057,8623,2024-01-24 04:44:03,2469.76,Debit,Thompson-Valentine,Lake Cathyton,0
+b890d1ca-bca7-4bb9-826e-8eebcaff847b,8892,2024-03-16 17:56:04,-2826.13,Debit,Huber Ltd,Phillipsport,0
+c385365b-5e19-4688-a6bc-d2964b0e50a3,2917,2024-12-16 22:21:11,-4915.6,Debit,"Smith, Fisher and Jackson",Riggsmouth,0
+2b396390-96e0-4501-aa55-ece3d5a71c7b,7937,2024-05-26 16:25:57,-2953.5,Credit,Clay and Sons,Isaacbury,0
+cc499ab6-710a-4288-9068-7841045fabc9,9352,2024-05-03 10:26:21,335.38,Credit,Zuniga PLC,New Garychester,0
+36f9ed3f-46e9-4332-8660-695986abca18,5232,2024-02-28 12:01:13,1064.3,Credit,Mejia LLC,North Michael,0
+49241728-15bb-47bf-a6c9-794ff8725454,2388,2024-01-24 23:11:56,4301.18,Credit,Pace Group,New Kevinchester,0
+470a9a24-8e9c-437b-8bc4-d1aaf4c3f290,3845,2024-01-01 18:12:47,4029.43,Debit,Garrett PLC,Port Helenfurt,0
+87932837-7ebe-4427-88c4-86ef99c907f9,2937,2024-11-05 14:34:32,3873.02,Debit,Thomas-Snyder,Hollyport,0
+56b75320-6652-48eb-a652-74bca0ef088f,4624,2024-10-26 08:45:34,-4775.53,Debit,Nelson PLC,Lauraview,0
+c8081ab0-2bea-4761-bc65-84630a7fb876,8545,2024-12-07 18:18:20,4974.82,Debit,Jones-Reyes,Reyeston,0

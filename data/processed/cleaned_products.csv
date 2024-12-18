@@ -1,0 +1,5 @@
+product_id,name,type,interest_rate
+1,Compte Épargne,Épargne,0.5
+2,Prêt Immobilier,Crédit,1.8
+3,Prêt Personnel,Crédit,3.5
+5,Compte Courant Premium,Compte,0.1
