@@ -63,30 +63,32 @@ def create_dim_satisfaction(input_file, output_file):
     dim = df[columns_to_keep]
     dim.to_csv(output_file, index=False)
 # === Fonction Principale ===
-def create_star_schema():
+def create_star_schema(processed_data_path, transformed_data_path):
     print("📊 Début de la création du schéma en étoile...")
 
-    # Dossiers
-    processed_dir = "data/processed/"
-    output_dir = "data/processed/"
-    os.makedirs(output_dir, exist_ok=True)
+    # Assurer que le répertoire de sortie existe
+    os.makedirs(transformed_data_path, exist_ok=True)
 
     # Faits
-    create_fact_transactions(f"{processed_dir}cleaned_transactions.csv", f"{output_dir}fact_transactions.csv")
-    create_fact_loans(f"{processed_dir}cleaned_loans.csv", f"{output_dir}fact_loans.csv")
-    create_fact_payments(f"{processed_dir}cleaned_card_payments.csv", f"{output_dir}fact_payments.csv")
-    create_fact_revenue(f"{processed_dir}cleaned_revenue_costs.csv", f"{output_dir}fact_revenue.csv")
-    create_fact_fraudes(f"{processed_dir}cleaned_fraudes.csv", f"{output_dir}fact_fraudes.csv")
+    create_fact_transactions(f"{processed_data_path}cleaned_transactions.csv", f"{transformed_data_path}fact_transactions.csv")
+    create_fact_loans(f"{processed_data_path}cleaned_loans.csv", f"{transformed_data_path}fact_loans.csv")
+    create_fact_payments(f"{processed_data_path}cleaned_card_payments.csv", f"{transformed_data_path}fact_payments.csv")
+    create_fact_revenue(f"{processed_data_path}cleaned_revenue_costs.csv", f"{transformed_data_path}fact_revenue.csv")
+    create_fact_fraudes(f"{processed_data_path}cleaned_fraudes.csv", f"{transformed_data_path}fact_fraudes.csv")
 
     # Dimensions
-    create_dim_clients(f"{processed_dir}cleaned_clients.csv", f"{output_dir}dim_clients.csv")
-    create_dim_products(f"{processed_dir}cleaned_products.csv", f"{output_dir}dim_products.csv")
-    create_dim_dates(f"{processed_dir}cleaned_transactions.csv", f"{output_dir}dim_dates.csv")
-    create_dim_accounts(f"{processed_dir}cleaned_accounts.csv", f"{output_dir}dim_accounts.csv")
-    create_dim_satisfaction(f"{processed_dir}cleaned_satisfaction_clients.csv", f"{output_dir}dim_satisfaction.csv")
+    create_dim_clients(f"{processed_data_path}cleaned_clients.csv", f"{transformed_data_path}dim_clients.csv")
+    create_dim_products(f"{processed_data_path}cleaned_products.csv", f"{transformed_data_path}dim_products.csv")
+    create_dim_dates(f"{processed_data_path}cleaned_transactions.csv", f"{transformed_data_path}dim_dates.csv")
+    create_dim_accounts(f"{processed_data_path}cleaned_accounts.csv", f"{transformed_data_path}dim_accounts.csv")
+    create_dim_satisfaction(f"{processed_data_path}cleaned_satisfaction_clients.csv", f"{transformed_data_path}dim_satisfaction.csv")
 
     print("✅ Schéma en étoile créé avec succès !")
 
 if __name__ == "__main__":
-    create_star_schema()
+    # Définit les chemins d'entrée et de sortie
+    processed_data_path = "data/processed/"
+    transformed_data_path = "data/transformed/"
     
+    # Appelle la fonction avec les chemins appropriés
+    create_star_schema(processed_data_path, transformed_data_path)

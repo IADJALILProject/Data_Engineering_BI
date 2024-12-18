@@ -15,7 +15,7 @@ def save_to_postgres(input_file, table_name, db_url):
 
 if __name__ == "__main__":
     # Configuration de la connexion PostgreSQL
-    db_url = "postgresql://postgres:djalil1999@localhost:5432/banq_db"
+    db_url = "postgresql://postgres:anis1999@localhost:5432/banq_db"
 
     # Chemins des fichiers et noms des tables à sauvegarder
     tables_to_store = {

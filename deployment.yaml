@@ -1,0 +1,9 @@
+version: 1
+name: Daily Data Pipeline
+flow_name: Full Data Pipeline Orchestration
+entrypoint: orchestration:full_data_pipeline
+schedule:
+  interval:
+    interval: 1d
+work_pool:
+  name: default-agent-pool

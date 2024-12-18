@@ -6,7 +6,7 @@ try:
         port=5432,
         database="banq_db",  # Remplace par 'postgres' si bank_db n'existe pas encore
         user="postgres",
-        password="djalil1999"
+        password="anis1999"
     )
     print("✅ Connexion réussie à PostgreSQL !")
     connection.close()
