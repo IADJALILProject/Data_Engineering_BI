@@ -1,47 +1,40 @@
-Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
+# Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
 
-🚀 Description du Projet
+🚀 **Description du Projet**
 
-Ce projet propose une solution complète d'ingénierie des données pour le secteur bancaire, permettant l'analyse approfondie des domaines critiques comme les transactions, les crédits, les fraudes et les profils clients. Grâce à une architecture en étoile, une orchestration automatisée avec Prefect, et un déploiement via Docker, ce pipeline garantit robustesse, scalabilité et efficacité.
+Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**, permettant l'analyse approfondie des domaines critiques comme les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Grâce à une **architecture en étoile**, une **orchestration automatisée** avec **Prefect**, et un déploiement via **Docker**, ce pipeline garantit robustesse, scalabilité et efficacité.
 
-🎯 Objectifs du Projet
+---
 
-Ingestion : Automatiser la collecte et le prétraitement des données.
+## 🎯 Objectifs du Projet
 
-Transformation : Structurer les données pour l'analyse avec un schéma en étoile.
+- **Ingestion** : Automatiser la collecte et le prétraitement des données.
+- **Transformation** : Structurer les données pour l'analyse avec un **schéma en étoile**.
+- **Stockage** : Assurer un stockage fiable dans **PostgreSQL** et **Delta Lake**.
+- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalie.
+- **Orchestration** : Coordonner les tâches du pipeline avec **Prefect**.
+- **Planification** : Automatiser les exécutions à intervalles réguliers via **Cron**.
+- **Déploiement** : Conteneuriser l'application avec **Docker** pour simplifier l'intégration.
+- **Tests** : Valider la fiabilité des scripts grâce à des **tests unitaires**.
 
-Stockage : Assurer un stockage fiable dans PostgreSQL et Delta Lake.
+---
 
-Monitoring : Contrôler la qualité des données et alerter en cas d'anomalie.
+## 🏗 Architecture du Projet
 
-Orchestration : Coordonner les tâches du pipeline avec Prefect.
+### **Modèle en Étoile**
 
-Planification : Automatiser les exécutions à intervalles réguliers via Cron.
+Le pipeline utilise un **modèle en étoile** pour faciliter les requêtes analytiques complexes et améliorer la performance.
 
-Déploiement : Conteneuriser l'application avec Docker pour simplifier l'intégration.
+| **Type**              | **Description**                                |
+|-----------------------|-----------------------------------------------|
+| **Faits**            | Transactions, crédits, paiements, revenus, fraudes |
+| **Dimensions**       | Clients, produits, dates, comptes, satisfaction |
 
-Tests : Valider la fiabilité des scripts grâce à des tests unitaires.
+---
 
-🏗 Architecture du Projet
+## 📂 Structure du Projet
 
-Modèle en Étoile
-
-Le pipeline utilise un modèle en étoile pour faciliter les requêtes analytiques complexes et améliorer la performance.
-
-Type
-
-Description
-
-Faits
-
-Transactions, crédits, paiements, revenus, fraudes
-
-Dimensions
-
-Clients, produits, dates, comptes, satisfaction
-
-📂 Structure du Projet
-
+```
 Ingénierie_des_données_BI/
 |
 ├── donnees/
@@ -82,53 +75,67 @@ Ingénierie_des_données_BI/
 ├── prefectignore # Exclusions spécifiques pour Prefect
 ├── README.md # Documentation du projet
 └── requirements.txt # Liste des dépendances Python
+```
 
-🔑 Étapes Clés
+---
 
-1. Ingestion de Données
+## 🔑 Étapes Clés
 
-Script : data_ingestion.py
+### 1. **Ingestion de Données**
+**Script** : `data_ingestion.py`
 
-Collecte des données brutes depuis CSV, API, ou autres sources.
+- Collecte des données brutes depuis CSV, API, ou autres sources.
+- Suppression des colonnes inutiles.
+- Conversion des types pour standardiser les formats.
 
-Suppression des colonnes inutiles.
+### 2. **Transformation des Données**
+- Nettoyage des doublons et valeurs nulles (`cleaning.py`).
+- Calcul des métriques comme les totaux et moyennes (`aggregation.py`).
+- Fusion des sources pour enrichir les données (`enrichment.py`).
+- Création d'un modèle en étoile (`star_schema.py`).
 
-Conversion des types pour standardiser les formats.
+### 3. **Orchestration et Déploiement**
+- Orchestration des tâches avec **Prefect** (`orchestration.py`).
+- Conteneurisation avec **Docker Compose** (`docker-compose.yml`).
 
-2. Transformation des Données
+---
 
-Nettoyage des doublons et valeurs nulles (cleaning.py).
+## 🧪 Tests et Déploiement
 
-Calcul des métriques comme les totaux et moyennes (aggregation.py).
-
-Fusion des sources pour enrichir les données (enrichment.py).
-
-Création d'un modèle en étoile (star_schema.py).
-
-3. Orchestration et Déploiement
-
-Orchestration des tâches avec Prefect (orchestration.py).
-
-Conteneurisation avec Docker Compose (docker-compose.yml).
-
-🧪 Tests et Déploiement
-
-Tests Unitaires
-
+### **Tests Unitaires**
 Exécutez les tests pour valider la fiabilité de chaque module :
-
+```bash
 pytest tests/
+```
 
-Déploiement avec Docker
-
+### **Déploiement avec Docker**
 Lancez l'application avec :
-
+```bash
 docker-compose up
+```
 
-🌟 
+---
 
-🏁 Conclusion
+## 🌟 Illustrations et Animations
 
-Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme Prefect et Docker, il garantit un traitement fiable des données critiques avec une supervision optimale.
+1. **Diagramme de l'Architecture :**
+```mermaid
+graph TD
+    A[Sources de Données] -->|Ingestion| B[Pipeline d'Ingestion]
+    B -->|Transformation| C[Pipeline de Transformation]
+    C -->|Stockage| D[Base de Données/PostgreSQL]
+```
 
+2. **GIF pour Flux Prefect :**
+![Exécution d'un Flux Prefect](https://example.com/flux-prefect.gif)
+
+
+
+---
+
+## 🏁 Conclusion
+
+Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme **Prefect** et **Docker**, il garantit un traitement fiable des données critiques avec une supervision optimale.
+
+ et scalable pour les besoins analytiques des banques.
 
