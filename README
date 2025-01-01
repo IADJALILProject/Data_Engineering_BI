@@ -1,49 +1,59 @@
-# Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
+Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
 
-Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**, permettant l'analyse approfondie des domaines critiques comme les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Grâce à une **architecture en étoile**, une **orchestration automatisée** avec **Prefect**, et un déploiement via **Docker**, ce pipeline garantit robustesse, scalabilité et efficacité.
+Ce projet propose une solution complète d'ingénierie des données pour le secteur bancaire, permettant l'analyse approfondie des domaines critiques comme les transactions, les crédits, les fraudes et les profils clients. Grâce à une architecture en étoile, une orchestration automatisée avec Prefect, et un déploiement via Docker, ce pipeline garantit robustesse, scalabilité et efficacité.
 
----
-
-## Objectifs du projet
+Objectifs du projet
 
 Ce pipeline a été conçu pour répondre aux besoins d'analyse des banques :
 
-- **Ingestion** : Automatiser la collecte et le prétraitement des données.
-- **Transformation** : Structurer les données pour l'analyse avec un **schéma en étoile**.
-- **Stockage** : Assurer un stockage fiable dans **PostgreSQL** et **Delta Lake**.
-- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalie.
-- **Orchestration** : Coordonner les tâches du pipeline avec **Prefect**.
-- **Planification** : Automatiser les exécutions à intervalles réguliers via **Cron**.
-- **Déploiement** : Conteneuriser l'application avec **Docker** pour simplifier l'intégration.
-- **Tests** : Valider la fiabilité des scripts grâce à des **tests unitaires**.
+Ingestion : Automatiser la collecte et le prétraitement des données.
 
----
+Transformation : Structurer les données pour l'analyse avec un schéma en étoile.
 
-## Architecture du Projet
+Stockage : Assurer un stockage fiable dans PostgreSQL et Delta Lake.
 
-### Modèle en Étoile
+Monitoring : Contrôler la qualité des données et alerter en cas d'anomalie.
 
-Le pipeline utilise un **modèle en étoile** pour faciliter les requêtes analytiques complexes et améliorer la performance. Les données sont organisées comme suit :
+Orchestration : Coordonner les tâches du pipeline avec Prefect.
 
-#### Tableaux de Faits
-- **fact_transactions** : Historique des transactions bancaires.
-- **fact_loans** : Données relatives aux crédits octroyés.
-- **fact_payments** : Paiements associés aux crédits et transactions.
-- **fact_revenue** : Suivi des revenus financiers.
-- **fact_fraudes** : Détection et signalement des activités frauduleuses.
+Planification : Automatiser les exécutions à intervalles réguliers via Cron.
 
-#### Tableaux de Dimensions
-- **dim_clients** : Informations détaillées sur les clients.
-- **dim_products** : Liste des produits bancaires disponibles.
-- **dim_dates** : Structure temporelle pour l'analyse des périodes.
-- **dim_accounts** : Détails des comptes associés aux clients.
-- **dim_satisfaction** : Retour des clients pour l'amélioration des services.
+Déploiement : Conteneuriser l'application avec Docker pour simplifier l'intégration.
 
----
+Tests : Valider la fiabilité des scripts grâce à des tests unitaires.
 
-## Structure du projet
+Architecture du Projet
 
-```
+Modèle en Étoile
+
+Le pipeline utilise un modèle en étoile pour faciliter les requêtes analytiques complexes et améliorer la performance. Les données sont organisées comme suit :
+
+Tableaux de Faits
+
+fact_transactions : Historique des transactions bancaires.
+
+fact_loans : Données relatives aux crédits octroyés.
+
+fact_payments : Paiements associés aux crédits et transactions.
+
+fact_revenue : Suivi des revenus financiers.
+
+fact_fraudes : Détection et signalement des activités frauduleuses.
+
+Tableaux de Dimensions
+
+dim_clients : Informations détaillées sur les clients.
+
+dim_products : Liste des produits bancaires disponibles.
+
+dim_dates : Structure temporelle pour l'analyse des périodes.
+
+dim_accounts : Détails des comptes associés aux clients.
+
+dim_satisfaction : Retour des clients pour l'amélioration des services.
+
+Structure du projet
+
 Ingénierie_des_données_BI/
 |
 ├── donnees/
@@ -88,55 +98,64 @@ Ingénierie_des_données_BI/
 ├── prefectignore # Exclusions spécifiques pour Prefect
 ├── README.md # Documentation du projet
 └── requirements.txt # Liste des dépendances Python
-```
 
----
+Étapes Clés
 
-## Étapes Clés
+1. Ingestion de Données
 
-### 1. Ingestion de Données
-- **Script** : `data_ingestion.py`
-- **Objectif** : Collecter les données brutes depuis **CSV**, **API**, ou autres sources.
-- **Actions** :
-  - Chargement des données.
-  - Suppression des colonnes inutiles.
-  - Conversion des types pour standardiser les formats.
+Script : data_ingestion.py
 
-### 2. Transformation des Données
-- **Scripts principaux** :
-  - `cleaning.py` : Nettoyage des doublons et valeurs nulles.
-  - `aggregation.py` : Calcul des métriques (totaux, moyennes).
-  - `enrichment.py` : Fusion et enrichissement des données.
-  - `star_schema.py` : Création du modèle en étoile.
+Objectif : Collecter les données brutes depuis CSV, API, ou autres sources.
 
-### 3. Stockage
-- **Scripts** :
-  - `database_storage.py` : Stockage dans **PostgreSQL**.
-  - `delta_lake.py` : Intégration dans **Delta Lake**.
+Actions :
 
-### 4. Orchestration avec Prefect
-- **Script** : `orchestration.py`
-- **Fonctionnalités** : Automation des tâches avec **Prefect**.
+Chargement des données.
 
----
+Suppression des colonnes inutiles.
 
-## Tests et Déploiement
+Conversion des types pour standardiser les formats.
 
-### Tests Unitaires
+2. Transformation des Données
+
+Scripts principaux :
+
+cleaning.py : Nettoyage des doublons et valeurs nulles.
+
+aggregation.py : Calcul des métriques (totaux, moyennes).
+
+enrichment.py : Fusion et enrichissement des données.
+
+star_schema.py : Création du modèle en étoile.
+
+3. Stockage
+
+Scripts :
+
+database_storage.py : Stockage dans PostgreSQL.
+
+delta_lake.py : Intégration dans Delta Lake.
+
+4. Orchestration avec Prefect
+
+Script : orchestration.py
+
+Fonctionnalités : Automation des tâches avec Prefect.
+
+Tests et Déploiement
+
+Tests Unitaires
+
 Exécutez les tests pour valider la fiabilité de chaque module :
-```bash
+
 pytest tests/
-```
 
-### Déploiement avec Docker
-Utilisez `docker-compose` pour déployer le projet :
-```bash
+Déploiement avec Docker
+
+Utilisez docker-compose pour déployer le projet :
+
 docker-compose up
-```
 
----
-
-## Conclusion
+Conclusion
 
 Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme Prefect et Docker, il permet un traitement fiable des données critiques.
 
