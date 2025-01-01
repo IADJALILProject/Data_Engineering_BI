@@ -1,10 +1,10 @@
 Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
 
+🚀 Description du Projet
+
 Ce projet propose une solution complète d'ingénierie des données pour le secteur bancaire, permettant l'analyse approfondie des domaines critiques comme les transactions, les crédits, les fraudes et les profils clients. Grâce à une architecture en étoile, une orchestration automatisée avec Prefect, et un déploiement via Docker, ce pipeline garantit robustesse, scalabilité et efficacité.
 
-Objectifs du projet
-
-Ce pipeline a été conçu pour répondre aux besoins d'analyse des banques :
+🎯 Objectifs du Projet
 
 Ingestion : Automatiser la collecte et le prétraitement des données.
 
@@ -22,37 +22,25 @@ Déploiement : Conteneuriser l'application avec Docker pour simplifier l'intégr
 
 Tests : Valider la fiabilité des scripts grâce à des tests unitaires.
 
-Architecture du Projet
+🏗 Architecture du Projet
 
 Modèle en Étoile
 
-Le pipeline utilise un modèle en étoile pour faciliter les requêtes analytiques complexes et améliorer la performance. Les données sont organisées comme suit :
+Le pipeline utilise un modèle en étoile pour faciliter les requêtes analytiques complexes et améliorer la performance.
 
-Tableaux de Faits
+Type
 
-fact_transactions : Historique des transactions bancaires.
+Description
 
-fact_loans : Données relatives aux crédits octroyés.
+Faits
 
-fact_payments : Paiements associés aux crédits et transactions.
+Transactions, crédits, paiements, revenus, fraudes
 
-fact_revenue : Suivi des revenus financiers.
+Dimensions
 
-fact_fraudes : Détection et signalement des activités frauduleuses.
+Clients, produits, dates, comptes, satisfaction
 
-Tableaux de Dimensions
-
-dim_clients : Informations détaillées sur les clients.
-
-dim_products : Liste des produits bancaires disponibles.
-
-dim_dates : Structure temporelle pour l'analyse des périodes.
-
-dim_accounts : Détails des comptes associés aux clients.
-
-dim_satisfaction : Retour des clients pour l'amélioration des services.
-
-Structure du projet
+📂 Structure du Projet
 
 Ingénierie_des_données_BI/
 |
@@ -89,27 +77,19 @@ Ingénierie_des_données_BI/
 │       └── test_orchestration.py # Tests unitaires sur l'orchestration
 │
 ├── tests/ # Tests unitaires pour chaque module
-│   ├── test_ingestion.py
-│   ├── test_transformation.py
-│   └── test_storage.py
-│
 ├── docker-compose.yml # Configuration de Docker
 ├── deployment.yaml # Déploiement des flux Prefect
 ├── prefectignore # Exclusions spécifiques pour Prefect
 ├── README.md # Documentation du projet
 └── requirements.txt # Liste des dépendances Python
 
-Étapes Clés
+🔑 Étapes Clés
 
 1. Ingestion de Données
 
 Script : data_ingestion.py
 
-Objectif : Collecter les données brutes depuis CSV, API, ou autres sources.
-
-Actions :
-
-Chargement des données.
+Collecte des données brutes depuis CSV, API, ou autres sources.
 
 Suppression des colonnes inutiles.
 
@@ -117,31 +97,21 @@ Conversion des types pour standardiser les formats.
 
 2. Transformation des Données
 
-Scripts principaux :
+Nettoyage des doublons et valeurs nulles (cleaning.py).
 
-cleaning.py : Nettoyage des doublons et valeurs nulles.
+Calcul des métriques comme les totaux et moyennes (aggregation.py).
 
-aggregation.py : Calcul des métriques (totaux, moyennes).
+Fusion des sources pour enrichir les données (enrichment.py).
 
-enrichment.py : Fusion et enrichissement des données.
+Création d'un modèle en étoile (star_schema.py).
 
-star_schema.py : Création du modèle en étoile.
+3. Orchestration et Déploiement
 
-3. Stockage
+Orchestration des tâches avec Prefect (orchestration.py).
 
-Scripts :
+Conteneurisation avec Docker Compose (docker-compose.yml).
 
-database_storage.py : Stockage dans PostgreSQL.
-
-delta_lake.py : Intégration dans Delta Lake.
-
-4. Orchestration avec Prefect
-
-Script : orchestration.py
-
-Fonctionnalités : Automation des tâches avec Prefect.
-
-Tests et Déploiement
+🧪 Tests et Déploiement
 
 Tests Unitaires
 
@@ -151,15 +121,14 @@ pytest tests/
 
 Déploiement avec Docker
 
-Utilisez docker-compose pour déployer le projet :
+Lancez l'application avec :
 
 docker-compose up
 
-Conclusion
+🌟 
 
-Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme Prefect et Docker, il permet un traitement fiable des données critiques.
+🏁 Conclusion
 
-
-
+Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme Prefect et Docker, il garantit un traitement fiable des données critiques avec une supervision optimale.
 
 
