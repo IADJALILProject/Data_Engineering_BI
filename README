@@ -11,12 +11,13 @@ Ce projet propose une solution complète d'**ingénierie des données** pour le 
 
 - **Ingestion** : Automatiser la collecte et le prétraitement des données.
 - **Transformation** : Structurer les données pour l'analyse avec un **schéma en étoile**.
-- **Stockage** : Assurer un stockage fiable dans **PostgreSQL** et **Delta Lake**.
+- **Stockage** : Assurer un stockage fiable et incrémentielle dans **PostgreSQL** et **Delta Lake**.
 - **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalie.
-- **Orchestration** : Coordonner les tâches du pipeline avec **Prefect**.
+- **Orchestration** : Coordonner les tâches du pipeline avec **Prefect** et **Airflow**.
 - **Planification** : Automatiser les exécutions à intervalles réguliers via **Cron**.
-- **Déploiement** : Conteneuriser l'application avec **Docker** pour simplifier l'intégration.
-- **Tests** : Valider la fiabilité des scripts grâce à des **tests unitaires**.
+- **Déploiement** : Conteneuriser l'application avec **Docker** et puis avec **kubernetes** pour simplifier l'intégration dans le cloud.
+- **Tests** : Valider la fiabilité des scripts grâce à des **tests unitaires** pour toutes les étapes liées a la Data Ingestion.
+- **Data Quality and Data Lineage** : Bonne pratiques pour la qualité , la tracabilité et la sécurité des données.
 
 ---
 
