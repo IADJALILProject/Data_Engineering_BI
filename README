@@ -1,4 +1,4 @@
-#**Pipeline d'Ingénierie de Données pour l'Analyse Bancaire**
+#Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
 
 Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**,
 permettant l'analyse approfondie des domaines critiques comme les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Grâce à une **architecture en étoile**,
@@ -6,7 +6,7 @@ une **orchestration automatisée** avec **Prefect**, et un déploiement via **Do
 
 ---
 
-##**1. Objectifs du projet**
+1. Objectifs du projet
 
 Ce pipeline a été conçu pour répondre aux besoins d'analyse des banques :
 
@@ -21,9 +21,9 @@ Ce pipeline a été conçu pour répondre aux besoins d'analyse des banques :
 
 ---
 
-##**2. Architecture du Projet**
+#2. Architecture du Projet
 
-###**Modèle en Étoile**
+#**Modèle en Étoile**
 
 Le pipeline utilise un **modèle en étoile** pour faciliter les requêtes analytiques complexes et améliorer la performance. Les données sont organisées comme suit :
 
