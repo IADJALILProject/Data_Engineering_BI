@@ -1,3 +1,8 @@
+Voici une version structurée et organisée de votre README pour le projet d'ingénierie de données bancaires :
+
+---
+
+```markdown
 # Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
 
 ---
@@ -175,8 +180,3 @@ Les contributions sont les bienvenues ! Suivez ces étapes pour collaborer :
 
 **✨ Merci pour votre intérêt dans ce projet et bonne exploration !** 🚀
 ```
-
-Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme **Prefect** et **Docker**, il garantit un traitement fiable des données critiques avec une supervision optimale.
-
- et scalable pour les besoins analytiques des banques.
-
