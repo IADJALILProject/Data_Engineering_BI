@@ -1,36 +1,23 @@
-#Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
-
-🚀 **Description du Projet**
-
-
-Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**, permettant l'analyse approfondie des domaines critiques comme les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Grâce à une **architecture en étoile**, une **orchestration automatisée** avec **Prefect**, et un déploiement via **Docker**, ce pipeline garantit robustesse, scalabilité et efficacité.
+# Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
 
 ---
 
- 🎯 Objectifs du Projet
+## 🚀 Description du Projet
+
+Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**, permettant l'analyse approfondie des domaines critiques tels que les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Il repose sur un **modèle en étoile**, une **orchestration automatisée** avec **Prefect**, et un déploiement via **Docker** et **Kubernetes**.
+
+---
+
+## 🎯 Objectifs du Projet
 
 - **Ingestion** : Automatiser la collecte et le prétraitement des données.
-- **Transformation** : Structurer les données pour l'analyse avec un **schéma en étoile**.
-- **Stockage** : Assurer un stockage fiable et incrémentielle dans **PostgreSQL** et **Delta Lake**.
-- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalie.
-- **Orchestration** : Coordonner les tâches du pipeline avec **Prefect** et **Airflow**.
-- **Planification** : Automatiser les exécutions à intervalles réguliers via **Cron**.
-- **Déploiement** : Conteneuriser l'application avec **Docker** et puis avec **kubernetes** pour simplifier l'intégration dans le cloud.
-- **Tests** : Valider la fiabilité des scripts grâce à des **tests unitaires** pour toutes les étapes liées a la Data Ingestion.
-- **Data Quality and Data Lineage** : Bonne pratiques pour la qualité , la tracabilité et la sécurité des données.
-
----
-
-## 🏗 Architecture du Projet
-
-### **Modèle en Étoile**
-
-Le pipeline utilise un **modèle en étoile** pour faciliter les requêtes analytiques complexes et améliorer la performance.
-
-| **Type**              | **Description**                                |
-|-----------------------|-----------------------------------------------|
-| **Faits**            | Transactions, crédits, paiements, revenus, fraudes |
-| **Dimensions**       | Clients, produits, dates, comptes, satisfaction |
+- **Transformation** : Structurer les données avec un **modèle en étoile**.
+- **Stockage** : Assurer un stockage fiable et incrémentiel dans **PostgreSQL** et **Delta Lake**.
+- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalies.
+- **Orchestration** : Coordonner les tâches avec **Prefect**.
+- **Déploiement** : Conteneurisation avec **Docker** et orchestration via **Kubernetes**.
+- **Tests** : Valider la fiabilité des scripts avec des **tests unitaires**.
+- **Traçabilité** : Implémenter des pratiques de **Data Lineage** pour garantir la sécurité et la qualité des données.
 
 ---
 
@@ -40,102 +27,154 @@ Le pipeline utilise un **modèle en étoile** pour faciliter les requêtes analy
 Ingénierie_des_données_BI/
 |
 ├── donnees/
-│   ├── raw/ # Données brutes collectées
-│   ├── processed/ # Données nettoyées prêtes à être transformées
-│   └── transformed/ # Données finales prêtes pour l'analyse
+│   ├── raw/               # Données brutes collectées
+│   ├── processed/         # Données nettoyées
+│   └── transformed/       # Données prêtes pour l'analyse
 │
 ├── src/
-│   ├── ingestion/
-│   │   ├── data_ingestion.py # Importation et prétraitement des données
-│   │   └── __init__.py
-│   │
-│   ├── transformation/
-│   │   ├── cleaning.py # Suppression des doublons et gestion des valeurs manquantes
-│   │   ├── aggregation.py # Calculs et métriques (totaux, moyennes)
-│   │   ├── enrichment.py # Jointures et enrichissement des données
-│   │   ├── star_schema.py # Structuration du modèle en étoile
-│   │   ├── validation.py # Règles de validation pour garantir la cohérence
-│   │   └── __init__.py
-│   │
-│   ├── stockage/
-│   │   ├── database_storage.py # Stockage des données dans PostgreSQL
-│   │   ├── delta_lake.py # Sauvegarde incrémentale dans Delta Lake
-│   │   └── test_connexion.py # Vérification des connexions
-│   │
-│   ├── surveillance/
-│   │   ├── data_quality.py # Analyse de la qualité des données
-│   │   ├── alerts.py # Création d'alertes automatisées
-│   │   └── __init__.py
-│   │
-│   └── orchestration/
-│       ├── orchestration.py # Définition des flux avec Prefect
-│       └── test_orchestration.py # Tests unitaires sur l'orchestration
+│   ├── ingestion/         # Scripts pour la collecte et le prétraitement
+│   ├── transformation/    # Scripts pour le nettoyage et la structuration
+│   ├── stockage/          # Scripts pour le stockage dans PostgreSQL/Delta Lake
+│   ├── surveillance/      # Scripts pour la qualité des données et les alertes
+│   └── orchestration/     # Flux d'orchestration avec Prefect
 │
-├── tests/ # Tests unitaires pour chaque module
-├── docker-compose.yml # Configuration de Docker
-├── deployment.yaml # Déploiement des flux Prefect
-├── prefectignore # Exclusions spécifiques pour Prefect
-├── README.md # Documentation du projet
-└── requirements.txt # Liste des dépendances Python
+├── tests/                 # Tests unitaires pour valider chaque étape
+├── docker-compose.yml     # Configuration Docker
+├── deployment.yaml        # Déploiement des flux Prefect
+├── prefectignore          # Exclusions spécifiques à Prefect
+├── README.md              # Documentation du projet
+└── requirements.txt       # Dépendances Python
 ```
 
 ---
 
-## 🔑 Étapes Clés
+## 🏗 Architecture du Projet
 
-### 1. **Ingestion de Données**
-**Script** : `data_ingestion.py`
+### **Modèle en Étoile**
+Ce modèle optimise les requêtes analytiques complexes en structurant les données comme suit :
 
-- Collecte des données brutes depuis CSV, API, ou autres sources.
-- Suppression des colonnes inutiles.
-- Conversion des types pour standardiser les formats.
+| **Type**      | **Description**                                     |
+|---------------|-----------------------------------------------------|
+| **Faits**     | Transactions, crédits, paiements, fraudes           |
+| **Dimensions**| Clients, produits, dates, comptes, satisfaction     |
 
-### 2. **Transformation des Données**
-- Nettoyage des doublons et valeurs nulles (`cleaning.py`).
-- Calcul des métriques comme les totaux et moyennes (`aggregation.py`).
-- Fusion des sources pour enrichir les données (`enrichment.py`).
-- Création d'un modèle en étoile (`star_schema.py`).
-
-### 3. **Orchestration et Déploiement**
-- Orchestration des tâches avec **Prefect** (`orchestration.py`).
-- Conteneurisation avec **Docker Compose** (`docker-compose.yml`).
-
----
-
-## 🧪 Tests et Déploiement
-
-### **Tests Unitaires**
-Exécutez les tests pour valider la fiabilité de chaque module :
-```bash
-pytest tests/
-```
-
-### **Déploiement avec Docker**
-Lancez l'application avec :
-```bash
-docker-compose up
-```
-
----
-
-## 🌟 Illustrations et Animations
-
-1. **Diagramme de l'Architecture :**
+### **Architecture Technique**
 ```mermaid
 graph TD
     A[Sources de Données] -->|Ingestion| B[Pipeline d'Ingestion]
     B -->|Transformation| C[Pipeline de Transformation]
-    C -->|Stockage| D[Base de Données/PostgreSQL]
+    C -->|Stockage| D[PostgreSQL/Delta Lake]
+    D -->|Analyse| E[Modèle en Étoile]
+    E -->|Visualisation| F[BI Dashboard]
 ```
-
-2. **GIF pour Flux Prefect :**
-![Exécution d'un Flux Prefect](https://example.com/flux-prefect.gif)
-
-
 
 ---
 
-## 🏁 Conclusion
+## 🔑 Étapes Clés du Pipeline
+
+### 1️⃣ **Ingestion des Données**
+- Collecte depuis des fichiers CSV, API, ou bases externes.
+- Prétraitement : suppression des colonnes inutiles, standardisation des formats.
+
+**Script clé** : `src/ingestion/data_ingestion.py`
+
+---
+
+### 2️⃣ **Transformation des Données**
+- Nettoyage : suppression des doublons et gestion des valeurs nulles.
+- Structuration : construction du modèle en étoile avec les scripts :
+  - `cleaning.py`
+  - `star_schema.py`
+- Enrichissement : jointures entre tables.
+
+---
+
+### 3️⃣ **Stockage et Monitoring**
+- Stockage dans PostgreSQL pour l'accès rapide aux données.
+- Monitoring de la qualité des données via :
+  - `data_quality.py` : Contrôle des anomalies.
+  - `alerts.py` : Envoi d'alertes en cas d'erreur.
+
+---
+
+### 4️⃣ **Orchestration et Déploiement**
+- Orchestration avec **Prefect** pour automatiser les flux de données.
+- Déploiement via **Docker Compose** et préparation pour **Kubernetes**.
+
+---
+
+## 🧪 Tests et Validation
+
+### **Tests Unitaires**
+Validez la fiabilité des modules avec `pytest` :
+```bash
+pytest tests/
+```
+
+### **Tests d'Orchestration**
+Assurez-vous que le pipeline s'exécute sans erreur :
+```bash
+python src/orchestration/test_orchestration.py
+```
+
+---
+
+## 🚀 Déploiement avec Docker
+
+1. **Lancer le pipeline avec Docker Compose** :
+   ```bash
+   docker-compose up
+   ```
+
+2. **Accéder au tableau de bord Prefect Orion** :
+   [http://127.0.0.1:4200](http://127.0.0.1:4200)
+
+---
+
+## 📊 Illustrations et KPI
+
+- **KPI clés disponibles :**
+  - Revenu moyen par client.
+  - Volume de transactions par région.
+  - Délai moyen de traitement des crédits.
+  - Taux de fraude détecté.
+
+- **Visualisation des flux dans Prefect :**
+  ![Diagramme Prefect](https://example.com/prefect_dashboard.png)
+
+---
+
+## 📋 Prérequis
+
+- **Python 3.10+**
+- **PostgreSQL**
+- **Delta Lake**
+- **Docker / Kubernetes**
+- **Prefect 2.x**
+
+---
+
+## 📝 Contact
+
+Pour toute question ou suggestion :
+- **Email** : `votre_email@example.com`
+- **GitHub** : [Votre Profil](https://github.com/VotreUtilisateur)
+
+---
+
+## 🏆 Contributions
+
+Les contributions sont les bienvenues ! Suivez ces étapes pour collaborer :
+1. Forkez le dépôt.
+2. Créez une branche (`git checkout -b feature-nom`).
+3. Faites un commit (`git commit -m "Ajout de X"`).
+4. Poussez vos modifications (`git push origin feature-nom`).
+5. Ouvrez une pull request.
+
+---
+
+**✨ Merci pour votre intérêt dans ce projet et bonne exploration !** 🚀
+```
 
 Ce pipeline constitue une solution robuste et scalable pour les besoins analytiques des banques. En intégrant des outils modernes comme **Prefect** et **Docker**, il garantit un traitement fiable des données critiques avec une supervision optimale.
 
