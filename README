@@ -1,182 +1,36 @@
-Voici une version structurée et organisée de votre README pour le projet d'ingénierie de données bancaires :
+1) Objectifs
 
----
+Pipeline cloud gouverné : ingestion → bronze/silver/gold → KPIs. Orchestration managée (Airflow/ADF/Databricks), tests GE, Terraform, observabilité.
 
-```markdown
-# Pipeline d'Ingénierie de Données pour l'Analyse Bancaire
+2) Architecture (multi-cloud)
+Sources (S3/ADLS/GCS) → Bronze → Silver → Gold (dbt/SQL)
+Orchestration: Airflow/ADF Jobs/Databricks Jobs
+Qualité: Great Expectations
+Observabilité: Prometheus/Grafana
+IaC: Terraform (storage, compute, secrets)
 
----
+3) Démarrage (exemple)
+terraform init && terraform apply -auto-approve
+dbt build
+# si Airflow managé: importer le DAG packagé ou Jobs Databricks
 
-## 🚀 Description du Projet
+4) Sécurité & RGPD
 
-Ce projet propose une solution complète d'**ingénierie des données** pour le **secteur bancaire**, permettant l'analyse approfondie des domaines critiques tels que les **transactions**, les **crédits**, les **fraudes** et les **profils clients**. Il repose sur un **modèle en étoile**, une **orchestration automatisée** avec **Prefect**, et un déploiement via **Docker** et **Kubernetes**.
+IAM/RBAC, encryption at-rest/in-transit, secrets manager, masking PII.
+Policy de rétention (logs, tables de staging).
 
----
+5) SLAs & FinOps
 
-## 🎯 Objectifs du Projet
+SLA refresh GOLD: hourly, RPO: 1h
 
-- **Ingestion** : Automatiser la collecte et le prétraitement des données.
-- **Transformation** : Structurer les données avec un **modèle en étoile**.
-- **Stockage** : Assurer un stockage fiable et incrémentiel dans **PostgreSQL** et **Delta Lake**.
-- **Monitoring** : Contrôler la qualité des données et alerter en cas d'anomalies.
-- **Orchestration** : Coordonner les tâches avec **Prefect**.
-- **Déploiement** : Conteneurisation avec **Docker** et orchestration via **Kubernetes**.
-- **Tests** : Valider la fiabilité des scripts avec des **tests unitaires**.
-- **Traçabilité** : Implémenter des pratiques de **Data Lineage** pour garantir la sécurité et la qualité des données.
+Table des coûts (storage & compute) dans le README.
 
----
+6) Observabilité
 
-## 📂 Structure du Projet
+Dash Grafana: fraîcheur, temps de run, taux d’échec, coût estimé.
 
-```
-Ingénierie_des_données_BI/
-|
-├── donnees/
-│   ├── raw/               # Données brutes collectées
-│   ├── processed/         # Données nettoyées
-│   └── transformed/       # Données prêtes pour l'analyse
-│
-├── src/
-│   ├── ingestion/         # Scripts pour la collecte et le prétraitement
-│   ├── transformation/    # Scripts pour le nettoyage et la structuration
-│   ├── stockage/          # Scripts pour le stockage dans PostgreSQL/Delta Lake
-│   ├── surveillance/      # Scripts pour la qualité des données et les alertes
-│   └── orchestration/     # Flux d'orchestration avec Prefect
-│
-├── tests/                 # Tests unitaires pour valider chaque étape
-├── docker-compose.yml     # Configuration Docker
-├── deployment.yaml        # Déploiement des flux Prefect
-├── prefectignore          # Exclusions spécifiques à Prefect
-├── README.md              # Documentation du projet
-└── requirements.txt       # Dépendances Python
-```
+7) Troubleshooting
 
----
+Débit faible → partitionnement/cluster/Z-Order.
 
-## 🏗 Architecture du Projet
-
-### **Modèle en Étoile**
-Ce modèle optimise les requêtes analytiques complexes en structurant les données comme suit :
-
-| **Type**      | **Description**                                     |
-|---------------|-----------------------------------------------------|
-| **Faits**     | Transactions, crédits, paiements, fraudes           |
-| **Dimensions**| Clients, produits, dates, comptes, satisfaction     |
-
-### **Architecture Technique**
-```mermaid
-graph TD
-    A[Sources de Données] -->|Ingestion| B[Pipeline d'Ingestion]
-    B -->|Transformation| C[Pipeline de Transformation]
-    C -->|Stockage| D[PostgreSQL/Delta Lake]
-    D -->|Analyse| E[Modèle en Étoile]
-    E -->|Visualisation| F[BI Dashboard]
-```
-
----
-
-## 🔑 Étapes Clés du Pipeline
-
-### 1️⃣ **Ingestion des Données**
-- Collecte depuis des fichiers CSV, API, ou bases externes.
-- Prétraitement : suppression des colonnes inutiles, standardisation des formats.
-
-**Script clé** : `src/ingestion/data_ingestion.py`
-
----
-
-### 2️⃣ **Transformation des Données**
-- Nettoyage : suppression des doublons et gestion des valeurs nulles.
-- Structuration : construction du modèle en étoile avec les scripts :
-  - `cleaning.py`
-  - `star_schema.py`
-- Enrichissement : jointures entre tables.
-
----
-
-### 3️⃣ **Stockage et Monitoring**
-- Stockage dans PostgreSQL pour l'accès rapide aux données.
-- Monitoring de la qualité des données via :
-  - `data_quality.py` : Contrôle des anomalies.
-  - `alerts.py` : Envoi d'alertes en cas d'erreur.
-
----
-
-### 4️⃣ **Orchestration et Déploiement**
-- Orchestration avec **Prefect** pour automatiser les flux de données.
-- Déploiement via **Docker Compose** et préparation pour **Kubernetes**.
-
----
-
-## 🧪 Tests et Validation
-
-### **Tests Unitaires**
-Validez la fiabilité des modules avec `pytest` :
-```bash
-pytest tests/
-```
-
-### **Tests d'Orchestration**
-Assurez-vous que le pipeline s'exécute sans erreur :
-```bash
-python src/orchestration/test_orchestration.py
-```
-
----
-
-## 🚀 Déploiement avec Docker
-
-1. **Lancer le pipeline avec Docker Compose** :
-   ```bash
-   docker-compose up
-   ```
-
-2. **Accéder au tableau de bord Prefect Orion** :
-   [http://127.0.0.1:4200](http://127.0.0.1:4200)
-
----
-
-## 📊 Illustrations et KPI
-
-- **KPI clés disponibles :**
-  - Revenu moyen par client.
-  - Volume de transactions par région.
-  - Délai moyen de traitement des crédits.
-  - Taux de fraude détecté.
-
-- **Visualisation des flux dans Prefect :**
-  ![Diagramme Prefect](https://example.com/prefect_dashboard.png)
-
----
-
-## 📋 Prérequis
-
-- **Python 3.10+**
-- **PostgreSQL**
-- **Delta Lake**
-- **Docker / Kubernetes**
-- **Prefect 2.x**
-
----
-
-## 📝 Contact
-
-Pour toute question ou suggestion :
-- **Email** : `votre_email@example.com`
-- **GitHub** : [Votre Profil](https://github.com/VotreUtilisateur)
-
----
-
-## 🏆 Contributions
-
-Les contributions sont les bienvenues ! Suivez ces étapes pour collaborer :
-1. Forkez le dépôt.
-2. Créez une branche (`git checkout -b feature-nom`).
-3. Faites un commit (`git commit -m "Ajout de X"`).
-4. Poussez vos modifications (`git push origin feature-nom`).
-5. Ouvrez une pull request.
-
----
-
-**✨ Merci pour votre intérêt dans ce projet et bonne exploration !** 🚀
-```
+Coûts élevés → planifier off-peak, auto-terminer clusters.
